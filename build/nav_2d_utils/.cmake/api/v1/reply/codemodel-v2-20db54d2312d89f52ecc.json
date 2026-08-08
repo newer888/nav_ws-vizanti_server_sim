@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2fae11555c48a37f6a24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav_2d_utils",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "conversions::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-conversions-Release-99b30fe30b30452d59d9.json",
+					"name" : "conversions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav_2d_utils_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav_2d_utils_uninstall-Release-15e81edca09933195558.json",
+					"name" : "nav_2d_utils_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_ops::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_ops-Release-2004d086a75443bfc1b3.json",
+					"name" : "path_ops",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_help::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_help-Release-b49fe38c502efdcd416b.json",
+					"name" : "tf_help",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-68125317145f1c2cdd4b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/nav_2d_utils",
+		"source" : "/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/nav_2d_utils"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

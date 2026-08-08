@@ -1,0 +1,13 @@
+CMake Error at CMakeLists.txt:13 (add_executable):
+  Target "status_bridge_node" links to target "action_msgs::action_msgs" but
+  the target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Error at CMakeLists.txt:13 (add_executable):
+  Target "status_bridge_node" links to target "std_msgs::std_msgs" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

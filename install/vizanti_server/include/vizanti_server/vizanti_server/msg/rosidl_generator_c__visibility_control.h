@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_generator_c/vizanti_server/msg/rosidl_generator_c__visibility_control.h

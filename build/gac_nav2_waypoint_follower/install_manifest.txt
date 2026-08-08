@@ -1,0 +1,6 @@
+/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwait_at_waypoint.so
+/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libinput_at_waypoint.so
+/home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerExport.cmake
+/home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerExport-release.cmake

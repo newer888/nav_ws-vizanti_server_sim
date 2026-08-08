@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zr/code/src/build/robot_relate
+-- Install configuration: ""
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/launch
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/gazebo_sim.launch.py
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/display_robot.launch.py
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/navigation2.launch.py
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.gv
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/wheel.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/caster.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.ros2_control.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/laser.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/imu.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/camera.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/common_inertia.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/base.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf.xacro
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.pdf
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/config
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/config/rviz
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/config/rviz/dispaly_model.rviz
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/config/fishbot_ros2_controller.yaml
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/config/nav2_params.yaml
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/world
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.config
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.sdf
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/world/custom_room.world
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/maps
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.pgm
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.yaml
+-- Installing: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/package_run_dependencies/robot_relate
+-- Installing: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/parent_prefix_path/robot_relate
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.sh
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.dsv
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.sh
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.dsv
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.bash
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.sh
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.zsh
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.dsv
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/package.dsv
+-- Installing: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/packages/robot_relate
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig.cmake
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig-version.cmake
+-- Installing: /home/zr/code/src/install/robot_relate/share/robot_relate/package.xml

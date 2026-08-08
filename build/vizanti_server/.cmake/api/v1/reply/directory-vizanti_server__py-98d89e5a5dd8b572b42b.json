@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vizanti_server__py",
+		"source" : "/home/zr/code/src/build/vizanti_server/vizanti_server__py"
+	}
+}

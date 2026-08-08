@@ -1,0 +1,109 @@
+[0.024s] Invoking command in '/home/zr/code/src/build/gac_nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_waypoint_follower -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_waypoint_follower
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.143s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.331s] -- Detecting CXX compile features
+[0.331s] -- Detecting CXX compile features - done
+[0.342s] -- Found OpenCV version 4.5.4
+[0.346s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.651s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.660s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.671s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.759s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.865s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.898s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.966s] -- Looking for pthread.h
+[1.083s] -- Looking for pthread.h - found
+[1.083s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.169s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.170s] -- Found Threads: TRUE  
+[1.284s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.289s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[1.292s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.323s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.343s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.367s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.382s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.401s] -- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+[1.460s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.460s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.460s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.489s] -- Found gac_nav2_core: 1.1.14 (/home/zr/code/src/install/gac_nav2_core/share/gac_nav2_core/cmake)
+[1.581s] -- Setting build type to Release as none was specified.
+[1.953s] -- Configuring done
+[2.186s] -- Generating done
+[2.208s] -- Build files have been written to: /home/zr/code/src/build/gac_nav2_waypoint_follower
+[2.223s] Invoked command in '/home/zr/code/src/build/gac_nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_waypoint_follower -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_waypoint_follower
+[2.225s] Invoking command in '/home/zr/code/src/build/gac_nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_waypoint_follower -- -j16 -l16
+[2.292s] [ 40%] [32mBuilding CXX object CMakeFiles/input_at_waypoint.dir/plugins/input_at_waypoint.cpp.o[0m
+[2.292s] [ 40%] [32mBuilding CXX object CMakeFiles/photo_at_waypoint.dir/plugins/photo_at_waypoint.cpp.o[0m
+[2.292s] [ 40%] [32mBuilding CXX object CMakeFiles/wait_at_waypoint.dir/plugins/wait_at_waypoint.cpp.o[0m
+[2.292s] [ 40%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[2.817s] [ 50%] [32m[1mLinking CXX shared library libinput_at_waypoint.so[0m
+[2.820s] [ 60%] [32m[1mLinking CXX shared library libwait_at_waypoint.so[0m
+[3.034s] [ 70%] [32m[1mLinking CXX shared library libphoto_at_waypoint.so[0m
+[3.181s] [ 70%] Built target wait_at_waypoint
+[3.219s] [ 70%] Built target input_at_waypoint
+[3.391s] [ 70%] Built target photo_at_waypoint
+[14.481s] [ 80%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[14.834s] [ 80%] Built target waypoint_follower_core
+[14.860s] [ 90%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[21.714s] [100%] [32m[1mLinking CXX executable waypoint_follower[0m
+[22.285s] [100%] Built target waypoint_follower
+[22.315s] Invoked command in '/home/zr/code/src/build/gac_nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_waypoint_follower -- -j16 -l16
+[22.316s] Invoking command in '/home/zr/code/src/build/gac_nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_waypoint_follower
+[22.324s] -- Install configuration: "Release"
+[22.324s] -- Execute custom install script
+[22.324s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/lib/gac_nav2_waypoint_follower/waypoint_follower
+[22.339s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/input_at_waypoint.hpp
+[22.352s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/photo_at_waypoint.hpp
+[22.370s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/include//nav2_waypoint_follower/plugins/wait_at_waypoint.hpp
+[22.385s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[22.402s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/library_path.sh
+[22.425s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/library_path.dsv
+[22.438s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower//plugins.xml
+[22.453s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/gac_nav2_waypoint_follower
+[22.475s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/gac_nav2_waypoint_follower
+[22.488s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/ament_prefix_path.sh
+[22.517s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[22.536s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/path.sh
+[22.552s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/environment/path.dsv
+[22.578s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/local_setup.bash
+[22.605s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/local_setup.sh
+[22.619s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/local_setup.zsh
+[22.642s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/local_setup.dsv
+[22.655s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/package.dsv
+[22.673s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/ament_index/resource_index/packages/gac_nav2_waypoint_follower
+[22.695s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/ament_index/resource_index/gac_nav2_core__pluginlib__plugin/gac_nav2_waypoint_follower
+[22.715s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/ament_index/resource_index/rclcpp_components/gac_nav2_waypoint_follower
+[22.730s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.753s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/ament_cmake_export_libraries-extras.cmake
+[22.771s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.802s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/ament_cmake_export_targets-extras.cmake
+[22.819s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerConfig.cmake
+[22.849s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerConfig-version.cmake
+[22.867s] -- Symlinking: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/package.xml
+[22.891s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[22.893s] -- Set runtime path of "/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwaypoint_follower_core.so" to ""
+[22.893s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwait_at_waypoint.so
+[22.894s] -- Set runtime path of "/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libwait_at_waypoint.so" to ""
+[22.896s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libphoto_at_waypoint.so
+[22.897s] -- Set runtime path of "/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libphoto_at_waypoint.so" to ""
+[22.897s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libinput_at_waypoint.so
+[22.900s] -- Set runtime path of "/home/zr/code/src/install/gac_nav2_waypoint_follower/lib/libinput_at_waypoint.so" to ""
+[22.901s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerExport.cmake
+[22.901s] -- Installing: /home/zr/code/src/install/gac_nav2_waypoint_follower/share/gac_nav2_waypoint_follower/cmake/gac_nav2_waypoint_followerExport-release.cmake
+[22.906s] Invoked command in '/home/zr/code/src/build/gac_nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_waypoint_follower

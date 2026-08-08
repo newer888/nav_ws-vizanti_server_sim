@@ -1,0 +1,1 @@
+/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server/scripts/controller/tour_task.py

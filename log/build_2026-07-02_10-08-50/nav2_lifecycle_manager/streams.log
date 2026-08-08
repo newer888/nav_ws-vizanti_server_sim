@@ -1,0 +1,84 @@
+[0.016s] Invoking command in '/home/zr/code/src/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_lifecycle_manager -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_lifecycle_manager
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.153s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.327s] -- Detecting CXX compile features - done
+[0.329s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.529s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.563s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.604s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.612s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.674s] -- Found lifecycle_msgs: 1.2.2 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.683s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.685s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.743s] -- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+[0.812s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.815s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.912s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.945s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.989s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.998s] -- Looking for pthread.h
+[1.074s] -- Looking for pthread.h - found
+[1.074s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.153s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.154s] -- Found Threads: TRUE  
+[1.259s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.260s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.260s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.303s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.313s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[1.341s] -- Setting build type to Release as none was specified.
+[1.464s] -- Configuring done
+[1.583s] -- Generating done
+[1.592s] -- Build files have been written to: /home/zr/code/src/build/nav2_lifecycle_manager
+[1.606s] Invoked command in '/home/zr/code/src/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_lifecycle_manager -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_lifecycle_manager
+[1.608s] Invoking command in '/home/zr/code/src/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/nav2_lifecycle_manager -- -j16 -l16
+[1.670s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[1.671s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[14.892s] [ 60%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[15.699s] [ 60%] Built target nav2_lifecycle_manager_core
+[15.754s] [ 80%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[25.007s] [100%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[25.900s] [100%] Built target lifecycle_manager
+[25.945s] Invoked command in '/home/zr/code/src/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/nav2_lifecycle_manager -- -j16 -l16
+[25.954s] Invoking command in '/home/zr/code/src/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/nav2_lifecycle_manager
+[25.964s] -- Install configuration: "Release"
+[25.966s] -- Execute custom install script
+[25.966s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[25.995s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[26.029s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[26.063s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[26.083s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[26.104s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[26.117s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[26.136s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[26.171s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[26.204s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[26.236s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[26.267s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[26.290s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[26.324s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[26.354s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[26.386s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[26.414s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[26.448s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[26.467s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/ament_index/resource_index/rclcpp_components/nav2_lifecycle_manager
+[26.486s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.521s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[26.556s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.593s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[26.647s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[26.673s] -- Symlinking: /home/zr/code/src/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[26.713s] Invoked command in '/home/zr/code/src/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/nav2_lifecycle_manager

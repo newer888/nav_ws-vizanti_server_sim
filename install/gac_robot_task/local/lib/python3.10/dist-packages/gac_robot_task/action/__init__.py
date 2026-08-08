@@ -1,0 +1,1 @@
+/home/zr/code/src/build/gac_robot_task/rosidl_generator_py/gac_robot_task/action/__init__.py

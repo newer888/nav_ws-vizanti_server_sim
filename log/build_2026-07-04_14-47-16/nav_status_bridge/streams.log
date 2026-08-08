@@ -1,0 +1,35 @@
+[0.022s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/nav_status_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_status_bridge
+[0.041s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.180s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.186s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.214s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.222s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.280s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.487s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.578s] -- Configuring done
+[0.587s] -- Generating done
+[0.603s] -- Build files have been written to: /home/zr/code/src/build/nav_status_bridge
+[0.614s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/nav_status_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_status_bridge
+[0.616s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_status_bridge -- -j16 -l16
+[0.727s] [ 50%] Building CXX object CMakeFiles/status_bridge_node.dir/src/status_bridge_node.cpp.o
+[8.968s] [100%] Linking CXX executable status_bridge_node
+[9.369s] [100%] Built target status_bridge_node
+[9.403s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_status_bridge -- -j16 -l16
+[9.423s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_status_bridge
+[9.438s] -- Install configuration: ""
+[9.438s] -- Execute custom install script
+[9.438s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/lib/nav_status_bridge/status_bridge_node
+[9.458s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:105 (message):
+[9.458s]   ament_cmake_symlink_install_directory() can't find
+[9.458s]   '/home/zr/code/src/nav_ws_gazebo/src/nav_status_bridge/launch'
+[9.458s] Call Stack (most recent call first):
+[9.458s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:322 (ament_cmake_symlink_install_directory)
+[9.458s]   cmake_install.cmake:46 (include)
+[9.458s] 
+[9.458s] 
+[9.459s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_status_bridge

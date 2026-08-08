@@ -1,0 +1,1 @@
+/home/zr/code/src/build/gac_robot_task/rosidl_generator_py/gac_robot_task/_gac_robot_task_s.ep.rosidl_typesupport_fastrtps_c.c

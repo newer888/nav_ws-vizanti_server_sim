@@ -1,0 +1,7 @@
+{
+  "package_name": "vizanti_server",
+  "non_idl_tuples": [
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server:msg/PatrolOutput.msg",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server:srv/SpeachText.srv"
+  ]
+}

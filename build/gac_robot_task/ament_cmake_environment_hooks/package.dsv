@@ -1,0 +1,4 @@
+source;share/gac_robot_task/local_setup.bash
+source;share/gac_robot_task/local_setup.dsv
+source;share/gac_robot_task/local_setup.sh
+source;share/gac_robot_task/local_setup.zsh

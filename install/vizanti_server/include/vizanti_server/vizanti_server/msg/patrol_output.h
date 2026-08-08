@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_generator_c/vizanti_server/msg/patrol_output.h

@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_typesupport_fastrtps_c/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_fastrtps_c.h

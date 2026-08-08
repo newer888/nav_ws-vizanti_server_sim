@@ -1,0 +1,6 @@
+Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/robot_relate -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/robot_relate
+Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/robot_relate -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/robot_relate
+Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/robot_relate -- -j16 -l16
+Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/robot_relate -- -j16 -l16
+Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/robot_relate
+Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/robot_relate

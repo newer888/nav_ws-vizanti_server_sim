@@ -1,0 +1,19 @@
+[33mCMake Warning at CMakeLists.txt:49 (add_library):
+  Cannot generate a safe runtime search path for target
+  nav2_fixed_path_route_plugin because there is a cycle in the constraint
+  graph:
+
+    dir 0 is [/home/zr/code/src/install/gac_nav2_costmap_2d/lib]
+      dir 2 must precede it due to runtime library [liblayers.so]
+    dir 1 is [/home/zr/code/src/install/gac_nav2_voxel_grid/lib]
+      dir 2 must precede it due to runtime library [libvoxel_grid.so]
+    dir 2 is [/opt/ros/humble/lib]
+      dir 0 must precede it due to runtime library [liblayers.so]
+      dir 1 must precede it due to runtime library [libvoxel_grid.so]
+      dir 3 must precede it due to runtime library [libnav2_util_core.so]
+    dir 3 is [/home/zr/code/src/install/nav2_util/lib]
+      dir 2 must precede it due to runtime library [libnav2_util_core.so]
+
+  Some of these libraries may not be found correctly.
+
+[0m

@@ -1,0 +1,591 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found tf2_msgs: 0.25.20 (/opt/ros/humble/share/tf2_msgs/cmake)
+-- Found vizanti_msgs: 0.1.0 (/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake)
+-- Found rosbridge_suite: 2.0.6 (/opt/ros/humble/share/rosbridge_suite/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zr/code/src/build/vizanti_server
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  7%] Built target ament_cmake_python_symlink_vizanti_server
+running egg_info
+creating vizanti_server.egg-info
+writing vizanti_server.egg-info/PKG-INFO
+writing dependency_links to vizanti_server.egg-info/dependency_links.txt
+writing top-level names to vizanti_server.egg-info/top_level.txt
+writing manifest file 'vizanti_server.egg-info/SOURCES.txt'
+reading manifest file 'vizanti_server.egg-info/SOURCES.txt'
+writing manifest file 'vizanti_server.egg-info/SOURCES.txt'
+[  7%] Built target vizanti_server__rs
+[  7%] Built target ament_cmake_python_build_vizanti_server_egg
+[  7%] Built target vizanti_server__cpp
+[ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_generator_c.dir/rosidl_generator_c/vizanti_server/msg/detail/patrol_output__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_generator_c.dir/rosidl_generator_c/vizanti_server/srv/detail/speach_text__functions.c.o[0m
+[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libvizanti_server__rosidl_generator_c.so[0m
+[ 22%] Built target vizanti_server__rosidl_generator_c
+[ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_server/msg/patrol_output__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_server/srv/speach_text__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_server/msg/detail/patrol_output__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_server/srv/detail/speach_text__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_server/msg/detail/dds_fastrtps/patrol_output__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_server/srv/detail/dds_fastrtps/speach_text__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_server/msg/patrol_output__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_server/srv/detail/speach_text__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_server/srv/speach_text__type_support.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/vizanti_server__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_server/msg/detail/patrol_output__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_server/srv/detail/speach_text__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_server/msg/detail/patrol_output__type_support.c.o[0m
+[ 65%] [32m[1mLinking CXX shared library libvizanti_server__rosidl_typesupport_c.so[0m
+[ 65%] [32m[1mLinking C shared library libvizanti_server__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target vizanti_server__rosidl_typesupport_introspection_c
+[ 65%] Built target vizanti_server__rosidl_typesupport_c
+[ 67%] [32m[1mLinking CXX shared library libvizanti_server__rosidl_typesupport_cpp.so[0m
+[ 67%] Built target vizanti_server__rosidl_typesupport_cpp
+[ 72%] [32m[1mLinking CXX shared library libvizanti_server__rosidl_typesupport_introspection_cpp.so[0m
+[ 72%] [32m[1mLinking CXX shared library libvizanti_server__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libvizanti_server__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target vizanti_server__rosidl_typesupport_introspection_cpp
+[ 75%] Built target vizanti_server__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target vizanti_server__rosidl_typesupport_fastrtps_c
+[ 75%] Built target vizanti_server
+[ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 77%] Built target vizanti_server__py
+[ 80%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_generator_py.dir/rosidl_generator_py/vizanti_server/srv/_speach_text_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_generator_py.dir/rosidl_generator_py/vizanti_server/msg/_patrol_output_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_server/libvizanti_server__rosidl_generator_py.so[0m
+[ 85%] Built target vizanti_server__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/vizanti_server__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_server/vizanti_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_server/vizanti_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_server/vizanti_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target vizanti_server__rosidl_typesupport_c__pyext
+[100%] Built target vizanti_server__rosidl_typesupport_introspection_c__pyext
+[100%] Built target vizanti_server__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/ament_index/resource_index/rosidl_interfaces/vizanti_server
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__functions.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__struct.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__type_support.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/patrol_output.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__functions.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__struct.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__type_support.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/speach_text.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/library_path.sh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/library_path.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__builder.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__struct.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__traits.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__type_support.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/patrol_output.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__builder.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__struct.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__traits.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__type_support.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/speach_text.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/include/vizanti_server/vizanti_server/srv/detail/speach_text__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/pythonpath.sh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/pythonpath.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server-0.1.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server-0.1.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server-0.1.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server-0.1.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/__init__.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/libvizanti_server__rosidl_generator_py.so
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg/__init__.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg/_patrol_output.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg/_patrol_output_s.c
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv/__init__.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv/_speach_text.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv/_speach_text_s.c
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/vizanti_server_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/ament_index/resource_index/rust_packages/vizanti_server
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/Cargo.toml
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/build.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/src/lib.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/src/msg.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/src/msg/rmw.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/src/srv.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/rust/src/srv/rmw.rs
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/msg/PatrolOutput.idl
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/srv/SpeachText.idl
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/msg/PatrolOutput.msg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/srv/SpeachText.srv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/srv/SpeachText_Request.msg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/srv/SpeachText_Response.msg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//launch/vizanti_rws.launch.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//launch/vizanti_server.launch.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/add.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/altimeter.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/altimeter_arrow_green.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/altimeter_green.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/airline_seat_legroom_extra.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-down.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-down2.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-left.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-right.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-up-down.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-up.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/arrow-up2.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/assistant_navigation.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/close.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/delete.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/edit-2.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/edit_location.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/joystick.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/location.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/map-location.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/my_location.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/app/power_settings_new.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/area.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_100.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_100_charging.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_20.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_20_charging.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_40.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_40_charging.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_60.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_60_charging.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_80.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_80_charging.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/battery_unknown.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/button.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/button_false.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/button_true.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/costmap.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/covariance.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/default_layout.json
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_edit.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_setup.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_start.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_stop.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_xy.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/dropdown_z.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/folder.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/grid.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/gridcells.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/152.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/16.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/192.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/32.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/512.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/96.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/icon.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/manifest.json
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/icon/preview.jpg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/image.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/img_error.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/img_loading.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/initialpose.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/initialpose.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/inspector.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joypos.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joystick.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joystick_color.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joystick_keybind.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joystick_leftright.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/joystick_updown.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/map.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/marker.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/markerarray.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/navball_center.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/navball_icon.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/navball_invtex.jpg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/navball_overlay.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/navball_texture.jpg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/node_kill.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/node_restart.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/nodemgr.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/odom.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/path.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/pointcloud.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/pose.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/posearray.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/posewithcovariancestamped.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/range.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rawmap.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rawmap_transparent.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rawmap_transparent_black.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rawmap_transparent_white.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/reconfigure.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_arrow.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_box.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_sphere.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/_turtle.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/air/_madfly.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/air/_overseer.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_2wd.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_4wd.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_dog.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_hatchback.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_jaguar.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_jensenbot.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_pancake.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_rccar.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_sandwich.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_spaceship.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/ground/_tortoise.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_auv.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_beluga.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_orca.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_rov.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_truefloat.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_tuna.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robot_model/sea/_waow.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/robotmodel.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rosbag.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rosbag_active.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_connected.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_disconnected.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/rosbridge_reconnect.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/satelite.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/scan.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/settings.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/simplegoal.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/speedometer.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/speedometer_dial.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/speedometer_icon.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/temp_cold.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/temp_hot.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/temp_unknown.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/temp_warm.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/tf.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/tile_error.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/tile_loading.png
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/assets/waypoints.svg
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/astyle.css
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/font/LICENCE.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/font/TRADEMARKS.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.ttf
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.woff
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/font/ubuntu.mono.woff2
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/style.css
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/css/tdesign.min.css
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/head.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/iconbar.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/index-d.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/index.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs.min.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/nipplejs_LICENSE.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/numeric.min.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/numericjs_LICENSE.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/quaternion.min.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/quaternionjs_LICENSE.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/roslib.min.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/roslibjs_LICENSE.txt
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/tdesign.min.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/lib/vue.global.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/main.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/database.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/elements.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/joystick.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/navsat.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/persistent.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/request.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/rosbridge.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/status.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/tf.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/util.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/modules/view.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/js/setup.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/add/add_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/add/add_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/add/add_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/altimeter/altimeter_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/area/area_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/area/area_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/area/area_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/area/area_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/battery/battery_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/button/button_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/button/button_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/button/button_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cinitialpose/cinitialpose_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cinitialpose/cinitialpose_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cinitialpose/cinitialpose_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cinitialpose/cinitialpose_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/compressedimage/compressedimage_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/control/control_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/control/control_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/control/control_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/control/control_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cwaypoints/cwaypoints_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cwaypoints/cwaypoints_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cwaypoints/cwaypoints_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/cwaypoints/cwaypoints_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/folder/folder_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/grid/grid_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/gridcells/gridcells_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/initialpose/initialpose_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/inspector/inspector_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/inspector/inspector_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/inspector/inspector_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/keepouts/keepouts_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/keepouts/keepouts_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/keepouts/keepouts_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/keepouts/keepouts_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/map/map_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/map/map_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/map/map_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/map/map_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/map/map_worker.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/markerarray/markerarray_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/navball/navball_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/navball/navball_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/navball/navball_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/navball/navball_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/nodemgr/nodemgr_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/odom/odom_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/path/path_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/path/path_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/path/path_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/path/path_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pointcloud/pointcloud_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posearray/posearray_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/posewithcovariancestamped/posewithcovariancestamped_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pwaypoints/pwaypoints_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pwaypoints/pwaypoints_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pwaypoints/pwaypoints_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/pwaypoints/pwaypoints_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/range/range_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/range/range_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/range/range_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/range/range_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/reconfigure/reconfigure_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/robotmodel/robotmodel_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbag/rosbag_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/rosbridge/rosbridge_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/satelite/satelite_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/scan/scan_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/settings/settings_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/simplegoal/simplegoal_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/speedometer/speedometer_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/teleop/teleop_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/temperature/temperature_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/tf/tf_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_icon.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_modal.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_script.js
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//public/templates/waypoints/waypoints_view.html
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server//config/patrol_params.yaml
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/__init__.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/server.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/service_handler.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/rqt_reconfigure_param_api.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/speaker.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/mqtt_tts_client.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/__init__.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/keepout_service.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/patrol_controller.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/patrol_repository.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/task_action.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/tour_task.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/controller/target_point.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/hil/common/robotics_utils.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/hil/common/sqlite_utils.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/lib/vizanti_server/hil/common/http_api_utils.py
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/ament_index/resource_index/package_run_dependencies/vizanti_server
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/ament_index/resource_index/parent_prefix_path/vizanti_server
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/path.sh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/environment/path.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/local_setup.bash
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/local_setup.sh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/local_setup.zsh
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/local_setup.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/package.dsv
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/ament_index/resource_index/packages/vizanti_server
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_serverConfig-version.cmake
+-- Symlinking: /home/zr/code/src/install/vizanti_server/share/vizanti_server/package.xml
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_generator_c.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_generator_c.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_c.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_c.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_typesupport_cpp.so" to ""
+Listing '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server'...
+Compiling '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/__init__.py'...
+Listing '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg'...
+Compiling '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg/__init__.py'...
+Compiling '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/msg/_patrol_output.py'...
+Listing '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv'...
+Compiling '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv/__init__.py'...
+Compiling '/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages/vizanti_server/srv/_speach_text.py'...
+-- Installing: /home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_generator_py.so
+-- Set runtime path of "/home/zr/code/src/install/vizanti_server/lib/libvizanti_server__rosidl_generator_py.so" to ""
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_generator_cExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_generator_cppExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_cExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/vizanti_server__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_generator_pyExport.cmake
+-- Installing: /home/zr/code/src/install/vizanti_server/share/vizanti_server/cmake/export_vizanti_server__rosidl_generator_pyExport-noconfig.cmake

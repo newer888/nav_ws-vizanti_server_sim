@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-d8dd168a8dc34bd923ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						18
+					]
+				},
+				{
+					"build" : "vizanti_server__py",
+					"jsonFile" : "directory-vizanti_server__py-98d89e5a5dd8b572b42b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zr/code/src/build/vizanti_server/vizanti_server__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "vizanti_server__rs",
+					"jsonFile" : "directory-vizanti_server__rs-2f8cb286969651b6424b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/zr/code/src/build/vizanti_server/vizanti_server__rs",
+					"targetIndexes" : 
+					[
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "vizanti_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vizanti_server_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vizanti_server_egg-d622f54acf2bd7a57da0.json",
+					"name" : "ament_cmake_python_build_vizanti_server_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vizanti_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vizanti_server-a98a183ffd065209af70.json",
+					"name" : "ament_cmake_python_symlink_vizanti_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dabf63171ec4fb40ef53.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server-64a781e9fd96fbe70907.json",
+					"name" : "vizanti_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__cpp-be3d04a6b74b8dc70b28.json",
+					"name" : "vizanti_server__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vizanti_server__py::@f83bfccdb2f0e40d86aa",
+					"jsonFile" : "target-vizanti_server__py-32a9fc845770130d2323.json",
+					"name" : "vizanti_server__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_generator_c-b75dfe4c55d2aefa0801.json",
+					"name" : "vizanti_server__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_generator_py-708e5f4996a78de5624a.json",
+					"name" : "vizanti_server__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_c-489dd62088f0238bad31.json",
+					"name" : "vizanti_server__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_c__pyext-9439f47b2979ed19e5c3.json",
+					"name" : "vizanti_server__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_cpp-a8b37e16da4112e6d65c.json",
+					"name" : "vizanti_server__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_fastrtps_c-a9534141658dd08de302.json",
+					"name" : "vizanti_server__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_fastrtps_c__pyext-5654e8fee213e70428af.json",
+					"name" : "vizanti_server__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_fastrtps_cpp-3fa0ffdb27f0d068c03f.json",
+					"name" : "vizanti_server__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_introspection_c-8e31d42506640b2f53df.json",
+					"name" : "vizanti_server__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_introspection_c__pyext-d5a510cb0c348aa208e7.json",
+					"name" : "vizanti_server__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server__rosidl_typesupport_introspection_cpp-a65c41f0064200dfd172.json",
+					"name" : "vizanti_server__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "vizanti_server__rs::@8c65cf48cb194066a488",
+					"jsonFile" : "target-vizanti_server__rs-f79a6cb8a55ee00874e6.json",
+					"name" : "vizanti_server__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vizanti_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vizanti_server_uninstall-db034ec3113ec0a32a4e.json",
+					"name" : "vizanti_server_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/vizanti_server",
+		"source" : "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

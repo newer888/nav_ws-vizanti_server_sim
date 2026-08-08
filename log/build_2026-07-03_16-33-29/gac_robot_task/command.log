@@ -1,0 +1,2 @@
+Invoking command in '/home/zr/code/src/build/gac_robot_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16
+Invoked command in '/home/zr/code/src/build/gac_robot_task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16

@@ -1,0 +1,1 @@
+/home/zr/code/src/build/gac_robot_task/rosidl_generator_c/gac_robot_task/msg/rosidl_generator_c__visibility_control.h

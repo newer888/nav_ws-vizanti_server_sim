@@ -1,0 +1,406 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', 'vizanti_server/src/vizanti', '--symlink-install']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['vizanti_server/src/vizanti'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79d178283c70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79d1782836d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79d1782836d0>>)
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.255s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.255s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zr/code/src/vizanti_server/src/vizanti'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'ros'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['cmake', 'python']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'cmake'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'python'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extensions ['python_setup_py']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti) by extension 'python_setup_py'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/docker) by extension 'python_setup_py'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti) by extension 'ros'
+[0.275s] DEBUG:colcon.colcon_core.package_identification:Package 'vizanti_server/src/vizanti/vizanti' with type 'ros.ament_cmake' and name 'vizanti'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_cpp) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'vizanti_server/src/vizanti/vizanti_cpp' with type 'ros.ament_cmake' and name 'vizanti_cpp'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_demos) by extension 'ros'
+[0.277s] DEBUG:colcon.colcon_core.package_identification:Package 'vizanti_server/src/vizanti/vizanti_demos' with type 'ros.ament_cmake' and name 'vizanti_demos'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_msgs) by extension 'ros'
+[0.278s] DEBUG:colcon.colcon_core.package_identification:Package 'vizanti_server/src/vizanti/vizanti_msgs' with type 'ros.ament_cmake' and name 'vizanti_msgs'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(vizanti_server/src/vizanti/vizanti_server) by extension 'ros'
+[0.280s] DEBUG:colcon.colcon_core.package_identification:Package 'vizanti_server/src/vizanti/vizanti_server' with type 'ros.ament_cmake' and name 'vizanti_server'
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.297s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 448 installed packages in /opt/ros/humble
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'vizanti_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zr/code/src/build/vizanti_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zr/code/src/install/vizanti_cpp', 'merge_install': False, 'path': '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'vizanti_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zr/code/src/build/vizanti_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zr/code/src/install/vizanti_msgs', 'merge_install': False, 'path': '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'vizanti_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'vizanti_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zr/code/src/build/vizanti_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zr/code/src/install/vizanti_demos', 'merge_install': False, 'path': '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos', 'symlink_install': True, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'vizanti_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zr/code/src/build/vizanti_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zr/code/src/install/vizanti_server', 'merge_install': False, 'path': '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server', 'symlink_install': True, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'vizanti' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'vizanti' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zr/code/src/build/vizanti', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zr/code/src/install/vizanti', 'merge_install': False, 'path': '/home/zr/code/src/vizanti_server/src/vizanti/vizanti', 'symlink_install': True, 'test_result_base': None}
+[0.340s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs'
+[0.343s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.343s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.343s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_cpp' with build type 'ament_cmake'
+[0.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_cpp'
+[0.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.346s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_msgs
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_cpp
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_cpp
+[1.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_cpp -- -j16 -l16
+[2.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_msgs
+[2.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_msgs -- -j16 -l16
+[6.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_msgs -- -j16 -l16
+[6.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_msgs
+[9.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_msgs)
+[9.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_msgs
+[9.037s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs' for CMake module files
+[9.038s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs' for CMake config files
+[9.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_msgs', 'cmake_prefix_path')
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.ps1'
+[9.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.dsv'
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.sh'
+[9.040s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib'
+[9.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_msgs', 'ld_library_path_lib')
+[9.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.ps1'
+[9.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.dsv'
+[9.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.sh'
+[9.041s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/bin'
+[9.041s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib/pkgconfig/vizanti_msgs.pc'
+[9.041s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib/python3.10/site-packages'
+[9.042s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/bin'
+[9.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.ps1'
+[9.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.dsv'
+[9.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.sh'
+[9.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.bash'
+[9.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.zsh'
+[9.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_msgs/share/colcon-core/packages/vizanti_msgs)
+[9.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_msgs)
+[9.046s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs' for CMake module files
+[9.046s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs' for CMake config files
+[9.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_msgs', 'cmake_prefix_path')
+[9.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.ps1'
+[9.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.dsv'
+[9.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/cmake_prefix_path.sh'
+[9.048s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib'
+[9.048s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_msgs', 'ld_library_path_lib')
+[9.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.ps1'
+[9.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.dsv'
+[9.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/hook/ld_library_path_lib.sh'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/bin'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib/pkgconfig/vizanti_msgs.pc'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/lib/python3.10/site-packages'
+[9.049s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_msgs/bin'
+[9.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.ps1'
+[9.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.dsv'
+[9.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.sh'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.bash'
+[9.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.zsh'
+[9.051s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_msgs/share/colcon-core/packages/vizanti_msgs)
+[9.052s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server' with build type 'ament_cmake'
+[9.052s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server'
+[9.052s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.052s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.055s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos' with build type 'ament_cmake'
+[9.055s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos'
+[9.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_server': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_server
+[9.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_demos
+[10.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_cpp -- -j16 -l16
+[10.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_cpp
+[10.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_demos
+[10.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_demos -- -j16 -l16
+[10.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_demos -- -j16 -l16
+[10.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_demos
+[10.308s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_cpp)
+[10.308s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp' for CMake module files
+[10.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_cpp
+[10.309s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp' for CMake config files
+[10.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_cpp', 'cmake_prefix_path')
+[10.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.ps1'
+[10.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.dsv'
+[10.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.sh'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/bin'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib/pkgconfig/vizanti_cpp.pc'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib/python3.10/site-packages'
+[10.311s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/bin'
+[10.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.ps1'
+[10.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.dsv'
+[10.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.sh'
+[10.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.bash'
+[10.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.zsh'
+[10.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_cpp/share/colcon-core/packages/vizanti_cpp)
+[10.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_cpp)
+[10.313s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp' for CMake module files
+[10.314s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp' for CMake config files
+[10.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_cpp', 'cmake_prefix_path')
+[10.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.ps1'
+[10.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.dsv'
+[10.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/hook/cmake_prefix_path.sh'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/bin'
+[10.315s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib/pkgconfig/vizanti_cpp.pc'
+[10.316s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/lib/python3.10/site-packages'
+[10.316s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_cpp/bin'
+[10.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.ps1'
+[10.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.dsv'
+[10.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.sh'
+[10.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.bash'
+[10.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_cpp/share/vizanti_cpp/package.zsh'
+[10.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_cpp/share/colcon-core/packages/vizanti_cpp)
+[10.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_demos)
+[10.547s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos' for CMake module files
+[10.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_demos
+[10.548s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos' for CMake config files
+[10.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_demos', 'cmake_prefix_path')
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.ps1'
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.dsv'
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.sh'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/bin'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib/pkgconfig/vizanti_demos.pc'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib/python3.10/site-packages'
+[10.550s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/bin'
+[10.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.ps1'
+[10.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.dsv'
+[10.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.sh'
+[10.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.bash'
+[10.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.zsh'
+[10.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_demos/share/colcon-core/packages/vizanti_demos)
+[10.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_demos)
+[10.552s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos' for CMake module files
+[10.553s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos' for CMake config files
+[10.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_demos', 'cmake_prefix_path')
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.ps1'
+[10.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.dsv'
+[10.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/hook/cmake_prefix_path.sh'
+[10.554s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/bin'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib/pkgconfig/vizanti_demos.pc'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/lib/python3.10/site-packages'
+[10.555s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_demos/bin'
+[10.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.ps1'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.dsv'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.sh'
+[10.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.bash'
+[10.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.zsh'
+[10.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_demos/share/colcon-core/packages/vizanti_demos)
+[10.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_server
+[10.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_server': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_server -- -j16 -l16
+[12.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_server -- -j16 -l16
+[12.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti_server': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_server
+[17.065s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_server)
+[17.065s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server' for CMake module files
+[17.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti_server' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_server
+[17.067s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server' for CMake config files
+[17.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_server', 'cmake_prefix_path')
+[17.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.ps1'
+[17.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.dsv'
+[17.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.sh'
+[17.069s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib'
+[17.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_server', 'ld_library_path_lib')
+[17.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.ps1'
+[17.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.dsv'
+[17.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.sh'
+[17.070s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/bin'
+[17.070s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib/pkgconfig/vizanti_server.pc'
+[17.070s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib/python3.10/site-packages'
+[17.070s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/bin'
+[17.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.ps1'
+[17.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.dsv'
+[17.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.sh'
+[17.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.bash'
+[17.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.zsh'
+[17.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_server/share/colcon-core/packages/vizanti_server)
+[17.072s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti_server)
+[17.073s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server' for CMake module files
+[17.073s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server' for CMake config files
+[17.074s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_server', 'cmake_prefix_path')
+[17.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.ps1'
+[17.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.dsv'
+[17.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/cmake_prefix_path.sh'
+[17.075s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib'
+[17.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti_server', 'ld_library_path_lib')
+[17.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.ps1'
+[17.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.dsv'
+[17.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti_server/share/vizanti_server/hook/ld_library_path_lib.sh'
+[17.076s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/bin'
+[17.076s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib/pkgconfig/vizanti_server.pc'
+[17.076s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/lib/python3.10/site-packages'
+[17.076s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti_server/bin'
+[17.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.ps1'
+[17.077s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.dsv'
+[17.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.sh'
+[17.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.bash'
+[17.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti_server/share/vizanti_server/package.zsh'
+[17.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti_server/share/colcon-core/packages/vizanti_server)
+[17.078s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti' with build type 'ament_cmake'
+[17.078s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zr/code/src/vizanti_server/src/vizanti/vizanti'
+[17.078s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti
+[17.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti
+[17.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti -- -j16 -l16
+[17.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti -- -j16 -l16
+[17.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zr/code/src/build/vizanti': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti
+[17.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti)
+[17.577s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti' for CMake module files
+[17.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zr/code/src/build/vizanti' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_server:/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_server/lib:/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_server/local/lib/python3.10/dist-packages:/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti
+[17.577s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti' for CMake config files
+[17.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti', 'cmake_prefix_path')
+[17.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.ps1'
+[17.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.dsv'
+[17.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.sh'
+[17.579s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/bin'
+[17.579s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/lib/pkgconfig/vizanti.pc'
+[17.579s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/lib/python3.10/site-packages'
+[17.579s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/bin'
+[17.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.ps1'
+[17.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti/share/vizanti/package.dsv'
+[17.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.sh'
+[17.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.bash'
+[17.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.zsh'
+[17.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti/share/colcon-core/packages/vizanti)
+[17.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vizanti)
+[17.581s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti' for CMake module files
+[17.582s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti' for CMake config files
+[17.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('vizanti', 'cmake_prefix_path')
+[17.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.ps1'
+[17.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.dsv'
+[17.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zr/code/src/install/vizanti/share/vizanti/hook/cmake_prefix_path.sh'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/bin'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/lib/pkgconfig/vizanti.pc'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/lib/python3.10/site-packages'
+[17.583s] Level 1:colcon.colcon_core.environment:checking '/home/zr/code/src/install/vizanti/bin'
+[17.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.ps1'
+[17.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zr/code/src/install/vizanti/share/vizanti/package.dsv'
+[17.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.sh'
+[17.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.bash'
+[17.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/zr/code/src/install/vizanti/share/vizanti/package.zsh'
+[17.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zr/code/src/install/vizanti/share/colcon-core/packages/vizanti)
+[17.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.586s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.591s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.591s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.604s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.604s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zr/code/src/install/local_setup.ps1'
+[17.605s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zr/code/src/install/_local_setup_util_ps1.py'
+[17.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zr/code/src/install/setup.ps1'
+[17.607s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zr/code/src/install/local_setup.sh'
+[17.608s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zr/code/src/install/_local_setup_util_sh.py'
+[17.608s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zr/code/src/install/setup.sh'
+[17.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zr/code/src/install/local_setup.bash'
+[17.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zr/code/src/install/setup.bash'
+[17.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zr/code/src/install/local_setup.zsh'
+[17.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zr/code/src/install/setup.zsh'

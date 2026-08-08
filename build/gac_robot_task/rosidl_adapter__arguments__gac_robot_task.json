@@ -1,0 +1,6 @@
+{
+  "package_name": "gac_robot_task",
+  "non_idl_tuples": [
+    "/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task:action/NavigateTour.action"
+  ]
+}

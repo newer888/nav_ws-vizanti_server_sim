@@ -1,0 +1,6 @@
+setup.py
+vizanti_server/__init__.py
+vizanti_server.egg-info/PKG-INFO
+vizanti_server.egg-info/SOURCES.txt
+vizanti_server.egg-info/dependency_links.txt
+vizanti_server.egg-info/top_level.txt

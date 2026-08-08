@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti/ament_cmake_environment_hooks/local_setup.bash

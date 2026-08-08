@@ -1,0 +1,338 @@
+[0.017s] Invoking command in '/home/zr/code/src/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/nav_2d_msgs -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_2d_msgs
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.142s] -- The CXX compiler identification is GNU 11.4.0
+[0.150s] -- Detecting C compiler ABI info
+[0.212s] -- Detecting C compiler ABI info - done
+[0.221s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.221s] -- Detecting C compile features
+[0.221s] -- Detecting C compile features - done
+[0.223s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.301s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.441s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.556s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.560s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.568s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.627s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.889s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.448s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.449s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.479s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.480s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.480s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.480s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.507s] -- Found PythonExtra: .so  
+[1.679s] -- Configuring done
+[1.730s] -- Generating done
+[1.747s] -- Build files have been written to: /home/zr/code/src/build/nav_2d_msgs
+[1.764s] Invoked command in '/home/zr/code/src/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/nav_2d_msgs -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_2d_msgs
+[1.765s] Invoking command in '/home/zr/code/src/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_2d_msgs -- -j16 -l16
+[1.812s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.826s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.830s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.837s] [  4%] Built target ament_cmake_python_symlink_nav_2d_msgs
+[2.085s] [  4%] Built target nav_2d_msgs__rs
+[2.088s] running egg_info
+[2.089s] creating nav_2d_msgs.egg-info
+[2.089s] writing nav_2d_msgs.egg-info/PKG-INFO
+[2.089s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[2.089s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[2.090s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.091s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.091s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[2.125s] [  4%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[2.256s] [  4%] Built target nav_2d_msgs__cpp
+[2.267s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[2.268s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[2.268s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[2.268s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[2.268s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[2.268s] [ 12%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[2.268s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.268s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.268s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.343s] [ 18%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[2.386s] [ 18%] Built target nav_2d_msgs__rosidl_generator_c
+[2.398s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.398s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.398s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.620s] [ 23%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[2.620s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[2.620s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[2.623s] [ 27%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[2.626s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[2.632s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[2.665s] [ 31%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[2.669s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[2.675s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[2.677s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[2.677s] [ 37%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[2.677s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[2.723s] [ 40%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.746s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[2.746s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[2.746s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[2.746s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[2.746s] [ 47%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[2.747s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[2.756s] [ 50%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[2.793s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[2.793s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[2.794s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[2.798s] [ 55%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[2.807s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[2.807s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[2.824s] [ 59%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[2.824s] [ 59%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[2.872s] [ 61%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[2.876s] [ 62%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[2.879s] [ 66%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[2.880s] [ 66%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[2.880s] [ 68%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[2.880s] [ 68%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[2.880s] [ 68%] Built target nav_2d_msgs__rosidl_typesupport_c
+[2.883s] [ 68%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[2.893s] [ 69%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.904s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[2.904s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[2.904s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[2.904s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[2.904s] [ 76%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.904s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[2.906s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[2.943s] [ 79%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[2.982s] [ 79%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[2.995s] [ 80%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.075s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[3.097s] [ 80%] Built target nav_2d_msgs
+[3.124s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.678s] [ 81%] Built target nav_2d_msgs__py
+[3.701s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[3.701s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[3.701s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[3.701s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[3.701s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[3.703s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[3.723s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so[0m
+[3.767s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[3.790s] [ 94%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.791s] [ 94%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.791s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.807s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.808s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.808s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.852s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.852s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[3.855s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[3.869s] Invoked command in '/home/zr/code/src/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_2d_msgs -- -j16 -l16
+[3.871s] Invoking command in '/home/zr/code/src/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_2d_msgs
+[3.879s] -- Install configuration: ""
+[3.879s] -- Execute custom install script
+[3.880s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[3.893s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[3.902s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[3.914s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[3.924s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[3.934s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[3.942s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[3.952s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[3.960s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[3.969s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[3.977s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[3.985s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[3.994s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[4.004s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[4.014s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[4.024s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[4.034s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[4.043s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[4.052s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[4.061s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[4.069s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[4.077s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[4.086s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.095s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[4.104s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[4.115s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[4.125s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[4.137s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[4.146s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[4.156s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[4.165s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[4.174s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[4.183s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[4.192s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[4.201s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.211s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[4.222s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[4.233s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[4.243s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[4.253s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[4.262s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[4.272s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[4.282s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[4.292s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[4.300s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[4.310s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[4.319s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[4.329s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[4.341s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[4.351s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[4.361s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[4.369s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[4.378s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[4.387s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[4.397s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[4.410s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[4.419s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[4.429s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[4.439s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[4.448s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[4.459s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[4.469s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[4.479s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.489s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[4.497s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[4.508s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[4.519s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.529s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[4.540s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.549s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[4.559s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[4.568s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.578s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.588s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[4.597s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[4.607s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[4.618s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[4.628s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[4.637s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[4.647s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.657s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.668s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.677s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.688s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[4.697s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[4.706s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.718s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[4.728s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[4.738s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/PKG-INFO
+[4.748s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/SOURCES.txt
+[4.758s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/dependency_links.txt
+[4.766s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/top_level.txt
+[4.776s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[4.786s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[4.794s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.805s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.817s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[4.828s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[4.838s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[4.848s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[4.859s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[4.868s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[4.876s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[4.885s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[4.894s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[4.905s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[4.917s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[4.928s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[4.937s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[4.946s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[4.957s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.965s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.973s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.983s] -- Up-to-date symlink: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.983s] -- Up-to-date symlink: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.983s] -- Up-to-date symlink: /home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.984s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/ament_index/resource_index/rust_packages/nav_2d_msgs
+[4.993s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/rust/Cargo.toml
+[5.003s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/rust/build.rs
+[5.013s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/rust/src/lib.rs
+[5.024s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/rust/src/msg.rs
+[5.034s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/rust/src/msg/rmw.rs
+[5.045s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[5.054s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[5.063s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[5.073s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[5.083s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[5.093s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[5.102s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[5.115s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[5.125s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[5.136s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[5.145s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[5.155s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[5.164s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[5.175s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[5.184s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[5.193s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[5.203s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[5.214s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[5.226s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[5.238s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[5.248s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[5.258s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[5.267s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[5.276s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[5.287s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[5.296s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.307s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.319s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.330s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.338s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.347s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.357s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[5.366s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[5.376s] -- Symlinking: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[5.385s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[5.385s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[5.385s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[5.386s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.386s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.386s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.386s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[5.387s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.387s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[5.387s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[5.387s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[5.388s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.388s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[5.388s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[5.422s] Listing '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[5.422s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py'...
+[5.422s] Listing '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[5.422s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py'...
+[5.422s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py'...
+[5.422s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[5.423s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[5.423s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[5.423s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[5.423s] Compiling '/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[5.427s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[5.427s] -- Set runtime path of "/home/zr/code/src/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[5.427s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[5.427s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.428s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.428s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.428s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[5.428s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.429s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.430s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.430s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[5.430s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.430s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[5.430s] -- Installing: /home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.434s] Invoked command in '/home/zr/code/src/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_2d_msgs

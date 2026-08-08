@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_msgs/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_cpp.hpp

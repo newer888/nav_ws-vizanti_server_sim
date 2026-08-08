@@ -1,0 +1,1 @@
+/home/zr/code/src/build/gac_robot_task/rosidl_generator_cpp/gac_robot_task/action/detail/navigate_tour__traits.hpp

@@ -1,0 +1,63 @@
+[0.029s] Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+[0.297s] Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+[0.309s] Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a
+[0.323s] -- Install configuration: ""
+[0.323s] -- Execute custom install script
+[0.323s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/config/joint_names_af2aurdf20250925.yaml
+[0.323s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/launch/display.launch
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/launch/gazebo.launch
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/base_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/head_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/hip_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/imu_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/knee_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_elbow_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_pitch_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_roll_link.STL
+[0.324s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_yaw_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_wheel_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_wrist_yaw_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_elbow_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_pitch_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_roll_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_yaw_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_wheel_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_wrist_yaw_link.STL
+[0.325s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/base_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/head_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/hip_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/imu_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/knee_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_elbow_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_pitch_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_roll_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_yaw_link.STL
+[0.326s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wheel_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wrist_yaw_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wrist_yaw_link11.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_elbow_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_pitch_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_roll_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_yaw_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wheel_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wrist_yaw_link.STL
+[0.327s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wrist_yaw_link11.STL
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/urdf/af3aurdf20260309.csv
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/urdf/af3aurdf20260309.urdf
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/xml/af3aurdf20260309.xml
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/package_run_dependencies/defender_3a
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/parent_prefix_path/defender_3a
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/ament_prefix_path.dsv
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/path.sh
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/path.dsv
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.bash
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.sh
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.zsh
+[0.329s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.dsv
+[0.329s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/package.dsv
+[0.341s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/packages/defender_3a
+[0.341s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/cmake/defender_3aConfig.cmake
+[0.341s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/cmake/defender_3aConfig-version.cmake
+[0.341s] -- Up-to-date symlink: /home/zr/code/src/install/defender_3a/share/defender_3a/package.xml
+[0.343s] Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a

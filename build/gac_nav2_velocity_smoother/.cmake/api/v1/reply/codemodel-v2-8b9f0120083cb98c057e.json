@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fe7208fdfffd752b74e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gac_nav2_velocity_smoother",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gac_nav2_velocity_smoother_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gac_nav2_velocity_smoother_uninstall-Release-2e9d5ca198eaa681d4c5.json",
+					"name" : "gac_nav2_velocity_smoother_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-819ad153edcc85af5098.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_smoother::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_smoother-Release-f93d2b374f9bac8951b8.json",
+					"name" : "velocity_smoother",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velocity_smoother_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velocity_smoother_core-Release-a6b2e4baae0998db77b3.json",
+					"name" : "velocity_smoother_core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/gac_nav2_velocity_smoother",
+		"source" : "/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_velocity_smoother"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

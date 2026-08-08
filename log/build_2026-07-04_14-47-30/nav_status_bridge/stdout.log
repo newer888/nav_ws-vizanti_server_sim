@@ -1,0 +1,20 @@
+Consolidate compiler generated dependencies of target status_bridge_node
+[100%] Built target status_bridge_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/zr/code/src/install/nav_status_bridge/lib/nav_status_bridge/status_bridge_node
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/package_run_dependencies/nav_status_bridge
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/parent_prefix_path/nav_status_bridge
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.sh
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.sh
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.dsv
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.bash
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.sh
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.zsh
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.dsv
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.dsv
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/packages/nav_status_bridge
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig.cmake
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig-version.cmake
+-- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.xml

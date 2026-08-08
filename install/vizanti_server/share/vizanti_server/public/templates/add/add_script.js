@@ -1,0 +1,1 @@
+/home/zr/code/src/vizanti_server/src/vizanti/vizanti_server/public/templates/add/add_script.js

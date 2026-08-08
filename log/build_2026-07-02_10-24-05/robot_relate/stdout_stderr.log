@@ -1,0 +1,48 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zr/code/src/build/robot_relate
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/display_robot.launch.py
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/gazebo_sim.launch.py
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/navigation2.launch.py
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.gv
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.pdf
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/caster.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/wheel.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/base.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/common_inertia.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.ros2_control.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/camera.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/imu.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/laser.urdf.xacro
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/fishbot_ros2_controller.yaml
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/nav2_params.yaml
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/rviz/dispaly_model.rviz
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/custom_room.world
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.config
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.sdf
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.pgm
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.yaml
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/package_run_dependencies/robot_relate
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/parent_prefix_path/robot_relate
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.sh
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.sh
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.dsv
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.bash
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.sh
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.zsh
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.dsv
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/package.dsv
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/packages/robot_relate
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig.cmake
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig-version.cmake
+-- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/package.xml

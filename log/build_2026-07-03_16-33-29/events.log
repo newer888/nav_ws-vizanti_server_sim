@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000493] (-) JobUnselected: {'identifier': 'defender_3a'}
+[0.000522] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000536] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000548] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000559] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000570] (-) JobUnselected: {'identifier': 'gac_nav2_behavior_tree'}
+[0.000580] (-) JobUnselected: {'identifier': 'gac_nav2_behaviors'}
+[0.000591] (-) JobUnselected: {'identifier': 'gac_nav2_bringup'}
+[0.000604] (-) JobUnselected: {'identifier': 'gac_nav2_bt_navigator'}
+[0.000615] (-) JobUnselected: {'identifier': 'gac_nav2_collision_monitor'}
+[0.000625] (-) JobUnselected: {'identifier': 'gac_nav2_controller'}
+[0.000635] (-) JobUnselected: {'identifier': 'gac_nav2_core'}
+[0.000645] (-) JobUnselected: {'identifier': 'gac_nav2_costmap_2d'}
+[0.000655] (-) JobUnselected: {'identifier': 'gac_nav2_planner'}
+[0.000665] (-) JobUnselected: {'identifier': 'gac_nav2_smoother'}
+[0.000675] (-) JobUnselected: {'identifier': 'gac_nav2_velocity_smoother'}
+[0.000685] (-) JobUnselected: {'identifier': 'gac_nav2_voxel_grid'}
+[0.000694] (-) JobUnselected: {'identifier': 'gac_nav2_waypoint_follower'}
+[0.000705] (-) JobUnselected: {'identifier': 'gac_navigation2'}
+[0.000714] (-) JobUnselected: {'identifier': 'gac_robot_msgs'}
+[0.000724] (-) JobUnselected: {'identifier': 'gac_robot_task_py'}
+[0.000734] (-) JobUnselected: {'identifier': 'laser_odom_transformer'}
+[0.000743] (-) JobUnselected: {'identifier': 'mqtt_nav_control_cpp'}
+[0.000753] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000763] (-) JobUnselected: {'identifier': 'nav2_fixed_path_route'}
+[0.000772] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000782] (-) JobUnselected: {'identifier': 'nav2_keepout_pkg'}
+[0.000792] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000802] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000812] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000821] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000831] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000842] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.000851] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.000861] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.000870] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000881] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000890] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000900] (-) JobUnselected: {'identifier': 'record_path'}
+[0.000909] (-) JobUnselected: {'identifier': 'road_network_collection_py'}
+[0.000919] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.000928] (-) JobUnselected: {'identifier': 'robot_relate'}
+[0.000938] (-) JobUnselected: {'identifier': 'robot_relate_python'}
+[0.000948] (-) JobUnselected: {'identifier': 'rws'}
+[0.000957] (-) JobUnselected: {'identifier': 'sim_amcl_bringup'}
+[0.000967] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.000977] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.000986] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.000996] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.001006] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.001018] (gac_robot_task) JobQueued: {'identifier': 'gac_robot_task', 'dependencies': OrderedDict()}
+[0.001033] (gac_robot_task) JobStarted: {'identifier': 'gac_robot_task'}
+[0.015092] (gac_robot_task) JobProgress: {'identifier': 'gac_robot_task', 'progress': 'cmake'}
+[0.015658] (gac_robot_task) JobProgress: {'identifier': 'gac_robot_task', 'progress': 'build'}
+[0.016292] (gac_robot_task) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zr/code/src/build/gac_robot_task', '--', '-j16', '-l16'], 'cwd': '/home/zr/code/src/build/gac_robot_task', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PYTHON_BASIC_REPL', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'zr'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/zr/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GIT_ASKPASS', '/snap/code/248/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/zr/code/test/nav2_ws/install/nav2_smoother/lib:/home/zr/code/test/nav2_ws/install/nav2_rotation_shim_controller/lib:/home/zr/code/test/nav2_ws/install/nav2_graceful_controller/lib:/home/zr/code/test/nav2_ws/install/nav2_controller/lib:/home/zr/code/test/nav2_ws/install/dwb_plugins/lib:/home/zr/code/test/nav2_ws/install/dwb_critics/lib:/home/zr/code/test/nav2_ws/install/dwb_core/lib:/home/zr/code/test/nav2_ws/install/nav_2d_utils/lib:/home/zr/code/test/nav2_ws/install/dwb_msgs/lib:/home/zr/code/test/nav2_ws/install/nav_2d_msgs/lib:/home/zr/code/test/nav2_ws/install/nav2_waypoint_follower/lib:/home/zr/code/test/nav2_ws/install/nav2_theta_star_planner/lib:/home/zr/code/test/nav2_ws/install/nav2_smac_planner/lib:/home/zr/code/test/nav2_ws/install/nav2_route/lib:/home/zr/code/test/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/zr/code/test/nav2_ws/install/nav2_planner/lib:/home/zr/code/test/nav2_ws/install/nav2_navfn_planner/lib:/home/zr/code/test/nav2_ws/install/nav2_mppi_controller/lib:/home/zr/code/test/nav2_ws/install/nav2_constrained_smoother/lib:/home/zr/code/test/nav2_ws/install/nav2_bt_navigator/lib:/home/zr/code/test/nav2_ws/install/nav2_behaviors/lib:/home/zr/code/test/nav2_ws/install/nav2_collision_monitor/lib:/home/zr/code/test/nav2_ws/install/costmap_queue/lib:/home/zr/code/test/nav2_ws/install/nav2_costmap_2d/lib:/home/zr/code/test/nav2_ws/install/nav2_voxel_grid/lib:/home/zr/code/test/nav2_ws/install/nav2_velocity_smoother/lib:/home/zr/code/test/nav2_ws/install/nav2_rviz_plugins/lib:/home/zr/code/test/nav2_ws/install/nav2_map_server/lib:/home/zr/code/test/nav2_ws/install/nav2_lifecycle_manager/lib:/home/zr/code/test/nav2_ws/install/nav2_behavior_tree/lib:/home/zr/code/test/nav2_ws/install/nav2_amcl/lib:/home/zr/code/test/nav2_ws/install/nav2_util/lib:/home/zr/code/test/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/zr'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/zr/code/src'), ('CHROME_DESKTOP', 'code.desktop'), ('LESS', '-R'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/248/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('TERM_PROGRAM_VERSION', '1.127.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/zr/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ZSH', '/home/zr/.oh-my-zsh'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/248/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1010'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/248/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1663'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '16466'), ('COLORTERM', 'truecolor'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/zr/code/test/nav2_ws/install'), ('LOGNAME', 'zr'), ('JOURNAL_STREAM', '8:17952'), ('DASHSCOPE_API_KEY', 'sk-ws-H.RYPRIRL.uEQl.MEQCIBaPkQFiwmggGQG2j-eQqlx0jUKGgvc8xuY5ryaWOVFPAiA39pqgprmbOk6GWliP3hWoakAgSJGUjEMQZN5OYfvY6Q'), ('_', '/usr/bin/colcon'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', ''), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_SSE_PORT', '56724'), ('USER_ZDOTDIR', '/home/zr'), ('USERNAME', 'zr'), ('ANTHROPIC_BASE_URL', 'http://127.0.0.1:15678'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/zr/.npm-global/bin:/home/zr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/zr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/zr/.npm-global/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zr/.local/bin:/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zr/.local/bin'), ('SESSION_MANAGER', 'local/zr-XiaoXinPro-16-ARP8:@/tmp/.ICE-unix/1617,unix/zr-XiaoXinPro-16-ARP8:/tmp/.ICE-unix/1617'), ('GTK_EXE_PREFIX', '/snap/code/248/usr'), ('INVOCATION_ID', '33734e44d0294f7fb20766c337f7a1f6'), ('ANTHROPIC_API_KEY', 'sk-proxy-dummy'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/248/usr/lib/locale'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-3e18c17eae9ad612.txt'), ('PYTHONSTARTUP', '/home/zr/.config/Code/User/workspaceStorage/76ac3ebcc852d0102c60b89148733dfa/ms-python.python/pythonrc.py'), ('VSCODE_INJECTION', '1'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/zr/snap/code/248/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JQT4R3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-28b9e352fc.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/zr/snap/code/248/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/zr/code/test/nav2_ws/install/nav2_system_tests:/home/zr/code/test/nav2_ws/install/nav2_bringup:/home/zr/code/test/nav2_ws/install/navigation2:/home/zr/code/test/nav2_ws/install/nav2_smoother:/home/zr/code/test/nav2_ws/install/nav2_rotation_shim_controller:/home/zr/code/test/nav2_ws/install/nav2_graceful_controller:/home/zr/code/test/nav2_ws/install/nav2_dwb_controller:/home/zr/code/test/nav2_ws/install/nav2_controller:/home/zr/code/test/nav2_ws/install/dwb_plugins:/home/zr/code/test/nav2_ws/install/dwb_critics:/home/zr/code/test/nav2_ws/install/dwb_core:/home/zr/code/test/nav2_ws/install/nav_2d_utils:/home/zr/code/test/nav2_ws/install/dwb_msgs:/home/zr/code/test/nav2_ws/install/nav_2d_msgs:/home/zr/code/test/nav2_ws/install/nav2_waypoint_follower:/home/zr/code/test/nav2_ws/install/nav2_theta_star_planner:/home/zr/code/test/nav2_ws/install/nav2_smac_planner:/home/zr/code/test/nav2_ws/install/nav2_route:/home/zr/code/test/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/zr/code/test/nav2_ws/install/nav2_planner:/home/zr/code/test/nav2_ws/install/nav2_navfn_planner:/home/zr/code/test/nav2_ws/install/nav2_mppi_controller:/home/zr/code/test/nav2_ws/install/nav2_constrained_smoother:/home/zr/code/test/nav2_ws/install/nav2_bt_navigator:/home/zr/code/test/nav2_ws/install/nav2_behaviors:/home/zr/code/test/nav2_ws/install/nav2_core:/home/zr/code/test/nav2_ws/install/nav2_collision_monitor:/home/zr/code/test/nav2_ws/install/costmap_queue:/home/zr/code/test/nav2_ws/install/nav2_costmap_2d:/home/zr/code/test/nav2_ws/install/nav2_voxel_grid:/home/zr/code/test/nav2_ws/install/nav2_velocity_smoother:/home/zr/code/test/nav2_ws/install/nav2_rviz_plugins:/home/zr/code/test/nav2_ws/install/nav2_map_server:/home/zr/code/test/nav2_ws/install/nav2_lifecycle_manager:/home/zr/code/test/nav2_ws/install/nav2_behavior_tree:/home/zr/code/test/nav2_ws/install/nav2_amcl:/home/zr/code/test/nav2_ws/install/nav2_util:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/home/zr/code/test/nav2_ws/install/nav2_msgs:/home/zr/code/test/nav2_ws/install/nav2_common:/opt/ros/humble'), ('SHELL', '/bin/zsh'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/zr/code/src/build/gac_robot_task'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_DATA_DIRS', '/home/zr/snap/code/248/.local/share:/home/zr/snap/code/248:/snap/code/248/usr/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COPILOT_DEBUG_NONCE', '06f854fcec53c484ce5a85bf18639743'), ('ZDOTDIR', '/home/zr'), ('PYTHONPATH', '/home/zr/code/test/nav2_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/test/nav2_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/zr/code/test/nav2_ws/build/nav2_simple_commander:/home/zr/code/test/nav2_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/zr/code/test/nav2_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/zr/code/test/nav2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/zr/code/test/nav2_ws/install/nav2_system_tests:/home/zr/code/test/nav2_ws/install/nav2_bringup:/home/zr/code/test/nav2_ws/install/navigation2:/home/zr/code/test/nav2_ws/install/nav2_smoother:/home/zr/code/test/nav2_ws/install/nav2_rotation_shim_controller:/home/zr/code/test/nav2_ws/install/nav2_graceful_controller:/home/zr/code/test/nav2_ws/install/nav2_dwb_controller:/home/zr/code/test/nav2_ws/install/nav2_controller:/home/zr/code/test/nav2_ws/install/dwb_plugins:/home/zr/code/test/nav2_ws/install/dwb_critics:/home/zr/code/test/nav2_ws/install/dwb_core:/home/zr/code/test/nav2_ws/install/nav_2d_utils:/home/zr/code/test/nav2_ws/install/dwb_msgs:/home/zr/code/test/nav2_ws/install/nav_2d_msgs:/home/zr/code/test/nav2_ws/install/nav2_waypoint_follower:/home/zr/code/test/nav2_ws/install/nav2_theta_star_planner:/home/zr/code/test/nav2_ws/install/nav2_smac_planner:/home/zr/code/test/nav2_ws/install/nav2_route:/home/zr/code/test/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/zr/code/test/nav2_ws/install/nav2_planner:/home/zr/code/test/nav2_ws/install/nav2_navfn_planner:/home/zr/code/test/nav2_ws/install/nav2_mppi_controller:/home/zr/code/test/nav2_ws/install/nav2_constrained_smoother:/home/zr/code/test/nav2_ws/install/nav2_bt_navigator:/home/zr/code/test/nav2_ws/install/nav2_behaviors:/home/zr/code/test/nav2_ws/install/nav2_core:/home/zr/code/test/nav2_ws/install/nav2_collision_monitor:/home/zr/code/test/nav2_ws/install/costmap_queue:/home/zr/code/test/nav2_ws/install/nav2_costmap_2d:/home/zr/code/test/nav2_ws/install/nav2_voxel_grid:/home/zr/code/test/nav2_ws/install/nav2_velocity_smoother:/home/zr/code/test/nav2_ws/install/nav2_rviz_plugins:/home/zr/code/test/nav2_ws/install/nav2_map_server:/home/zr/code/test/nav2_ws/install/nav2_lifecycle_manager:/home/zr/code/test/nav2_ws/install/nav2_behavior_tree:/home/zr/code/test/nav2_ws/install/nav2_amcl:/home/zr/code/test/nav2_ws/install/nav2_util:/home/zr/code/test/nav2_ws/install/nav2_msgs:/home/zr/code/test/nav2_ws/install/nav2_common:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble')]), 'shell': False}
+[0.099622] (-) TimerEvent: {}
+[0.103717] (gac_robot_task) StdoutLine: {'line': b'[  7%] Built target gac_robot_task__cpp\n'}
+[0.104109] (gac_robot_task) StdoutLine: {'line': b'[  7%] Built target gac_robot_task__rs\n'}
+[0.104208] (gac_robot_task) StdoutLine: {'line': b'[ 12%] Built target gac_robot_task__rosidl_generator_c\n'}
+[0.120688] (gac_robot_task) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_gac_robot_task\n'}
+[0.140873] (gac_robot_task) StdoutLine: {'line': b'[ 35%] Built target gac_robot_task__rosidl_typesupport_c\n'}
+[0.141113] (gac_robot_task) StdoutLine: {'line': b'[ 35%] Built target gac_robot_task__rosidl_typesupport_fastrtps_cpp\n'}
+[0.141191] (gac_robot_task) StdoutLine: {'line': b'[ 35%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c\n'}
+[0.141304] (gac_robot_task) StdoutLine: {'line': b'[ 43%] Built target gac_robot_task__rosidl_typesupport_introspection_c\n'}
+[0.143084] (gac_robot_task) StdoutLine: {'line': b'[ 51%] Built target gac_robot_task__rosidl_typesupport_introspection_cpp\n'}
+[0.143803] (gac_robot_task) StdoutLine: {'line': b'[ 58%] Built target gac_robot_task__rosidl_typesupport_cpp\n'}
+[0.182318] (gac_robot_task) StdoutLine: {'line': b'[ 58%] Built target gac_robot_task\n'}
+[0.199717] (-) TimerEvent: {}
+[0.205849] (gac_robot_task) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gac_robot_task_node\x1b[0m\n'}
+[0.219882] (gac_robot_task) StdoutLine: {'line': b'[ 61%] Built target gac_robot_task__py\n'}
+[0.242513] (gac_robot_task) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/gac_robot_task_node.dir/src/task_executor.cpp.o\x1b[0m\n'}
+[0.259024] (gac_robot_task) StdoutLine: {'line': b'[ 69%] Built target gac_robot_task__rosidl_generator_py\n'}
+[0.297046] (gac_robot_task) StdoutLine: {'line': b'[ 82%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.297273] (gac_robot_task) StdoutLine: {'line': b'[ 84%] Built target gac_robot_task__rosidl_typesupport_c__pyext\n'}
+[0.297344] (gac_robot_task) StdoutLine: {'line': b'[ 84%] Built target gac_robot_task__rosidl_typesupport_introspection_c__pyext\n'}
+[0.299797] (-) TimerEvent: {}
+[0.400056] (-) TimerEvent: {}
+[0.406108] (gac_robot_task) StdoutLine: {'line': b'running egg_info\n'}
+[0.406904] (gac_robot_task) StdoutLine: {'line': b'writing gac_robot_task.egg-info/PKG-INFO\n'}
+[0.407125] (gac_robot_task) StdoutLine: {'line': b'writing dependency_links to gac_robot_task.egg-info/dependency_links.txt\n'}
+[0.407387] (gac_robot_task) StdoutLine: {'line': b'writing top-level names to gac_robot_task.egg-info/top_level.txt\n'}
+[0.409528] (gac_robot_task) StdoutLine: {'line': b"reading manifest file 'gac_robot_task.egg-info/SOURCES.txt'\n"}
+[0.409976] (gac_robot_task) StdoutLine: {'line': b"writing manifest file 'gac_robot_task.egg-info/SOURCES.txt'\n"}
+[0.452410] (gac_robot_task) StdoutLine: {'line': b'[ 84%] Built target ament_cmake_python_build_gac_robot_task_egg\n'}
+[0.500169] (-) TimerEvent: {}
+[0.578929] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:19:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid preprocessing directive #mqtt_options_\n'}
+[0.579237] (gac_robot_task) StderrLine: {'line': b'   19 |     #\x1b[01;31m\x1b[Kmqtt_options_\x1b[m\x1b[K.address = "tcp://192.168.0.1";\n'}
+[0.579340] (gac_robot_task) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.600268] (-) TimerEvent: {}
+[0.700565] (-) TimerEvent: {}
+[0.800938] (-) TimerEvent: {}
+[0.901306] (-) TimerEvent: {}
+[1.001637] (-) TimerEvent: {}
+[1.101965] (-) TimerEvent: {}
+[1.202270] (-) TimerEvent: {}
+[1.302583] (-) TimerEvent: {}
+[1.402912] (-) TimerEvent: {}
+[1.503312] (-) TimerEvent: {}
+[1.603803] (-) TimerEvent: {}
+[1.704164] (-) TimerEvent: {}
+[1.804573] (-) TimerEvent: {}
+[1.904956] (-) TimerEvent: {}
+[2.005318] (-) TimerEvent: {}
+[2.105677] (-) TimerEvent: {}
+[2.205985] (-) TimerEvent: {}
+[2.306335] (-) TimerEvent: {}
+[2.406677] (-) TimerEvent: {}
+[2.506997] (-) TimerEvent: {}
+[2.607352] (-) TimerEvent: {}
+[2.707712] (-) TimerEvent: {}
+[2.808021] (-) TimerEvent: {}
+[2.908359] (-) TimerEvent: {}
+[3.008688] (-) TimerEvent: {}
+[3.109054] (-) TimerEvent: {}
+[3.145918] (gac_robot_task) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:2\x1b[m\x1b[K:\n'}
+[3.146169] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gac_robot_task::ConnectListener::on_failure(const mqtt::token&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.146233] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:36:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KasyncActionToken\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.146284] (gac_robot_task) StderrLine: {'line': b'   36 |   void on_failure(\x1b[01;35m\x1b[Kconst mqtt::token &asyncActionToken\x1b[m\x1b[K) override {\n'}
+[3.146331] (gac_robot_task) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146379] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gac_robot_task::ConnectListener::on_success(const mqtt::token&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.146423] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:42:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KasyncActionToken\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.146468] (gac_robot_task) StderrLine: {'line': b'   42 |   void on_success(\x1b[01;35m\x1b[Kconst mqtt::token &asyncActionToken\x1b[m\x1b[K) override {\n'}
+[3.146510] (gac_robot_task) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146551] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gac_robot_task::PublishListener::on_failure(const mqtt::token&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.146604] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:60:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KasyncActionToken\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.146653] (gac_robot_task) StderrLine: {'line': b'   60 |   void on_failure(\x1b[01;35m\x1b[Kconst mqtt::token &asyncActionToken\x1b[m\x1b[K) override {\n'}
+[3.146698] (gac_robot_task) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.146741] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gac_robot_task::PublishListener::on_success(const mqtt::token&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.146788] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:64:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KasyncActionToken\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.146829] (gac_robot_task) StderrLine: {'line': b'   64 |   void on_success(\x1b[01;35m\x1b[Kconst mqtt::token &asyncActionToken\x1b[m\x1b[K) override {}\n'}
+[3.146867] (gac_robot_task) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.209107] (-) TimerEvent: {}
+[3.309406] (-) TimerEvent: {}
+[3.409732] (-) TimerEvent: {}
+[3.510045] (-) TimerEvent: {}
+[3.610352] (-) TimerEvent: {}
+[3.632948] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gac_robot_task::TaskExecutor::ConnectHandler(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.633216] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:477:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcause\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.633345] (gac_robot_task) StderrLine: {'line': b'  477 | void TaskExecutor::ConnectHandler(\x1b[01;35m\x1b[Kconst std::string &cause\x1b[m\x1b[K) {\n'}
+[3.633444] (gac_robot_task) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.633570] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gac_robot_task::TaskExecutor::DisconnectHandler(const mqtt::properties&, mqtt::ReasonCode)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.633689] (gac_robot_task) StderrLine: {'line': b'\x1b[01m\x1b[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:490:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kproperties\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.633772] (gac_robot_task) StderrLine: {'line': b'  490 |   void TaskExecutor::DisconnectHandler(\x1b[01;35m\x1b[Kconst mqtt::properties &properties\x1b[m\x1b[K,\n'}
+[3.633846] (gac_robot_task) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.710449] (-) TimerEvent: {}
+[3.810759] (-) TimerEvent: {}
+[3.911086] (-) TimerEvent: {}
+[4.011414] (-) TimerEvent: {}
+[4.111765] (-) TimerEvent: {}
+[4.212108] (-) TimerEvent: {}
+[4.312452] (-) TimerEvent: {}
+[4.412796] (-) TimerEvent: {}
+[4.513116] (-) TimerEvent: {}
+[4.613466] (-) TimerEvent: {}
+[4.713803] (-) TimerEvent: {}
+[4.814121] (-) TimerEvent: {}
+[4.914490] (-) TimerEvent: {}
+[4.997947] (gac_robot_task) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gac_robot_task_node.dir/build.make:111\xef\xbc\x9aCMakeFiles/gac_robot_task_node.dir/src/task_executor.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.998405] (gac_robot_task) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:613\xef\xbc\x9aCMakeFiles/gac_robot_task_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.998779] (gac_robot_task) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.001903] (gac_robot_task) CommandEnded: {'returncode': 2}
+[5.013006] (gac_robot_task) JobEnded: {'identifier': 'gac_robot_task', 'rc': 2}
+[5.014541] (-) TimerEvent: {}
+[5.023737] (-) EventReactorShutdown: {}

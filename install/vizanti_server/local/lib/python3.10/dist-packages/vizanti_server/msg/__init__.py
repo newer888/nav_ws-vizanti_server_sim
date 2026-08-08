@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_generator_py/vizanti_server/msg/__init__.py

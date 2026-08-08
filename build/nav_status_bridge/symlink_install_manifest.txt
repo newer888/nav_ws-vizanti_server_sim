@@ -1,0 +1,16 @@
+/home/zr/code/src/install/nav_status_bridge/lib/nav_status_bridge/status_bridge_node
+/home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/package_run_dependencies/nav_status_bridge
+/home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/parent_prefix_path/nav_status_bridge
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.sh
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.dsv
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.sh
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.dsv
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.bash
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.sh
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.zsh
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.dsv
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.dsv
+/home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/packages/nav_status_bridge
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig.cmake
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig-version.cmake
+/home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.xml

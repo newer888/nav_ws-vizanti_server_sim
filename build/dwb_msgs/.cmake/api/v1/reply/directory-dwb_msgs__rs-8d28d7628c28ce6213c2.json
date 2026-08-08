@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dwb_msgs__rs",
+		"source" : "/home/zr/code/src/build/dwb_msgs/dwb_msgs__rs"
+	}
+}

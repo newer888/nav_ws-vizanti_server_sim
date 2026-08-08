@@ -1,0 +1,100 @@
+[0.024s] Invoking command in '/home/zr/code/src/build/nav2_fixed_path_route': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_fixed_path_route -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_fixed_path_route
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.227s] -- Detecting C compiler ABI info - done
+[0.235s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.327s] -- Detecting CXX compiler ABI info - done
+[0.332s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.336s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.482s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.535s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.579s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.629s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.635s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.644s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.680s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.726s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.730s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.874s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.921s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.932s] -- Looking for pthread.h
+[1.014s] -- Looking for pthread.h - found
+[1.015s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.099s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.100s] -- Found Threads: TRUE  
+[1.146s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.181s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.216s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.234s] -- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+[1.346s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.346s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.346s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.383s] -- Found gac_nav2_costmap_2d: 1.1.14 (/home/zr/code/src/install/gac_nav2_costmap_2d/share/gac_nav2_costmap_2d/cmake)
+[1.501s] -- Found gac_nav2_core: 1.1.14 (/home/zr/code/src/install/gac_nav2_core/share/gac_nav2_core/cmake)
+[1.576s] -- Found nav2_navfn_planner: 1.1.20 (/opt/ros/humble/share/nav2_navfn_planner/cmake)
+[1.645s] -- Found nlohmann_json: /usr/lib/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.10.5") 
+[2.250s] -- Configuring done
+[2.354s] [33mCMake Warning at CMakeLists.txt:49 (add_library):
+[2.354s]   Cannot generate a safe runtime search path for target
+[2.354s]   nav2_fixed_path_route_plugin because there is a cycle in the constraint
+[2.354s]   graph:
+[2.354s] 
+[2.354s]     dir 0 is [/home/zr/code/src/install/gac_nav2_costmap_2d/lib]
+[2.354s]       dir 2 must precede it due to runtime library [liblayers.so]
+[2.355s]     dir 1 is [/home/zr/code/src/install/gac_nav2_voxel_grid/lib]
+[2.355s]       dir 2 must precede it due to runtime library [libvoxel_grid.so]
+[2.355s]     dir 2 is [/opt/ros/humble/lib]
+[2.355s]       dir 0 must precede it due to runtime library [liblayers.so]
+[2.355s]       dir 1 must precede it due to runtime library [libvoxel_grid.so]
+[2.355s]       dir 3 must precede it due to runtime library [libnav2_util_core.so]
+[2.355s]     dir 3 is [/home/zr/code/src/install/nav2_util/lib]
+[2.355s]       dir 2 must precede it due to runtime library [libnav2_util_core.so]
+[2.355s] 
+[2.355s]   Some of these libraries may not be found correctly.
+[2.355s] 
+[2.355s] [0m
+[2.355s] -- Generating done
+[2.364s] -- Build files have been written to: /home/zr/code/src/build/nav2_fixed_path_route
+[2.384s] Invoked command in '/home/zr/code/src/build/nav2_fixed_path_route' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_fixed_path_route -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_fixed_path_route
+[2.386s] Invoking command in '/home/zr/code/src/build/nav2_fixed_path_route': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/nav2_fixed_path_route -- -j16 -l16
+[2.460s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_fixed_path_route_plugin.dir/src/nav2_fixed_path_route.cpp.o[0m
+[11.033s] [100%] [32m[1mLinking CXX shared library libnav2_fixed_path_route_plugin.so[0m
+[11.877s] [100%] Built target nav2_fixed_path_route_plugin
+[11.907s] Invoked command in '/home/zr/code/src/build/nav2_fixed_path_route' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/nav2_fixed_path_route -- -j16 -l16
+[11.908s] Invoking command in '/home/zr/code/src/build/nav2_fixed_path_route': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/nav2_fixed_path_route
+[11.929s] -- Install configuration: ""
+[11.931s] -- Execute custom install script
+[11.933s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route//nav2_fixed_path_route_plugin.xml
+[11.951s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/lib/libnav2_fixed_path_route_plugin.so
+[11.965s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/include//nav2_fixed_path_route.hpp
+[11.978s] -- Up-to-date symlink: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/nav2_fixed_path_route_plugin.xml
+[11.978s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/library_path.sh
+[11.991s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/library_path.dsv
+[12.004s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/ament_index/resource_index/package_run_dependencies/nav2_fixed_path_route
+[12.032s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/ament_index/resource_index/parent_prefix_path/nav2_fixed_path_route
+[12.048s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/ament_prefix_path.sh
+[12.065s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/ament_prefix_path.dsv
+[12.077s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/path.sh
+[12.090s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/environment/path.dsv
+[12.104s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/local_setup.bash
+[12.117s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/local_setup.sh
+[12.129s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/local_setup.zsh
+[12.151s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/local_setup.dsv
+[12.164s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/package.dsv
+[12.178s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/ament_index/resource_index/packages/nav2_fixed_path_route
+[12.191s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/ament_index/resource_index/gac_nav2_core__pluginlib__plugin/nav2_fixed_path_route
+[12.206s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.224s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/cmake/ament_cmake_export_libraries-extras.cmake
+[12.255s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.274s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/cmake/nav2_fixed_path_routeConfig.cmake
+[12.293s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/cmake/nav2_fixed_path_routeConfig-version.cmake
+[12.310s] -- Symlinking: /home/zr/code/src/install/nav2_fixed_path_route/share/nav2_fixed_path_route/package.xml
+[12.350s] Invoked command in '/home/zr/code/src/build/nav2_fixed_path_route' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/nav2_fixed_path_route

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zr/code/src/build/gac_nav2_velocity_smoother/velocity_smoother" "TARGETS" "velocity_smoother" "RUNTIME_DESTINATION" "lib/gac_nav2_velocity_smoother")

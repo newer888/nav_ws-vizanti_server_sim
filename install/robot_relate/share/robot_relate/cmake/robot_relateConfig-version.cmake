@@ -1,0 +1,1 @@
+/home/zr/code/src/build/robot_relate/ament_cmake_core/robot_relateConfig-version.cmake

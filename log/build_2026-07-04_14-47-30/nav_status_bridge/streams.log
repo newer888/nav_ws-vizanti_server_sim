@@ -1,0 +1,24 @@
+[0.023s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_status_bridge -- -j16 -l16
+[0.118s] Consolidate compiler generated dependencies of target status_bridge_node
+[0.147s] [100%] Built target status_bridge_node
+[0.169s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav_status_bridge -- -j16 -l16
+[0.189s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_status_bridge
+[0.205s] -- Install configuration: ""
+[0.205s] -- Execute custom install script
+[0.206s] -- Up-to-date symlink: /home/zr/code/src/install/nav_status_bridge/lib/nav_status_bridge/status_bridge_node
+[0.206s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/package_run_dependencies/nav_status_bridge
+[0.225s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/parent_prefix_path/nav_status_bridge
+[0.244s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.sh
+[0.260s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/ament_prefix_path.dsv
+[0.278s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.sh
+[0.296s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/environment/path.dsv
+[0.316s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.bash
+[0.333s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.sh
+[0.352s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.zsh
+[0.370s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/local_setup.dsv
+[0.389s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.dsv
+[0.412s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/ament_index/resource_index/packages/nav_status_bridge
+[0.430s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig.cmake
+[0.447s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/cmake/nav_status_bridgeConfig-version.cmake
+[0.465s] -- Symlinking: /home/zr/code/src/install/nav_status_bridge/share/nav_status_bridge/package.xml
+[0.485s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav_status_bridge

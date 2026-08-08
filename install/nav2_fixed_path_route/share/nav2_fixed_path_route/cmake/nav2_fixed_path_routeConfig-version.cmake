@@ -1,0 +1,1 @@
+/home/zr/code/src/build/nav2_fixed_path_route/ament_cmake_core/nav2_fixed_path_routeConfig-version.cmake

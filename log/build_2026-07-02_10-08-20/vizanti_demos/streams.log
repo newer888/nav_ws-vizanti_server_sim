@@ -1,0 +1,74 @@
+[0.010s] Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_demos
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.112s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.280s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.503s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.546s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.551s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.748s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.792s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.801s] -- Looking for pthread.h
+[0.875s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.949s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.950s] -- Found Threads: TRUE  
+[0.993s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[0.995s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[1.004s] -- Found tf2_msgs: 0.25.20 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.052s] -- Found vizanti_msgs: 0.1.0 (/home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake)
+[1.081s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.167s] -- Configuring done
+[1.172s] -- Generating done
+[1.174s] -- Build files have been written to: /home/zr/code/src/build/vizanti_demos
+[1.185s] Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_demos
+[1.187s] Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_demos -- -j16 -l16
+[1.232s] Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/vizanti_demos -- -j16 -l16
+[1.234s] Invoking command in '/home/zr/code/src/build/vizanti_demos': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_demos
+[1.240s] -- Install configuration: ""
+[1.240s] -- Execute custom install script
+[1.241s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos//launch/test.launch.py
+[1.250s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos//launch/test.launch.xml
+[1.259s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos//assets/test_heightmap.png
+[1.267s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/particle_cloud_to_pose_array.py
+[1.276s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/path_to_nav2poses.py
+[1.287s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_occupancy_grid.py
+[1.297s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_grid_cells.py
+[1.307s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_marker_array.py
+[1.317s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_tf.py
+[1.326s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_button.py
+[1.336s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/test_parameters.py
+[1.346s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/lib/vizanti_demos/waypoints_to_simple_goals.py
+[1.355s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/ament_index/resource_index/package_run_dependencies/vizanti_demos
+[1.364s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/ament_index/resource_index/parent_prefix_path/vizanti_demos
+[1.372s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/environment/ament_prefix_path.sh
+[1.381s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/environment/ament_prefix_path.dsv
+[1.389s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/environment/path.sh
+[1.398s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/environment/path.dsv
+[1.408s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/local_setup.bash
+[1.415s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/local_setup.sh
+[1.425s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/local_setup.zsh
+[1.435s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/local_setup.dsv
+[1.444s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.dsv
+[1.454s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/ament_index/resource_index/packages/vizanti_demos
+[1.463s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/cmake/vizanti_demosConfig.cmake
+[1.471s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/cmake/vizanti_demosConfig-version.cmake
+[1.480s] -- Symlinking: /home/zr/code/src/install/vizanti_demos/share/vizanti_demos/package.xml
+[1.492s] Invoked command in '/home/zr/code/src/build/vizanti_demos' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/vizanti_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/vizanti_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/vizanti_demos

@@ -1,0 +1,57 @@
+[0.017s] Invoking command in '/home/zr/code/src/build/gac_robot_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16
+[0.111s] [  7%] Built target gac_robot_task__rosidl_generator_c
+[0.112s] [ 10%] Built target gac_robot_task__rs
+[0.113s] [ 12%] Built target gac_robot_task__cpp
+[0.128s] [ 12%] Built target ament_cmake_python_symlink_gac_robot_task
+[0.152s] [ 25%] Built target gac_robot_task__rosidl_typesupport_introspection_c
+[0.152s] [ 28%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c
+[0.152s] [ 35%] Built target gac_robot_task__rosidl_typesupport_c
+[0.153s] [ 58%] Built target gac_robot_task__rosidl_typesupport_cpp
+[0.154s] [ 58%] Built target gac_robot_task__rosidl_typesupport_introspection_cpp
+[0.154s] [ 58%] Built target gac_robot_task__rosidl_typesupport_fastrtps_cpp
+[0.191s] [ 58%] Built target gac_robot_task
+[0.229s] [ 61%] Built target gac_robot_task__py
+[0.239s] [ 64%] [32mBuilding CXX object CMakeFiles/gac_robot_task_node.dir/src/task_executor.cpp.o[0m
+[0.269s] [ 69%] Built target gac_robot_task__rosidl_generator_py
+[0.309s] [ 84%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c__pyext
+[0.309s] [ 84%] Built target gac_robot_task__rosidl_typesupport_c__pyext
+[0.309s] [ 84%] Built target gac_robot_task__rosidl_typesupport_introspection_c__pyext
+[0.419s] running egg_info
+[0.420s] writing gac_robot_task.egg-info/PKG-INFO
+[0.420s] writing dependency_links to gac_robot_task.egg-info/dependency_links.txt
+[0.421s] writing top-level names to gac_robot_task.egg-info/top_level.txt
+[0.423s] reading manifest file 'gac_robot_task.egg-info/SOURCES.txt'
+[0.424s] writing manifest file 'gac_robot_task.egg-info/SOURCES.txt'
+[0.469s] [ 84%] Built target ament_cmake_python_build_gac_robot_task_egg
+[0.744s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:19:6:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #mqtt_options_
+[0.744s]    19 |     #[01;31m[Kmqtt_options_[m[K.address = "tcp://127.0.0.1";
+[0.744s]       |      [01;31m[K^~~~~~~~~~~~~[m[K
+[3.269s] In file included from [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:2[m[K:
+[3.269s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::ConnectListener::on_failure(const mqtt::token&)[m[K’:
+[3.269s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:36:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.269s]    36 |   void on_failure([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.270s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::ConnectListener::on_success(const mqtt::token&)[m[K’:
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:42:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.270s]    42 |   void on_success([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.270s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::PublishListener::on_failure(const mqtt::token&)[m[K’:
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:60:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.270s]    60 |   void on_failure([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.270s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::PublishListener::on_success(const mqtt::token&)[m[K’:
+[3.270s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:64:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.270s]    64 |   void on_success([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {}
+[3.270s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.753s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:[m[K In member function ‘[01m[Kvoid gac_robot_task::TaskExecutor::ConnectHandler(const string&)[m[K’:
+[3.753s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:476:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcause[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.753s]   476 | void TaskExecutor::ConnectHandler([01;35m[Kconst std::string &cause[m[K) {
+[3.753s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.753s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:[m[K In member function ‘[01m[Kvoid gac_robot_task::TaskExecutor::DisconnectHandler(const mqtt::properties&, mqtt::ReasonCode)[m[K’:
+[3.753s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:489:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproperties[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.754s]   489 |   void TaskExecutor::DisconnectHandler([01;35m[Kconst mqtt::properties &properties[m[K,
+[3.754s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.299s] gmake[2]: *** [CMakeFiles/gac_robot_task_node.dir/build.make:111：CMakeFiles/gac_robot_task_node.dir/src/task_executor.cpp.o] 错误 1
+[5.299s] gmake[1]: *** [CMakeFiles/Makefile2:613：CMakeFiles/gac_robot_task_node.dir/all] 错误 2
+[5.300s] gmake: *** [Makefile:146：all] 错误 2
+[5.303s] Invoked command in '/home/zr/code/src/build/gac_robot_task' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16

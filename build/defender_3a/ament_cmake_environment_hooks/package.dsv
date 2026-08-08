@@ -1,0 +1,4 @@
+source;share/defender_3a/local_setup.bash
+source;share/defender_3a/local_setup.dsv
+source;share/defender_3a/local_setup.sh
+source;share/defender_3a/local_setup.zsh

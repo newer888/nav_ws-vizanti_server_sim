@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_generator_py/vizanti_server/_vizanti_server_s.ep.rosidl_typesupport_fastrtps_c.c

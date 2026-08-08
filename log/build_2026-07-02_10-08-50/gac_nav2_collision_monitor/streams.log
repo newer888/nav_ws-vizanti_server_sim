@@ -1,0 +1,101 @@
+[0.017s] Invoking command in '/home/zr/code/src/build/gac_nav2_collision_monitor': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_collision_monitor -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_collision_monitor
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.290s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.294s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.517s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.566s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.572s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.581s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.614s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.661s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.764s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.797s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.844s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.854s] -- Looking for pthread.h
+[0.929s] -- Looking for pthread.h - found
+[0.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.004s] -- Found Threads: TRUE  
+[1.052s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.080s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.112s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.117s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.174s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.195s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.196s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.196s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.201s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[1.202s] -- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+[1.282s] -- Found gac_nav2_costmap_2d: 1.1.14 (/home/zr/code/src/install/gac_nav2_costmap_2d/share/gac_nav2_costmap_2d/cmake)
+[1.377s] -- Setting build type to Release as none was specified.
+[1.485s] -- Configuring done
+[1.568s] -- Generating done
+[1.582s] -- Build files have been written to: /home/zr/code/src/build/gac_nav2_collision_monitor
+[1.599s] Invoked command in '/home/zr/code/src/build/gac_nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_collision_monitor -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_collision_monitor
+[1.601s] Invoking command in '/home/zr/code/src/build/gac_nav2_collision_monitor': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_collision_monitor -- -j16 -l16
+[1.657s] [ 27%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[1.657s] [ 27%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[1.657s] [ 27%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[1.657s] [ 36%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[1.658s] [ 45%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[1.658s] [ 54%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[1.658s] [ 63%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[1.658s] [ 72%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[2.229s] [ 81%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[2.700s] [ 81%] Built target collision_monitor_core
+[2.725s] [ 90%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[3.169s] [100%] [32m[1mLinking CXX executable collision_monitor[0m
+[3.465s] [100%] Built target collision_monitor
+[3.479s] Invoked command in '/home/zr/code/src/build/gac_nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_collision_monitor -- -j16 -l16
+[3.481s] Invoking command in '/home/zr/code/src/build/gac_nav2_collision_monitor': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_collision_monitor
+[3.490s] -- Install configuration: "Release"
+[3.490s] -- Execute custom install script
+[3.491s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/lib/libcollision_monitor_core.so
+[3.504s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/lib/gac_nav2_collision_monitor/collision_monitor
+[3.514s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[3.524s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[3.534s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[3.544s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[3.553s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[3.564s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[3.574s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[3.586s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[3.598s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[3.609s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[3.619s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/params/collision_monitor_params.yaml
+[3.628s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/library_path.sh
+[3.638s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/library_path.dsv
+[3.648s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/gac_nav2_collision_monitor
+[3.658s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/gac_nav2_collision_monitor
+[3.668s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/ament_prefix_path.sh
+[3.678s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/ament_prefix_path.dsv
+[3.693s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/path.sh
+[3.702s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/environment/path.dsv
+[3.712s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/local_setup.bash
+[3.723s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/local_setup.sh
+[3.733s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/local_setup.zsh
+[3.743s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/local_setup.dsv
+[3.752s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/package.dsv
+[3.761s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/ament_index/resource_index/packages/gac_nav2_collision_monitor
+[3.770s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/gac_nav2_collision_monitor
+[3.780s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.792s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[3.805s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.814s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/cmake/gac_nav2_collision_monitorConfig.cmake
+[3.825s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/cmake/gac_nav2_collision_monitorConfig-version.cmake
+[3.835s] -- Symlinking: /home/zr/code/src/install/gac_nav2_collision_monitor/share/gac_nav2_collision_monitor/package.xml
+[3.847s] Invoked command in '/home/zr/code/src/build/gac_nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_collision_monitor

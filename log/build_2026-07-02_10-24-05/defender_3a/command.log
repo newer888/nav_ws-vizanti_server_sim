@@ -1,0 +1,4 @@
+Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a
+Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a

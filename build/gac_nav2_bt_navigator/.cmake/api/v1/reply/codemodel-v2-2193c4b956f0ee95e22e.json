@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f28a81762c36c923f021.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gac_nav2_bt_navigator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator-Release-8233fa6eb6bca1df1087.json",
+					"name" : "bt_navigator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_navigator_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_navigator_core-Release-705b1a08247a59f2ba3d.json",
+					"name" : "bt_navigator_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gac_nav2_bt_navigator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gac_nav2_bt_navigator_uninstall-Release-ec6c3bf779177eaf3ff9.json",
+					"name" : "gac_nav2_bt_navigator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8e92d92045ad2a4a187b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/gac_nav2_bt_navigator",
+		"source" : "/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_bt_navigator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

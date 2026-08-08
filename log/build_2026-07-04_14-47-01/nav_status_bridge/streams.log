@@ -1,0 +1,49 @@
+[0.020s] Invoking command in '/home/zr/code/src/build/nav_status_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/nav_status_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_status_bridge
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.230s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.357s] -- Detecting CXX compiler ABI info
+[0.486s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.507s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.716s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.789s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.985s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.156s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.183s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.214s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.458s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.476s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.713s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.764s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.842s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.885s] -- Looking for pthread.h
+[2.011s] -- Looking for pthread.h - found
+[2.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.136s] -- Found Threads: TRUE  
+[2.248s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[2.358s] -- Configuring done
+[2.362s] CMake Error at CMakeLists.txt:13 (add_executable):
+[2.362s]   Target "status_bridge_node" links to target "action_msgs::action_msgs" but
+[2.362s]   the target was not found.  Perhaps a find_package() call is missing for an
+[2.362s]   IMPORTED target, or an ALIAS target is missing?
+[2.362s] 
+[2.362s] 
+[2.362s] CMake Error at CMakeLists.txt:13 (add_executable):
+[2.362s]   Target "status_bridge_node" links to target "std_msgs::std_msgs" but the
+[2.362s]   target was not found.  Perhaps a find_package() call is missing for an
+[2.362s]   IMPORTED target, or an ALIAS target is missing?
+[2.362s] 
+[2.362s] 
+[2.367s] -- Generating done
+[2.367s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.380s] Invoked command in '/home/zr/code/src/build/nav_status_bridge' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/nav_status_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_status_bridge

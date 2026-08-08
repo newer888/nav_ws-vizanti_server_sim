@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vizanti_server/msg/PatrolOutput.msg
+// generated code does not contain a copyright notice
+
+
+module vizanti_server {
+  module msg {
+    module PatrolOutput_Constants {
+      const uint8 PATROL_STATUS_UN_INITIAL = 0;
+      const uint8 PATROL_STATUS_READY = 1;
+      const uint8 PATROL_STATUS_SETTING_ROUTE = 2;
+      const uint8 PATROL_STATUS_PATROLLING = 3;
+    };
+    @verbatim (language="comment", text=
+      "")
+    struct PatrolOutput {
+      uint8 patrol_status;
+
+      uint32 route_id;
+    };
+  };
+};

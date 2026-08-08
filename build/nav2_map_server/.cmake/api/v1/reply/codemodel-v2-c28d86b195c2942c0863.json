@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ed7ceb8c3ff40bdda519.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_map_server",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_filter_info_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_filter_info_server-Release-401fe0a0f228a4bf67d2.json",
+					"name" : "costmap_filter_info_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_io-Release-e654bbe7dc5644855a37.json",
+					"name" : "map_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_cli-Release-85ec3e3f5827d844cd57.json",
+					"name" : "map_saver_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_server-Release-a57ef1c9d4df85e35533.json",
+					"name" : "map_saver_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server-Release-e844a844b962e98b08d1.json",
+					"name" : "map_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server_core-Release-817ae400702f9e3648f1.json",
+					"name" : "map_server_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_map_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_map_server_uninstall-Release-2751527bf62e62848d7a.json",
+					"name" : "nav2_map_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-b4bff974d6155d2a9d3f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/nav2_map_server",
+		"source" : "/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_map_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

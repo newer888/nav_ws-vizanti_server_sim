@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000140] (-) JobUnselected: {'identifier': 'defender_3a'}
+[0.000180] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000192] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000201] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000211] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000220] (-) JobUnselected: {'identifier': 'gac_nav2_behavior_tree'}
+[0.000229] (-) JobUnselected: {'identifier': 'gac_nav2_behaviors'}
+[0.000238] (-) JobUnselected: {'identifier': 'gac_nav2_bringup'}
+[0.000247] (-) JobUnselected: {'identifier': 'gac_nav2_bt_navigator'}
+[0.000261] (-) JobUnselected: {'identifier': 'gac_nav2_collision_monitor'}
+[0.000272] (-) JobUnselected: {'identifier': 'gac_nav2_controller'}
+[0.000285] (-) JobUnselected: {'identifier': 'gac_nav2_core'}
+[0.000295] (-) JobUnselected: {'identifier': 'gac_nav2_costmap_2d'}
+[0.000304] (-) JobUnselected: {'identifier': 'gac_nav2_planner'}
+[0.000313] (-) JobUnselected: {'identifier': 'gac_nav2_smoother'}
+[0.000322] (-) JobUnselected: {'identifier': 'gac_nav2_velocity_smoother'}
+[0.000331] (-) JobUnselected: {'identifier': 'gac_nav2_voxel_grid'}
+[0.000339] (-) JobUnselected: {'identifier': 'gac_nav2_waypoint_follower'}
+[0.000348] (-) JobUnselected: {'identifier': 'gac_navigation2'}
+[0.000357] (-) JobUnselected: {'identifier': 'gac_robot_msgs'}
+[0.000367] (-) JobUnselected: {'identifier': 'gac_robot_task'}
+[0.000375] (-) JobUnselected: {'identifier': 'gac_robot_task_py'}
+[0.000384] (-) JobUnselected: {'identifier': 'laser_odom_transformer'}
+[0.000393] (-) JobUnselected: {'identifier': 'mqtt_nav_control_cpp'}
+[0.000402] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000411] (-) JobUnselected: {'identifier': 'nav2_fixed_path_route'}
+[0.000419] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000428] (-) JobUnselected: {'identifier': 'nav2_keepout_pkg'}
+[0.000437] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000446] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000454] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.000467] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.000481] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.000491] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.000500] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.000509] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.000518] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.000527] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.000535] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.000544] (-) JobUnselected: {'identifier': 'record_path'}
+[0.000552] (-) JobUnselected: {'identifier': 'road_network_collection_py'}
+[0.000561] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.000570] (-) JobUnselected: {'identifier': 'robot_relate'}
+[0.000578] (-) JobUnselected: {'identifier': 'rws'}
+[0.000587] (-) JobUnselected: {'identifier': 'sim_amcl_bringup'}
+[0.000596] (-) JobUnselected: {'identifier': 'vizanti'}
+[0.000604] (-) JobUnselected: {'identifier': 'vizanti_cpp'}
+[0.000613] (-) JobUnselected: {'identifier': 'vizanti_demos'}
+[0.000622] (-) JobUnselected: {'identifier': 'vizanti_msgs'}
+[0.000631] (-) JobUnselected: {'identifier': 'vizanti_server'}
+[0.000665] (robot_relate_python) JobQueued: {'identifier': 'robot_relate_python', 'dependencies': OrderedDict()}
+[0.000678] (robot_relate_python) JobStarted: {'identifier': 'robot_relate_python'}
+[0.099310] (-) TimerEvent: {}
+[0.199631] (-) TimerEvent: {}
+[0.299961] (-) TimerEvent: {}
+[0.400264] (-) TimerEvent: {}
+[0.500578] (-) TimerEvent: {}
+[0.600886] (-) TimerEvent: {}
+[0.666576] (robot_relate_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_relate_python', 'build', '--build-base', '/home/zr/code/src/build/robot_relate_python/build', 'install', '--record', '/home/zr/code/src/build/robot_relate_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zr/code/src/sim/robot_relate_python', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHON_BASIC_REPL': '1', 'LANGUAGE': 'zh_CN:zh', 'USER': 'zr', 'FONTCONFIG_PATH': '/etc/fonts', 'GIO_MODULE_DIR': '/home/zr/snap/code/common/.cache/gio-modules', 'XDG_SESSION_TYPE': 'wayland', 'GTK_EXE_PREFIX_VSCODE_SNAP_ORIG': '', 'GIT_ASKPASS': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'GDK_BACKEND_VSCODE_SNAP_ORIG': '', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/zr', 'LOCPATH_VSCODE_SNAP_ORIG': '', 'OLDPWD': '/home/zr/code', 'CHROME_DESKTOP': 'code.desktop', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'GTK_PATH': '/snap/code/243/usr/lib/x86_64-linux-gnu/gtk-3.0', 'TERM_PROGRAM_VERSION': '1.122.1', 'XDG_DATA_HOME_VSCODE_SNAP_ORIG': '', 'GTK_IM_MODULE_FILE': '/home/zr/snap/code/common/.cache/immodules/immodules.cache', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ZSH': '/home/zr/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG': '', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/snap/code/243/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'MANAGERPID': '2081', 'VSCODE_GIT_ASKPASS_NODE': '/snap/code/243/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2442', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '514998', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'zr', 'JOURNAL_STREAM': '8:18024', 'DASHSCOPE_API_KEY': 'sk-ws-H.RYPRIRL.uEQl.MEQCIBaPkQFiwmggGQG2j-eQqlx0jUKGgvc8xuY5ryaWOVFPAiA39pqgprmbOk6GWliP3hWoakAgSJGUjEMQZN5OYfvY6Q', '_': '/usr/bin/colcon', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'ROS_VERSION': '2', 'CLAUDE_CODE_SSE_PORT': '43973', 'USER_ZDOTDIR': '/home/zr', 'USERNAME': 'zr', 'ANTHROPIC_BASE_URL': 'http://127.0.0.1:15678', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/zr/.npm-global/bin:/home/zr/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/zr/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/zr/.npm-global/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zr/.local/bin:/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zr/.local/bin', 'SESSION_MANAGER': 'local/zr-XiaoXinPro-16-ARP8:@/tmp/.ICE-unix/2406,unix/zr-XiaoXinPro-16-ARP8:/tmp/.ICE-unix/2406', 'GTK_EXE_PREFIX': '/snap/code/243/usr', 'INVOCATION_ID': '3068ec5348eb40d482f07d19c93a586d', 'ANTHROPIC_API_KEY': 'sk-proxy-dummy', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LOCPATH': '/snap/code/243/usr/lib/locale', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zr/.config/Code/User/workspaceStorage/76ac3ebcc852d0102c60b89148733dfa/ms-python.python/pythonrc.py', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zr/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d3b275380f474eaf.txt', 'VSCODE_INJECTION': '1', 'GIO_MODULE_DIR_VSCODE_SNAP_ORIG': '', 'XDG_DATA_HOME': '/home/zr/snap/code/243/.local/share', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.EZ3NR3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-28b9e352fc.sock', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'GSETTINGS_SCHEMA_DIR': '/home/zr/snap/code/243/.local/share/glib-2.0/schemas', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GTK_PATH_VSCODE_SNAP_ORIG': '', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG': '', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/zr/code/src/build/robot_relate_python', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/home/zr/snap/code/243/.local/share:/home/zr/snap/code/243:/snap/code/243/usr/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COPILOT_DEBUG_NONCE': '06f854fcec53c484ce5a85bf18639743', 'ZDOTDIR': '/home/zr', 'PYTHONPATH': '/home/zr/code/src/build/robot_relate_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.700985] (-) TimerEvent: {}
+[0.801307] (-) TimerEvent: {}
+[0.887982] (robot_relate_python) StdoutLine: {'line': b'running egg_info\n'}
+[0.888547] (robot_relate_python) StdoutLine: {'line': b'creating ../../build/robot_relate_python/robot_relate_python.egg-info\n'}
+[0.888764] (robot_relate_python) StdoutLine: {'line': b'writing ../../build/robot_relate_python/robot_relate_python.egg-info/PKG-INFO\n'}
+[0.888959] (robot_relate_python) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_relate_python/robot_relate_python.egg-info/dependency_links.txt\n'}
+[0.889082] (robot_relate_python) StdoutLine: {'line': b'writing entry points to ../../build/robot_relate_python/robot_relate_python.egg-info/entry_points.txt\n'}
+[0.889186] (robot_relate_python) StdoutLine: {'line': b'writing requirements to ../../build/robot_relate_python/robot_relate_python.egg-info/requires.txt\n'}
+[0.889281] (robot_relate_python) StdoutLine: {'line': b'writing top-level names to ../../build/robot_relate_python/robot_relate_python.egg-info/top_level.txt\n'}
+[0.889384] (robot_relate_python) StdoutLine: {'line': b"writing manifest file '../../build/robot_relate_python/robot_relate_python.egg-info/SOURCES.txt'\n"}
+[0.890767] (robot_relate_python) StdoutLine: {'line': b"reading manifest file '../../build/robot_relate_python/robot_relate_python.egg-info/SOURCES.txt'\n"}
+[0.890905] (robot_relate_python) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.891343] (robot_relate_python) StdoutLine: {'line': b"writing manifest file '../../build/robot_relate_python/robot_relate_python.egg-info/SOURCES.txt'\n"}
+[0.891431] (robot_relate_python) StdoutLine: {'line': b'running build\n'}
+[0.891480] (robot_relate_python) StdoutLine: {'line': b'running build_py\n'}
+[0.891580] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/build/robot_relate_python/build\n'}
+[0.891676] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/build/robot_relate_python/build/lib\n'}
+[0.891766] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.891877] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/set_initpose.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.901397] (-) TimerEvent: {}
+[0.925457] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/get_realtime_pose.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.925925] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/navigation_to_pose.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.926259] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/__init__.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.926464] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/waypoint_follow.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.926908] (robot_relate_python) StdoutLine: {'line': b'copying robot_relate_python/cancel_navigation.py -> /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python\n'}
+[0.927312] (robot_relate_python) StdoutLine: {'line': b'running install\n'}
+[0.927659] (robot_relate_python) StdoutLine: {'line': b'running install_lib\n'}
+[0.928566] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.928658] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/set_initpose.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.928744] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/get_realtime_pose.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.928831] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/navigation_to_pose.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.928924] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/__init__.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.929027] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/waypoint_follow.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.929116] (robot_relate_python) StdoutLine: {'line': b'copying /home/zr/code/src/build/robot_relate_python/build/lib/robot_relate_python/cancel_navigation.py -> /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python\n'}
+[0.929487] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/set_initpose.py to set_initpose.cpython-310.pyc\n'}
+[0.929835] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/get_realtime_pose.py to get_realtime_pose.cpython-310.pyc\n'}
+[0.930145] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/navigation_to_pose.py to navigation_to_pose.cpython-310.pyc\n'}
+[0.930429] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/__init__.py to __init__.cpython-310.pyc\n'}
+[0.930558] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/waypoint_follow.py to waypoint_follow.cpython-310.pyc\n'}
+[0.930985] (robot_relate_python) StdoutLine: {'line': b'byte-compiling /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python/cancel_navigation.py to cancel_navigation.cpython-310.pyc\n'}
+[0.931324] (robot_relate_python) StdoutLine: {'line': b'running install_data\n'}
+[0.931397] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/install/robot_relate_python/share/ament_index\n'}
+[0.931464] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/install/robot_relate_python/share/ament_index/resource_index\n'}
+[0.931530] (robot_relate_python) StdoutLine: {'line': b'creating /home/zr/code/src/install/robot_relate_python/share/ament_index/resource_index/packages\n'}
+[0.931566] (robot_relate_python) StdoutLine: {'line': b'copying resource/robot_relate_python -> /home/zr/code/src/install/robot_relate_python/share/ament_index/resource_index/packages\n'}
+[0.931617] (robot_relate_python) StdoutLine: {'line': b'copying package.xml -> /home/zr/code/src/install/robot_relate_python/share/robot_relate_python\n'}
+[0.931682] (robot_relate_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.935502] (robot_relate_python) StdoutLine: {'line': b'Copying ../../build/robot_relate_python/robot_relate_python.egg-info to /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot_relate_python-0.0.0-py3.10.egg-info\n'}
+[0.935651] (robot_relate_python) StdoutLine: {'line': b'running install_scripts\n'}
+[0.955860] (robot_relate_python) StdoutLine: {'line': b'Installing cancel_navigation script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python\n'}
+[0.956041] (robot_relate_python) StdoutLine: {'line': b'Installing get_realtime_pose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python\n'}
+[0.956099] (robot_relate_python) StdoutLine: {'line': b'Installing navigation_to_pose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python\n'}
+[0.956154] (robot_relate_python) StdoutLine: {'line': b'Installing set_initpose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python\n'}
+[0.956211] (robot_relate_python) StdoutLine: {'line': b'Installing waypoint_follow script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python\n'}
+[0.956266] (robot_relate_python) StdoutLine: {'line': b"writing list of installed files to '/home/zr/code/src/build/robot_relate_python/install.log'\n"}
+[0.989773] (robot_relate_python) CommandEnded: {'returncode': 0}
+[0.997402] (robot_relate_python) JobEnded: {'identifier': 'robot_relate_python', 'rc': 0}
+[0.998040] (-) EventReactorShutdown: {}

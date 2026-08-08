@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_typesupport_introspection_cpp/vizanti_server/msg/detail/patrol_output__rosidl_typesupport_introspection_cpp.hpp

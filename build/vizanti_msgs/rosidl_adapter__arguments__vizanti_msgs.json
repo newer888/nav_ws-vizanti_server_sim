@@ -1,0 +1,14 @@
+{
+  "package_name": "vizanti_msgs",
+  "non_idl_tuples": [
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/GetNodeParameters.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/SetNodeParameter.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/SaveMap.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/LoadMap.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/RecordRosbag.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/ManageNode.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/ListPackages.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/ListExecutables.srv",
+    "/home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs:srv/ListLifecycles.srv"
+  ]
+}

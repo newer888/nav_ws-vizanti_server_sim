@@ -1,0 +1,322 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+-- Setting build type to Release as none was specified.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zr/code/src/build/gac_nav2_behavior_tree
+[  2%] [32mBuilding CXX object CMakeFiles/gac_nav2_behavior_tree.dir/src/behavior_tree_engine.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_cancel_bt_node.dir/plugins/action/assisted_teleop_cancel_node.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/nav2_smooth_path_action_bt_node.dir/plugins/action/smooth_path_action.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_cancel_bt_node.dir/plugins/action/drive_on_heading_cancel_node.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/nav2_back_up_action_bt_node.dir/plugins/action/back_up_action.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/nav2_follow_path_action_bt_node.dir/plugins/action/follow_path_action.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_bt_node.dir/plugins/action/drive_on_heading_action.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_action_bt_node.dir/plugins/action/assisted_teleop_action.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/nav2_wait_action_bt_node.dir/plugins/action/wait_action.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/nav2_spin_action_bt_node.dir/plugins/action/spin_action.cpp.o[0m
+[ 17%] [32m[1mLinking CXX shared library libgac_nav2_behavior_tree.so[0m
+[ 17%] Built target gac_nav2_behavior_tree
+[ 18%] [32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so[0m
+[ 20%] [32m[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so[0m
+[ 20%] Built target nav2_back_up_cancel_bt_node
+[ 21%] [32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o[0m
+[ 21%] Built target nav2_controller_cancel_bt_node
+[ 22%] [32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so[0m
+[ 24%] [32m[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so[0m
+[ 25%] [32m[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so[0m
+[ 25%] Built target nav2_spin_cancel_bt_node
+[ 26%] [32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o[0m
+[ 26%] Built target nav2_transform_available_condition_bt_node
+[ 27%] [32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o[0m
+[ 27%] Built target nav2_is_stuck_condition_bt_node
+[ 28%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o[0m
+[ 29%] [32m[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so[0m
+[ 30%] [32m[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so[0m
+[ 31%] [32m[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so[0m
+[ 32%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_action_bt_node.so[0m
+[ 32%] Built target nav2_goal_reached_condition_bt_node
+[ 33%] [32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o[0m
+[ 33%] Built target nav2_goal_updated_condition_bt_node
+[ 34%] [32m[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libnav2_wait_action_bt_node.so[0m
+[ 36%] Built target nav2_wait_cancel_bt_node
+[ 36%] Built target nav2_assisted_teleop_action_bt_node
+[ 37%] [32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o[0m
+[ 38%] Built target nav2_globally_updated_goal_condition_bt_node
+[ 39%] [32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o[0m
+[ 39%] Built target nav2_wait_action_bt_node
+[ 40%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_charging_condition_bt_node.dir/plugins/condition/is_battery_charging_condition.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so[0m
+[ 42%] [32m[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so[0m
+[ 43%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_cancel_bt_node.so[0m
+[ 44%] [32m[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so[0m
+[ 45%] [32m[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so[0m
+[ 45%] Built target nav2_path_expiring_timer_condition
+[ 46%] [32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o[0m
+[ 47%] [32m[1mLinking CXX shared library libnav2_is_battery_charging_condition_bt_node.so[0m
+[ 47%] Built target nav2_initial_pose_received_condition_bt_node
+[ 48%] [32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o[0m
+[ 48%] Built target nav2_time_expired_condition_bt_node
+[ 49%] [32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_cancel_bt_node.so[0m
+[ 50%] Built target nav2_assisted_teleop_cancel_bt_node
+[ 51%] [32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o[0m
+[ 51%] Built target nav2_distance_traveled_condition_bt_node
+[ 52%] [32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o[0m
+[ 52%] Built target nav2_drive_on_heading_cancel_bt_node
+[ 52%] Built target nav2_is_battery_charging_condition_bt_node
+[ 53%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library libnav2_back_up_action_bt_node.so[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o[0m
+[ 56%] [32m[1mLinking CXX shared library libnav2_rate_controller_bt_node.so[0m
+[ 57%] [32m[1mLinking CXX shared library libnav2_smooth_path_action_bt_node.so[0m
+[ 58%] [32m[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so[0m
+[ 59%] [32m[1mLinking CXX shared library libnav2_distance_controller_bt_node.so[0m
+[ 59%] Built target nav2_back_up_action_bt_node
+[ 60%] [32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o[0m
+[ 60%] Built target nav2_rate_controller_bt_node
+[ 61%] [32m[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o[0m
+[ 63%] [32m[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so[0m
+[ 63%] Built target nav2_distance_controller_bt_node
+[ 64%] [32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o[0m
+[ 64%] Built target nav2_reinitialize_global_localization_service_bt_node
+[ 65%] [32m[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o[0m
+[ 66%] Built target nav2_compute_path_through_poses_action_bt_node
+[ 66%] Built target nav2_smooth_path_action_bt_node
+[ 67%] [32m[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o[0m
+[ 70%] [32m[1mLinking CXX shared library libnav2_speed_controller_bt_node.so[0m
+[ 71%] [32m[1mLinking CXX shared library libnav2_recovery_node_bt_node.so[0m
+[ 71%] Built target nav2_truncate_path_local_action_bt_node
+[ 71%] Built target nav2_is_battery_low_condition_bt_node
+[ 72%] [32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libnav2_spin_action_bt_node.so[0m
+[ 75%] [32m[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so[0m
+[ 75%] Built target nav2_truncate_path_action_bt_node
+[ 76%] [32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o[0m
+[ 77%] Built target nav2_recovery_node_bt_node
+[ 77%] [32m[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o[0m
+[ 78%] Built target nav2_speed_controller_bt_node
+[ 79%] [32m[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so[0m
+[ 80%] [32m[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so[0m
+[ 82%] Built target nav2_spin_action_bt_node
+[ 83%] [32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o[0m
+[ 83%] Built target nav2_path_longer_on_approach_bt_node
+[ 84%] [32m[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o[0m
+[ 85%] Built target nav2_goal_updater_node_bt_node
+[ 86%] [32m[1mLinking CXX shared library libnav2_single_trigger_bt_node.so[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/nav2_progress_checker_selector_bt_node.dir/plugins/action/progress_checker_selector_node.cpp.o[0m
+[ 87%] Built target nav2_round_robin_node_bt_node
+[ 87%] Built target nav2_pipeline_sequence_bt_node
+[ 87%] Built target nav2_compute_path_to_pose_action_bt_node
+[ 88%] [32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o[0m
+[ 89%] [32m[1mLinking CXX shared library libnav2_controller_selector_bt_node.so[0m
+[ 90%] [32m[1mLinking CXX shared library libnav2_planner_selector_bt_node.so[0m
+[ 90%] Built target nav2_remove_passed_goals_action_bt_node
+[ 90%] Built target nav2_single_trigger_bt_node
+[ 91%] [32m[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so[0m
+[ 92%] [32m[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so[0m
+[ 93%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_bt_node.so[0m
+[ 93%] Built target nav2_controller_selector_bt_node
+[ 93%] Built target nav2_planner_selector_bt_node
+[ 94%] [32m[1mLinking CXX shared library libnav2_progress_checker_selector_bt_node.so[0m
+[ 94%] Built target nav2_drive_on_heading_bt_node
+[ 94%] Built target nav2_goal_checker_selector_bt_node
+[ 94%] Built target nav2_smoother_selector_bt_node
+[ 95%] [32m[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so[0m
+[ 96%] [32m[1mLinking CXX shared library libnav2_follow_path_action_bt_node.so[0m
+[ 96%] Built target nav2_progress_checker_selector_bt_node
+[ 96%] Built target nav2_goal_updated_controller_bt_node
+[ 96%] Built target nav2_follow_path_action_bt_node
+[ 97%] [32m[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so[0m
+[ 97%] Built target nav2_clear_costmap_service_bt_node
+[ 98%] [32m[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so[0m
+[ 98%] Built target nav2_is_path_valid_condition_bt_node
+[ 99%] [32m[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so[0m
+[ 99%] Built target nav2_navigate_to_pose_action_bt_node
+[100%] [32m[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so[0m
+[100%] Built target nav2_navigate_through_poses_action_bt_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libgac_nav2_behavior_tree.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/nav2_tree_nodes.xml
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/library_path.sh
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/library_path.dsv
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/gac_nav2_behavior_tree
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/gac_nav2_behavior_tree
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/ament_prefix_path.sh
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/ament_prefix_path.dsv
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/path.sh
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/environment/path.dsv
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/local_setup.bash
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/local_setup.sh
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/local_setup.zsh
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/local_setup.dsv
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/package.dsv
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/ament_index/resource_index/packages/gac_nav2_behavior_tree
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake/gac_nav2_behavior_treeConfig.cmake
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake/gac_nav2_behavior_treeConfig-version.cmake
+-- Symlinking: /home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/package.xml

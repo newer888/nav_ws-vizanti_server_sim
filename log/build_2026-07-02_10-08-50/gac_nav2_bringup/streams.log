@@ -1,0 +1,50 @@
+[0.053s] Invoking command in '/home/zr/code/src/build/gac_nav2_bringup': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_bringup -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_bringup
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.395s] -- The CXX compiler identification is GNU 11.4.0
+[0.423s] -- Detecting C compiler ABI info
+[0.633s] -- Detecting C compiler ABI info - done
+[0.653s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.653s] -- Detecting C compile features
+[0.653s] -- Detecting C compile features - done
+[0.675s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.883s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.883s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.231s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.361s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.517s] -- Configuring done
+[1.523s] -- Generating done
+[1.526s] -- Build files have been written to: /home/zr/code/src/build/gac_nav2_bringup
+[1.536s] Invoked command in '/home/zr/code/src/build/gac_nav2_bringup' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_bringup -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_bringup
+[1.537s] Invoking command in '/home/zr/code/src/build/gac_nav2_bringup': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_bringup -- -j16 -l16
+[1.605s] Invoked command in '/home/zr/code/src/build/gac_nav2_bringup' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_bringup -- -j16 -l16
+[1.610s] Invoking command in '/home/zr/code/src/build/gac_nav2_bringup': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_bringup
+[1.621s] -- Install configuration: ""
+[1.622s] -- Execute custom install script
+[1.622s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/launch/bringup_launch.py
+[1.636s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/launch/localization_launch.py
+[1.658s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/launch/navigation_launch.py
+[1.678s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/launch/slam_launch.py
+[1.696s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/maps/default.pgm
+[1.710s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/maps/default.yaml
+[1.722s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/params/gac_nav2_params.yaml
+[1.732s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/params/gac_navigation_ws.service
+[1.749s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/params/navigation_ws.sh
+[1.766s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/ament_index/resource_index/package_run_dependencies/gac_nav2_bringup
+[1.780s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/ament_index/resource_index/parent_prefix_path/gac_nav2_bringup
+[1.796s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/environment/ament_prefix_path.sh
+[1.811s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/environment/ament_prefix_path.dsv
+[1.825s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/environment/path.sh
+[1.840s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/environment/path.dsv
+[1.857s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/local_setup.bash
+[1.873s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/local_setup.sh
+[1.888s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/local_setup.zsh
+[1.902s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/local_setup.dsv
+[1.918s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/package.dsv
+[1.933s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/ament_index/resource_index/packages/gac_nav2_bringup
+[1.947s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/cmake/gac_nav2_bringupConfig.cmake
+[1.962s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/cmake/gac_nav2_bringupConfig-version.cmake
+[1.978s] -- Symlinking: /home/zr/code/src/install/gac_nav2_bringup/share/gac_nav2_bringup/package.xml
+[1.997s] Invoked command in '/home/zr/code/src/build/gac_nav2_bringup' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_bringup

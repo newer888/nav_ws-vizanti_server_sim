@@ -1,0 +1,88 @@
+[0.032s] Invoking command in '/home/zr/code/src/build/dwb_core': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/dwb_core -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/dwb_core
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.244s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.376s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.604s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.664s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.671s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.728s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.735s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.746s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.765s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.833s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.837s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.949s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.985s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.031s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.044s] -- Looking for pthread.h
+[1.124s] -- Looking for pthread.h - found
+[1.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.204s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.205s] -- Found Threads: TRUE  
+[1.257s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.277s] -- Found nav_2d_msgs: 1.1.14 (/home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.291s] -- Found dwb_msgs: 1.1.14 (/home/zr/code/src/install/dwb_msgs/share/dwb_msgs/cmake)
+[1.325s] -- Found gac_nav2_costmap_2d: 1.1.14 (/home/zr/code/src/install/gac_nav2_costmap_2d/share/gac_nav2_costmap_2d/cmake)
+[1.527s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.527s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.655s] -- Found nav_2d_utils: 1.1.14 (/home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[1.669s] -- Found gac_nav2_core: 1.1.14 (/home/zr/code/src/install/gac_nav2_core/share/gac_nav2_core/cmake)
+[1.681s] -- Setting build type to Release as none was specified.
+[1.986s] -- Configuring done
+[2.091s] -- Generating done
+[2.098s] -- Build files have been written to: /home/zr/code/src/build/dwb_core
+[2.113s] Invoked command in '/home/zr/code/src/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/dwb_core -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/dwb_core
+[2.115s] Invoking command in '/home/zr/code/src/build/dwb_core': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/dwb_core -- -j16 -l16
+[2.185s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[2.185s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[2.185s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[2.185s] [ 80%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[18.669s] [100%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[19.086s] [100%] Built target dwb_core
+[19.104s] Invoked command in '/home/zr/code/src/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/dwb_core -- -j16 -l16
+[19.107s] Invoking command in '/home/zr/code/src/build/dwb_core': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/dwb_core
+[19.117s] -- Install configuration: "Release"
+[19.117s] -- Execute custom install script
+[19.117s] -- Symlinking: /home/zr/code/src/install/dwb_core/lib/libdwb_core.so
+[19.129s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[19.140s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/exceptions.hpp
+[19.151s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[19.161s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/publisher.hpp
+[19.172s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[19.184s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[19.198s] -- Symlinking: /home/zr/code/src/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[19.211s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/library_path.sh
+[19.222s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[19.233s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core//local_planner_plugin.xml
+[19.244s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[19.255s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[19.265s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[19.276s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[19.290s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/path.sh
+[19.303s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/environment/path.dsv
+[19.315s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/local_setup.bash
+[19.325s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/local_setup.sh
+[19.336s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/local_setup.zsh
+[19.346s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/local_setup.dsv
+[19.357s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/package.dsv
+[19.367s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[19.378s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/ament_index/resource_index/gac_nav2_core__pluginlib__plugin/dwb_core
+[19.392s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.406s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[19.417s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.429s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[19.440s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[19.451s] -- Symlinking: /home/zr/code/src/install/dwb_core/share/dwb_core/package.xml
+[19.464s] Invoked command in '/home/zr/code/src/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/dwb_msgs:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/dwb_msgs/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/dwb_core

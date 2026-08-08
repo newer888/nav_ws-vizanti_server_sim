@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_msgs/rosidl_generator_c/vizanti_msgs/srv/detail/record_rosbag__type_support.h

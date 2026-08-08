@@ -1,0 +1,117 @@
+[0.052s] Invoking command in '/home/zr/code/src/build/gac_nav2_behaviors': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_behaviors -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_behaviors
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.272s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.364s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.368s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.609s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.611s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.662s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.669s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.679s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.714s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.762s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.766s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.871s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.903s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.953s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.965s] -- Looking for pthread.h
+[1.046s] -- Looking for pthread.h - found
+[1.046s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.126s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.127s] -- Found Threads: TRUE  
+[1.174s] -- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.214s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.235s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.296s] -- Found gac_nav2_behavior_tree: 1.1.14 (/home/zr/code/src/install/gac_nav2_behavior_tree/share/gac_nav2_behavior_tree/cmake)
+[1.442s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.443s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.443s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.490s] -- Found gac_nav2_costmap_2d: 1.1.14 (/home/zr/code/src/install/gac_nav2_costmap_2d/share/gac_nav2_costmap_2d/cmake)
+[1.583s] -- Found gac_nav2_core: 1.1.14 (/home/zr/code/src/install/gac_nav2_core/share/gac_nav2_core/cmake)
+[1.593s] -- Setting build type to Release as none was specified.
+[2.596s] -- Configuring done
+[3.055s] -- Generating done
+[3.130s] -- Build files have been written to: /home/zr/code/src/build/gac_nav2_behaviors
+[3.151s] Invoked command in '/home/zr/code/src/build/gac_nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_behaviors -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_behaviors
+[3.153s] Invoking command in '/home/zr/code/src/build/gac_nav2_behaviors': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_behaviors -- -j16 -l16
+[3.227s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_wait_behavior.dir/plugins/wait.cpp.o[0m
+[3.230s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_spin_behavior.dir/plugins/spin.cpp.o[0m
+[3.233s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_drive_on_heading_behavior.dir/plugins/drive_on_heading.cpp.o[0m
+[3.234s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_assisted_teleop_behavior.dir/plugins/assisted_teleop.cpp.o[0m
+[3.234s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_back_up_behavior.dir/plugins/back_up.cpp.o[0m
+[3.242s] [ 42%] [32mBuilding CXX object CMakeFiles/behavior_server_core.dir/src/behavior_server.cpp.o[0m
+[16.183s] [ 50%] [32m[1mLinking CXX shared library libnav2_back_up_behavior.so[0m
+[16.719s] [ 57%] [32m[1mLinking CXX shared library libnav2_spin_behavior.so[0m
+[16.781s] [ 64%] [32m[1mLinking CXX shared library libnav2_wait_behavior.so[0m
+[16.792s] [ 64%] Built target nav2_back_up_behavior
+[17.022s] [ 71%] [32m[1mLinking CXX shared library libnav2_drive_on_heading_behavior.so[0m
+[17.247s] [ 71%] Built target nav2_spin_behavior
+[17.352s] [ 71%] Built target nav2_wait_behavior
+[17.501s] [ 71%] Built target nav2_drive_on_heading_behavior
+[17.991s] [ 78%] [32m[1mLinking CXX shared library libbehavior_server_core.so[0m
+[18.405s] [ 78%] Built target behavior_server_core
+[18.440s] [ 85%] [32mBuilding CXX object CMakeFiles/behavior_server.dir/src/main.cpp.o[0m
+[24.083s] [ 92%] [32m[1mLinking CXX executable behavior_server[0m
+[24.436s] [ 92%] Built target behavior_server
+[25.260s] [100%] [32m[1mLinking CXX shared library libnav2_assisted_teleop_behavior.so[0m
+[25.689s] [100%] Built target nav2_assisted_teleop_behavior
+[25.727s] Invoked command in '/home/zr/code/src/build/gac_nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_behaviors -- -j16 -l16
+[25.729s] Invoking command in '/home/zr/code/src/build/gac_nav2_behaviors': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_behaviors
+[25.738s] -- Install configuration: "Release"
+[25.738s] -- Execute custom install script
+[25.738s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors//behavior_plugin.xml
+[25.751s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libbehavior_server_core.so
+[25.764s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libnav2_spin_behavior.so
+[25.774s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libnav2_wait_behavior.so
+[25.784s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[25.795s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[25.806s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/libnav2_back_up_behavior.so
+[25.817s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/lib/gac_nav2_behaviors/behavior_server
+[25.827s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[25.838s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+[25.850s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+[25.863s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+[25.874s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+[25.885s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+[25.896s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[25.907s] -- Up-to-date symlink: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/behavior_plugin.xml
+[25.907s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/plugins//assisted_teleop.cpp
+[25.917s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/plugins//back_up.cpp
+[25.928s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/plugins//drive_on_heading.cpp
+[25.938s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/plugins//spin.cpp
+[25.951s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/plugins//wait.cpp
+[25.964s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/library_path.sh
+[25.975s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/library_path.dsv
+[25.985s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/gac_nav2_behaviors
+[25.996s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/gac_nav2_behaviors
+[26.005s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/ament_prefix_path.sh
+[26.016s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/ament_prefix_path.dsv
+[26.026s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/path.sh
+[26.036s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/environment/path.dsv
+[26.049s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/local_setup.bash
+[26.062s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/local_setup.sh
+[26.073s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/local_setup.zsh
+[26.083s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/local_setup.dsv
+[26.093s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/package.dsv
+[26.103s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/ament_index/resource_index/packages/gac_nav2_behaviors
+[26.113s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/ament_index/resource_index/rclcpp_components/gac_nav2_behaviors
+[26.123s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/ament_index/resource_index/gac_nav2_core__pluginlib__plugin/gac_nav2_behaviors
+[26.133s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.144s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[26.158s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.170s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/cmake/gac_nav2_behaviorsConfig.cmake
+[26.184s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/cmake/gac_nav2_behaviorsConfig-version.cmake
+[26.198s] -- Symlinking: /home/zr/code/src/install/gac_nav2_behaviors/share/gac_nav2_behaviors/package.xml
+[26.213s] Invoked command in '/home/zr/code/src/build/gac_nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/gac_nav2_behavior_tree:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/gac_nav2_behavior_tree/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_behaviors

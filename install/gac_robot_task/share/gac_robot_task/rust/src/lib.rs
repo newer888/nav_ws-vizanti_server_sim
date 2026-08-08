@@ -1,0 +1,1 @@
+/home/zr/code/src/build/gac_robot_task/rosidl_generator_rs/gac_robot_task/rust/src/lib.rs

@@ -1,0 +1,1 @@
+/home/zr/code/src/build/vizanti_server/rosidl_generator_rs/vizanti_server/rust/src/msg/rmw.rs

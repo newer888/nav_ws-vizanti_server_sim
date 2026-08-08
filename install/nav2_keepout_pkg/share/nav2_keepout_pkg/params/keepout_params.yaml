@@ -1,0 +1,24 @@
+costmap_filter_info_server:
+  ros__parameters:
+    use_sim_time: false
+    type: 0
+    filter_info_topic: "/costmap_filter_info"
+    mask_topic: "/keepout_filter_mask"
+    base: 0.0
+    multiplier: 1.0
+
+dynamic_keepout_mask_server:
+  ros__parameters:
+    use_sim_time: false
+    geojson_path: "/user_space/nav/robot-nav/robot_config/robot_1/keepout/keepout.geojson"
+    map_yaml_path: "/user_space/nav/robot-nav/robot_config/robot_1/maps/default_keepout.yaml"
+    topic_name: "/keepout_filter_mask"
+    frame_id: "map"
+    poll_period: 1.0
+
+filter_mask_server:
+  ros__parameters:
+    use_sim_time: false
+    frame_id: "map"
+    topic_name: "/keepout_filter_mask"
+    yaml_filename: "keepout_mask.yaml"

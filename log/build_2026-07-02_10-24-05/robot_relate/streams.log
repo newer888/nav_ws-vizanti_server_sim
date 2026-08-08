@@ -1,0 +1,54 @@
+[0.026s] Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/robot_relate -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/robot_relate
+[0.288s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.288s] -- Configuring done
+[0.288s] -- Generating done
+[0.288s] -- Build files have been written to: /home/zr/code/src/build/robot_relate
+[0.303s] Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/robot_relate -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/robot_relate
+[0.304s] Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/robot_relate -- -j16 -l16
+[0.357s] Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/robot_relate -- -j16 -l16
+[0.359s] Invoking command in '/home/zr/code/src/build/robot_relate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/robot_relate
+[0.370s] -- Install configuration: ""
+[0.370s] -- Execute custom install script
+[0.370s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/display_robot.launch.py
+[0.383s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/gazebo_sim.launch.py
+[0.398s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/launch/navigation2.launch.py
+[0.412s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.gv
+[0.425s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.pdf
+[0.438s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf
+[0.448s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/first_robot.urdf.xacro
+[0.459s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/caster.urdf.xacro
+[0.473s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/actuator/wheel.urdf.xacro
+[0.484s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/base.urdf.xacro
+[0.495s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/common_inertia.xacro
+[0.509s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.ros2_control.xacro
+[0.522s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/fishbot.urdf.xacro
+[0.533s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_control_plugin.xacro
+[0.544s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/plugins/gazebo_sensor_plugin.xacro
+[0.555s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/camera.urdf.xacro
+[0.567s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/imu.urdf.xacro
+[0.577s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/urdf/fishbot/sensor/laser.urdf.xacro
+[0.589s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/fishbot_ros2_controller.yaml
+[0.600s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/nav2_params.yaml
+[0.616s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/config/rviz/dispaly_model.rviz
+[0.628s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/custom_room.world
+[0.641s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.config
+[0.652s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/world/room/model.sdf
+[0.665s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.pgm
+[0.678s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/maps/room.yaml
+[0.690s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/package_run_dependencies/robot_relate
+[0.703s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/parent_prefix_path/robot_relate
+[0.719s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.sh
+[0.731s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/ament_prefix_path.dsv
+[0.742s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.sh
+[0.754s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/environment/path.dsv
+[0.765s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.bash
+[0.776s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.sh
+[0.787s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.zsh
+[0.799s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/local_setup.dsv
+[0.814s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/package.dsv
+[0.827s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/ament_index/resource_index/packages/robot_relate
+[0.839s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig.cmake
+[0.852s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/cmake/robot_relateConfig-version.cmake
+[0.862s] -- Symlinking: /home/zr/code/src/install/robot_relate/share/robot_relate/package.xml
+[0.876s] Invoked command in '/home/zr/code/src/build/robot_relate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/robot_relate

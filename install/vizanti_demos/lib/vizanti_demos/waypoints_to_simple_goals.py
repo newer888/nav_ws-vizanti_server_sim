@@ -1,0 +1,1 @@
+/home/zr/code/src/vizanti_server/src/vizanti/vizanti_demos/scripts/waypoints_to_simple_goals.py

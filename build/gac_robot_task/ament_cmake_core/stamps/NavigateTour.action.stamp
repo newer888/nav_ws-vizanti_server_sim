@@ -1,0 +1,16 @@
+#goal definition
+# 目标：指定要执行的导览任务 ID
+string task_id
+---
+#result definition
+bool success
+string error_message
+int32 completed_waypoints
+---
+# feedback
+# 反馈：当前执行进度
+int32 current_waypoint_index
+int32 total_waypoints
+string current_action
+float32 progress_percentage
+

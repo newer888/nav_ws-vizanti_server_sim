@@ -1,0 +1,91 @@
+[0.015s] Invoking command in '/home/zr/code/src/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/nav_2d_utils -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_2d_utils
+[0.088s] -- The C compiler identification is GNU 11.4.0
+[0.146s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.522s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.551s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.553s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.595s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.604s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.666s] -- Found nav_2d_msgs: 1.1.14 (/home/zr/code/src/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.678s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.692s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.734s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.737s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.866s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.913s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.922s] -- Looking for pthread.h
+[0.999s] -- Looking for pthread.h - found
+[0.999s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.075s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.076s] -- Found Threads: TRUE  
+[1.114s] -- Found tf2: 0.25.20 (/opt/ros/humble/share/tf2/cmake)
+[1.125s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.146s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.148s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.148s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.239s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.259s] -- Found nav2_util: 1.1.14 (/home/zr/code/src/install/nav2_util/share/nav2_util/cmake)
+[1.312s] -- Setting build type to Release as none was specified.
+[1.475s] -- Configuring done
+[1.600s] -- Generating done
+[1.612s] -- Build files have been written to: /home/zr/code/src/build/nav_2d_utils
+[1.630s] Invoked command in '/home/zr/code/src/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_dwb_controller/nav_2d_utils -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav_2d_utils
+[1.632s] Invoking command in '/home/zr/code/src/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/nav_2d_utils -- -j16 -l16
+[1.688s] [ 16%] [32mBuilding CXX object CMakeFiles/conversions.dir/src/conversions.cpp.o[0m
+[1.692s] [ 33%] [32mBuilding CXX object CMakeFiles/path_ops.dir/src/path_ops.cpp.o[0m
+[1.937s] [ 50%] [32m[1mLinking CXX shared library libpath_ops.so[0m
+[2.102s] [ 66%] [32m[1mLinking CXX shared library libconversions.so[0m
+[2.423s] [ 66%] Built target conversions
+[2.456s] [ 83%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[3.051s] [100%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[3.450s] [100%] Built target tf_help
+[4.556s] [100%] Built target path_ops
+[4.571s] Invoked command in '/home/zr/code/src/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/nav_2d_utils -- -j16 -l16
+[4.574s] Invoking command in '/home/zr/code/src/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/nav_2d_utils
+[4.582s] -- Install configuration: "Release"
+[4.582s] -- Execute custom install script
+[4.583s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/lib/libconversions.so
+[4.593s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/lib/libpath_ops.so
+[4.602s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/lib/libtf_help.so
+[4.612s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[4.624s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[4.638s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[4.652s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[4.662s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[4.673s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[4.683s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[4.693s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[4.704s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[4.715s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[4.727s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[4.740s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[4.753s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[4.766s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[4.779s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[4.792s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[4.803s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[4.813s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[4.824s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[4.838s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.848s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[4.862s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.872s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[4.882s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[4.892s] -- Symlinking: /home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[4.905s] Invoked command in '/home/zr/code/src/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/nav_2d_utils

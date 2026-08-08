@@ -1,0 +1,10 @@
+/home/zr/code/src/build/dwb_critics/CMakeFiles/uninstall.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/dwb_critics_uninstall.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/dwb_critics.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/test.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/edit_cache.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/rebuild_cache.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/list_install_components.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/install.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/install/local.dir
+/home/zr/code/src/build/dwb_critics/CMakeFiles/install/strip.dir

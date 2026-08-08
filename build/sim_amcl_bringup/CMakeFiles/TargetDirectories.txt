@@ -1,0 +1,9 @@
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/uninstall.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/sim_amcl_bringup_uninstall.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/test.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/edit_cache.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/rebuild_cache.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/list_install_components.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/install.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/install/local.dir
+/home/zr/code/src/build/sim_amcl_bringup/CMakeFiles/install/strip.dir

@@ -1,0 +1,90 @@
+[0.032s] Invoking command in '/home/zr/code/src/build/gac_nav2_smoother': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_smoother -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_smoother
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.265s] -- Detecting C compile features
+[0.265s] -- Detecting C compile features - done
+[0.268s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.580s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.625s] -- Found gac_nav2_core: 1.1.14 (/home/zr/code/src/install/gac_nav2_core/share/gac_nav2_core/cmake)
+[0.683s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.690s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.700s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.737s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.790s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.906s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.944s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.992s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.004s] -- Looking for pthread.h
+[1.087s] -- Looking for pthread.h - found
+[1.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.174s] -- Found Threads: TRUE  
+[1.483s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.483s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.595s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[1.597s] -- Found nav_2d_utils: 1.1.14 (/home/zr/code/src/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[1.622s] -- Setting build type to Release as none was specified.
+[2.202s] -- Configuring done
+[2.401s] -- Generating done
+[2.424s] -- Build files have been written to: /home/zr/code/src/build/gac_nav2_smoother
+[2.444s] Invoked command in '/home/zr/code/src/build/gac_nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_smoother -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/gac_nav2_smoother
+[2.445s] Invoking command in '/home/zr/code/src/build/gac_nav2_smoother': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_smoother -- -j16 -l16
+[2.511s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[2.511s] [ 37%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[2.511s] [ 37%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[8.513s] [ 50%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[8.793s] [ 50%] Built target savitzky_golay_smoother
+[8.865s] [ 62%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[9.196s] [ 62%] Built target simple_smoother
+[17.369s] [ 75%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[17.725s] [ 75%] Built target smoother_server_core
+[17.752s] [ 87%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[23.462s] [100%] [32m[1mLinking CXX executable smoother_server[0m
+[23.779s] [100%] Built target smoother_server
+[23.816s] Invoked command in '/home/zr/code/src/build/gac_nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/zr/code/src/build/gac_nav2_smoother -- -j16 -l16
+[23.818s] Invoking command in '/home/zr/code/src/build/gac_nav2_smoother': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_smoother
+[23.827s] -- Install configuration: "Release"
+[23.827s] -- Execute custom install script
+[23.828s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother//plugins.xml
+[23.838s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/lib/libsmoother_server_core.so
+[23.848s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/lib/libsimple_smoother.so
+[23.860s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/lib/libsavitzky_golay_smoother.so
+[23.870s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/lib/gac_nav2_smoother/smoother_server
+[23.881s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[23.894s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/include//nav2_smoother/savitzky_golay_smoother.hpp
+[23.906s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[23.917s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/include//nav2_smoother/smoother_utils.hpp
+[23.928s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/library_path.sh
+[23.939s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/library_path.dsv
+[23.950s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/ament_index/resource_index/package_run_dependencies/gac_nav2_smoother
+[23.963s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/ament_index/resource_index/parent_prefix_path/gac_nav2_smoother
+[23.972s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/ament_prefix_path.sh
+[23.983s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/ament_prefix_path.dsv
+[23.996s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/path.sh
+[24.008s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/environment/path.dsv
+[24.019s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/local_setup.bash
+[24.030s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/local_setup.sh
+[24.041s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/local_setup.zsh
+[24.051s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/local_setup.dsv
+[24.061s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/package.dsv
+[24.072s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/ament_index/resource_index/packages/gac_nav2_smoother
+[24.082s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/ament_index/resource_index/rclcpp_components/gac_nav2_smoother
+[24.098s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/ament_index/resource_index/gac_nav2_core__pluginlib__plugin/gac_nav2_smoother
+[24.111s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.124s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[24.135s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.146s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/cmake/gac_nav2_smootherConfig.cmake
+[24.156s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/cmake/gac_nav2_smootherConfig-version.cmake
+[24.167s] -- Symlinking: /home/zr/code/src/install/gac_nav2_smoother/share/gac_nav2_smoother/package.xml
+[24.180s] Invoked command in '/home/zr/code/src/build/gac_nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zr/code/src/install/gac_nav2_core:/home/zr/code/src/install/gac_nav2_costmap_2d:/home/zr/code/src/install/nav_2d_utils:/home/zr/code/src/install/nav2_map_server:/home/zr/code/src/install/nav2_lifecycle_manager:/home/zr/code/src/install/nav_2d_msgs:/home/zr/code/src/install/nav2_util:/home/zr/code/src/install/gac_nav2_voxel_grid:/opt/ros/humble LD_LIBRARY_PATH=/home/zr/code/src/install/gac_nav2_costmap_2d/lib:/home/zr/code/src/install/nav_2d_utils/lib:/home/zr/code/src/install/nav2_map_server/lib:/home/zr/code/src/install/nav2_lifecycle_manager/lib:/home/zr/code/src/install/nav_2d_msgs/lib:/home/zr/code/src/install/nav2_util/lib:/home/zr/code/src/install/gac_nav2_voxel_grid/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zr/code/src/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/zr/code/src/build/gac_nav2_smoother

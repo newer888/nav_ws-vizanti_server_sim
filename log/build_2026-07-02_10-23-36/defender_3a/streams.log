@@ -1,0 +1,83 @@
+[0.013s] Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/defender_3a -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/defender_3a
+[0.079s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.340s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.349s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.496s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.552s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.689s] -- Configuring done
+[0.691s] -- Generating done
+[0.692s] -- Build files have been written to: /home/zr/code/src/build/defender_3a
+[0.697s] Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake /home/zr/code/src/sim/defender_3a -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/defender_3a
+[0.699s] Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+[0.754s] Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/defender_3a -- -j16 -l16
+[0.767s] Invoking command in '/home/zr/code/src/build/defender_3a': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a
+[0.775s] -- Install configuration: ""
+[0.775s] -- Execute custom install script
+[0.776s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/config/joint_names_af2aurdf20250925.yaml
+[0.786s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/launch/display.launch
+[0.796s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/launch/gazebo.launch
+[0.806s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/base_link.STL
+[0.821s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/head_link.STL
+[0.833s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/hip_link.STL
+[0.844s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/imu_link.STL
+[0.856s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/knee_link.STL
+[0.868s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_elbow_link.STL
+[0.879s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_pitch_link.STL
+[0.891s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_roll_link.STL
+[0.903s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_shoulder_yaw_link.STL
+[0.914s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_wheel_link.STL
+[0.928s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/left_wrist_yaw_link.STL
+[0.940s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_elbow_link.STL
+[0.950s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_pitch_link.STL
+[0.961s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_roll_link.STL
+[0.972s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_shoulder_yaw_link.STL
+[0.983s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_wheel_link.STL
+[0.993s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/meshes/right_wrist_yaw_link.STL
+[1.004s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/base_link.STL
+[1.017s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/head_link.STL
+[1.029s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/hip_link.STL
+[1.041s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/imu_link.STL
+[1.051s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/knee_link.STL
+[1.062s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_elbow_link.STL
+[1.074s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_pitch_link.STL
+[1.085s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_roll_link.STL
+[1.097s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_shoulder_yaw_link.STL
+[1.110s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wheel_link.STL
+[1.124s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wrist_yaw_link.STL
+[1.136s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/left_wrist_yaw_link11.STL
+[1.147s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_elbow_link.STL
+[1.157s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_pitch_link.STL
+[1.169s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_roll_link.STL
+[1.179s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_shoulder_yaw_link.STL
+[1.189s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wheel_link.STL
+[1.199s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wrist_yaw_link.STL
+[1.209s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/models_simplified/right_wrist_yaw_link11.STL
+[1.224s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/urdf/af3aurdf20260309.csv
+[1.236s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/urdf/af3aurdf20260309.urdf
+[1.247s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/xml/af3aurdf20260309.xml
+[1.259s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/package_run_dependencies/defender_3a
+[1.271s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/parent_prefix_path/defender_3a
+[1.282s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/ament_prefix_path.sh
+[1.292s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/ament_prefix_path.dsv
+[1.304s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/path.sh
+[1.316s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/environment/path.dsv
+[1.328s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.bash
+[1.340s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.sh
+[1.350s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.zsh
+[1.361s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/local_setup.dsv
+[1.372s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/package.dsv
+[1.382s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/ament_index/resource_index/packages/defender_3a
+[1.391s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/cmake/defender_3aConfig.cmake
+[1.401s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/cmake/defender_3aConfig-version.cmake
+[1.412s] -- Symlinking: /home/zr/code/src/install/defender_3a/share/defender_3a/package.xml
+[1.428s] Invoked command in '/home/zr/code/src/build/defender_3a' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/src/install/robot_relate_python:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/defender_3a

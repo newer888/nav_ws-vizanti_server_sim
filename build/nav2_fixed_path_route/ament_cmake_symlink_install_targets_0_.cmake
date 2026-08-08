@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/zr/code/src/build/nav2_fixed_path_route/libnav2_fixed_path_route_plugin.so" "TARGETS" "nav2_fixed_path_route_plugin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/nav2_fixed_path_route")

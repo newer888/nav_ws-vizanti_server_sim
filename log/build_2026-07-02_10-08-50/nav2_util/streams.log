@@ -1,0 +1,105 @@
+[0.021s] Invoking command in '/home/zr/code/src/build/nav2_util': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_util -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_util
+[0.099s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.307s] -- Detecting CXX compile features - done
+[0.309s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.440s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.495s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.555s] -- Found nav2_common: 1.1.20 (/opt/ros/humble/share/nav2_common/cmake)
+[0.558s] -- Found nav2_msgs: 1.1.20 (/opt/ros/humble/share/nav2_msgs/cmake)
+[0.590s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.594s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.602s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.724s] -- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.785s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.787s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.876s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.902s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.948s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.957s] -- Looking for pthread.h
+[1.028s] -- Looking for pthread.h - found
+[1.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.101s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.102s] -- Found Threads: TRUE  
+[1.175s] -- Found tf2_geometry_msgs: 0.25.20 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.189s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.190s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.190s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.193s] -- Found lifecycle_msgs: 1.2.2 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[1.202s] -- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.210s] -- Found bondcpp: 4.1.4 (/opt/ros/humble/share/bondcpp/cmake)
+[1.232s] -- Setting build type to Release as none was specified.
+[1.253s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[1.324s] -- Configuring done
+[1.343s] -- Generating done
+[1.349s] -- Build files have been written to: /home/zr/code/src/build/nav2_util
+[1.365s] Invoked command in '/home/zr/code/src/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/nav2_util -DBUILD_TESTING=OFF -DCMAKE_C_COMPILER_LAUNCHER=ccache -DCMAKE_CXX_COMPILER_LAUNCHER=ccache -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/nav2_util
+[1.367s] Invoking command in '/home/zr/code/src/build/nav2_util': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav2_util -- -j16 -l16
+[1.425s] [  8%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[1.427s] [ 16%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[1.429s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[1.429s] [ 41%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[1.429s] [ 50%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[1.429s] [ 50%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[1.430s] [ 58%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[1.431s] [ 66%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[1.435s] [ 75%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[5.145s] [ 83%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[5.337s] [ 83%] Built target nav2_util_core
+[5.355s] [ 91%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[5.691s] [100%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[5.819s] [100%] Built target lifecycle_bringup
+[5.897s] Invoked command in '/home/zr/code/src/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/nav2_util -- -j16 -l16
+[5.899s] Invoking command in '/home/zr/code/src/build/nav2_util': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav2_util
+[5.906s] -- Install configuration: "Release"
+[5.906s] -- Execute custom install script
+[5.906s] -- Symlinking: /home/zr/code/src/install/nav2_util/lib/libnav2_util_core.so
+[5.918s] -- Symlinking: /home/zr/code/src/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[5.928s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[5.939s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/costmap.hpp
+[5.950s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/execution_timer.hpp
+[5.960s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[5.969s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[5.978s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[5.987s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[5.998s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/line_iterator.hpp
+[6.008s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/node_thread.hpp
+[6.022s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/node_utils.hpp
+[6.035s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[6.045s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[6.056s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/robot_utils.hpp
+[6.065s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/service_client.hpp
+[6.074s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[6.082s] -- Symlinking: /home/zr/code/src/install/nav2_util/include//nav2_util/string_utils.hpp
+[6.091s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/library_path.sh
+[6.100s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[6.108s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[6.118s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[6.129s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[6.139s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[6.148s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/path.sh
+[6.157s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/environment/path.dsv
+[6.168s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/local_setup.bash
+[6.177s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/local_setup.sh
+[6.186s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/local_setup.zsh
+[6.194s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/local_setup.dsv
+[6.204s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/package.dsv
+[6.212s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[6.223s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.234s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[6.244s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.254s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[6.264s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[6.273s] -- Symlinking: /home/zr/code/src/install/nav2_util/share/nav2_util/package.xml
+[6.287s] Invoked command in '/home/zr/code/src/build/nav2_util' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/nav2_util

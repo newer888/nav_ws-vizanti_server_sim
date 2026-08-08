@@ -1,0 +1,1 @@
+/home/zr/code/src/build/dwb_msgs/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c

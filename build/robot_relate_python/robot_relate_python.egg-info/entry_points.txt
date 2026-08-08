@@ -1,0 +1,7 @@
+[console_scripts]
+cancel_navigation = robot_relate_python.cancel_navigation:main
+get_realtime_pose = robot_relate_python.get_realtime_pose:main
+navigation_to_pose = robot_relate_python.navigation_to_pose:main
+set_initpose = robot_relate_python.set_initpose:main
+waypoint_follow = robot_relate_python.waypoint_follow:main
+

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gac_robot_task__py",
+		"source" : "/home/zr/code/src/build/gac_robot_task/gac_robot_task__py"
+	}
+}

@@ -1,0 +1,1 @@
+/home/zr/code/src/build/dwb_msgs/rosidl_cmake/srv/GenerateTrajectory_Response.msg

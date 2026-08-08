@@ -1,0 +1,163 @@
+[0.017s] Invoking command in '/home/zr/code/src/build/gac_robot_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16
+[0.107s] [  7%] Built target gac_robot_task__rs
+[0.107s] [  7%] Built target gac_robot_task__cpp
+[0.107s] [ 12%] Built target gac_robot_task__rosidl_generator_c
+[0.126s] [ 12%] Built target ament_cmake_python_symlink_gac_robot_task
+[0.145s] [ 41%] Built target gac_robot_task__rosidl_typesupport_introspection_c
+[0.146s] [ 41%] Built target gac_robot_task__rosidl_typesupport_c
+[0.146s] [ 41%] Built target gac_robot_task__rosidl_typesupport_introspection_cpp
+[0.146s] [ 43%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c
+[0.146s] [ 51%] Built target gac_robot_task__rosidl_typesupport_fastrtps_cpp
+[0.146s] [ 58%] Built target gac_robot_task__rosidl_typesupport_cpp
+[0.182s] [ 58%] Built target gac_robot_task
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target gac_robot_task_node[0m
+[0.220s] [ 61%] Built target gac_robot_task__py
+[0.238s] [ 64%] [32mBuilding CXX object CMakeFiles/gac_robot_task_node.dir/src/task_executor.cpp.o[0m
+[0.256s] [ 69%] Built target gac_robot_task__rosidl_generator_py
+[0.293s] [ 84%] Built target gac_robot_task__rosidl_typesupport_introspection_c__pyext
+[0.293s] [ 84%] Built target gac_robot_task__rosidl_typesupport_fastrtps_c__pyext
+[0.293s] [ 84%] Built target gac_robot_task__rosidl_typesupport_c__pyext
+[0.401s] running egg_info
+[0.402s] writing gac_robot_task.egg-info/PKG-INFO
+[0.402s] writing dependency_links to gac_robot_task.egg-info/dependency_links.txt
+[0.403s] writing top-level names to gac_robot_task.egg-info/top_level.txt
+[0.405s] reading manifest file 'gac_robot_task.egg-info/SOURCES.txt'
+[0.405s] writing manifest file 'gac_robot_task.egg-info/SOURCES.txt'
+[0.445s] [ 84%] Built target ament_cmake_python_build_gac_robot_task_egg
+[3.054s] In file included from [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:2[m[K:
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::ConnectListener::on_failure(const mqtt::token&)[m[K’:
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:36:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.055s]    36 |   void on_failure([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.055s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::ConnectListener::on_success(const mqtt::token&)[m[K’:
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:42:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.055s]    42 |   void on_success([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.055s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::PublishListener::on_failure(const mqtt::token&)[m[K’:
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:60:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.055s]    60 |   void on_failure([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {
+[3.055s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:[m[K In member function ‘[01m[Kvirtual void gac_robot_task::PublishListener::on_success(const mqtt::token&)[m[K’:
+[3.055s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/include/gac_robot_task/task_executor.hpp:64:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KasyncActionToken[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.055s]    64 |   void on_success([01;35m[Kconst mqtt::token &asyncActionToken[m[K) override {}
+[3.055s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[3.510s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:[m[K In member function ‘[01m[Kvoid gac_robot_task::TaskExecutor::ConnectHandler(const string&)[m[K’:
+[3.510s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:477:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcause[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.511s]   477 | void TaskExecutor::ConnectHandler([01;35m[Kconst std::string &cause[m[K) {
+[3.511s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.511s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:[m[K In member function ‘[01m[Kvoid gac_robot_task::TaskExecutor::DisconnectHandler(const mqtt::properties&, mqtt::ReasonCode)[m[K’:
+[3.511s] [01m[K/home/zr/code/src/nav_ws_gazebo/src/gac_robot_task/src/task_executor.cpp:490:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kproperties[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.511s]   490 |   void TaskExecutor::DisconnectHandler([01;35m[Kconst mqtt::properties &properties[m[K,
+[3.511s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[6.632s] [ 87%] [32m[1mLinking CXX executable gac_robot_task_node[0m
+[7.131s] [100%] Built target gac_robot_task_node
+[7.209s] Invoked command in '/home/zr/code/src/build/gac_robot_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/gac_robot_task -- -j16 -l16
+[7.226s] Invoking command in '/home/zr/code/src/build/gac_robot_task': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/gac_robot_task
+[7.239s] -- Install configuration: ""
+[7.239s] -- Execute custom install script
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/ament_index/resource_index/rosidl_interfaces/gac_robot_task
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__functions.h
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__struct.h
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__type_support.h
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/navigate_tour.h
+[7.240s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/msg/rosidl_generator_c__visibility_control.h
+[7.241s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/library_path.sh
+[7.241s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/library_path.dsv
+[7.241s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__rosidl_typesupport_fastrtps_c.h
+[7.241s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__builder.hpp
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__struct.hpp
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__traits.hpp
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__type_support.hpp
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/navigate_tour.hpp
+[7.242s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.243s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__rosidl_typesupport_fastrtps_cpp.hpp
+[7.243s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.243s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__rosidl_typesupport_introspection_c.h
+[7.243s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.244s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/gac_robot_task/action/detail/navigate_tour__rosidl_typesupport_introspection_cpp.hpp
+[7.244s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/pythonpath.sh
+[7.244s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/pythonpath.dsv
+[7.245s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task-1.0.3-py3.10.egg-info/PKG-INFO
+[7.245s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task-1.0.3-py3.10.egg-info/SOURCES.txt
+[7.245s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task-1.0.3-py3.10.egg-info/dependency_links.txt
+[7.245s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task-1.0.3-py3.10.egg-info/top_level.txt
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/__init__.py
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/_gac_robot_task_s.ep.rosidl_typesupport_c.c
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/_gac_robot_task_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/_gac_robot_task_s.ep.rosidl_typesupport_introspection_c.c
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/action/__init__.py
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/action/_navigate_tour.py
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/action/_navigate_tour_s.c
+[7.246s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/libgac_robot_task__rosidl_generator_py.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/gac_robot_task_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.247s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/ament_index/resource_index/rust_packages/gac_robot_task
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/rust/Cargo.toml
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/rust/build.rs
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/rust/src/action.rs
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/rust/src/action/rmw.rs
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/rust/src/lib.rs
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/action/NavigateTour.idl
+[7.248s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/action/NavigateTour.action
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/lib/gac_robot_task/gac_robot_task_node
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/mqtt_pub_sub.hpp
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/task_executor.hpp
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/task_manager.hpp
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/include/gac_robot_task/xml_parser.hpp
+[7.249s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/config/tour_tasks_bk.xml
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/launch/gac_robot_task_launch.py
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/ament_index/resource_index/package_run_dependencies/gac_robot_task
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/ament_index/resource_index/parent_prefix_path/gac_robot_task
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/ament_prefix_path.sh
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/ament_prefix_path.dsv
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/path.sh
+[7.250s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/environment/path.dsv
+[7.251s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/local_setup.bash
+[7.251s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/local_setup.sh
+[7.251s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/local_setup.zsh
+[7.251s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/local_setup.dsv
+[7.251s] -- Symlinking: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/package.dsv
+[7.267s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/ament_index/resource_index/packages/gac_robot_task
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/rosidl_cmake-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/ament_cmake_export_libraries-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/ament_cmake_export_targets-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_taskConfig.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_taskConfig-version.cmake
+[7.268s] -- Up-to-date symlink: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/package.xml
+[7.269s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_generator_c.so
+[7.269s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_fastrtps_c.so
+[7.269s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_fastrtps_cpp.so
+[7.269s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_introspection_c.so
+[7.270s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_c.so
+[7.270s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_introspection_cpp.so
+[7.270s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_typesupport_cpp.so
+[7.306s] Listing '/home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task'...
+[7.306s] Listing '/home/zr/code/src/install/gac_robot_task/local/lib/python3.10/dist-packages/gac_robot_task/action'...
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/lib/libgac_robot_task__rosidl_generator_py.so
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_generator_cExport.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_generator_cExport-noconfig.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_typesupport_fastrtps_cExport.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_generator_cppExport.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_introspection_cExport.cmake
+[7.312s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_cExport.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_cExport-noconfig.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_introspection_cppExport.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_cppExport.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/gac_robot_task__rosidl_typesupport_cppExport-noconfig.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_generator_pyExport.cmake
+[7.313s] -- Up-to-date: /home/zr/code/src/install/gac_robot_task/share/gac_robot_task/cmake/export_gac_robot_task__rosidl_generator_pyExport-noconfig.cmake
+[7.316s] Invoked command in '/home/zr/code/src/build/gac_robot_task' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zr/code/test/nav2_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/gac_robot_task

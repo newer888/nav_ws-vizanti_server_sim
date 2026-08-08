@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"
+  name="defender_3a">
+  <mujoco>
+    <compiler meshdir="../models_simplified" discardvisual="false" balanceinertia="false" />
+  </mujoco>
+  <link name="base_footprint" />
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="base_link" />
+    <origin xyz="0 0 0.6658" rpy="0 0 0" />
+  </joint>
+  <!-- <link name="world">
+  </link>
+  <joint name="base_joint" type="floating">
+    <parent link="world" />
+    <child link="base_link" />
+  </joint> -->
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.042423 -0.003913 0.134099"
+        rpy="0 0 0" />
+      <mass
+        value="21.496201" />
+      <inertia
+        ixx="0.811681"
+        ixy="-0.001346"
+        ixz="-0.036299"
+        iyy="0.736203"
+        iyz="-0.014453"
+        izz="0.172208" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="imu_link">
+    <inertial>
+      <origin
+        xyz="-0.002468 0 0.005668"
+        rpy="0 0 0" />
+      <mass
+        value="0.0469" />
+      <inertia
+       ixx="1.1E-05"
+        ixy="0"
+        ixz="0"
+        iyy="9E-06"
+        iyz="0"
+        izz="1.9E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/imu_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.74118 0.90196 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/imu_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="imu_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 0.016"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="imu_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="head_link">
+    <inertial>
+      <origin
+        xyz="0.001276 -4.3E-05 0.107957"
+        rpy="0 0 0" />
+      <mass
+        value="1.268311" />
+      <inertia
+        ixx="0.007297"
+        ixy="-5E-06"
+        ixz="0.00024"
+        iyy="0.006842"
+        iyz="4E-06"
+        izz="0.003669" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/head_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/head_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="head_joint"
+    type="fixed">
+    <origin
+      xyz="-0.027 0 0.4315"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="head_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.0472"
+      upper="1.0472"
+      effort="12"
+      velocity="4.1866" />
+  </joint>
+  <link
+    name="hip_link">
+    <inertial>
+      <origin
+        xyz="0.01447 0.080253 -0.148679"
+        rpy="0 0 0" />
+      <mass
+        value="5.127114" />
+      <inertia
+        ixx="0.13465"
+        ixy="-0.000111"
+        ixz="-0.003856"
+        iyy="0.103835"
+        iyz="0.001015"
+        izz="0.04664" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/hip_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/hip_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hip_joint"
+    type="fixed">
+    <origin
+      xyz="-0.070346 -0.06575 -0.1227"
+      rpy="0 0.349066 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="hip_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1.0472"
+      upper="2.7576"
+      effort="745"
+      velocity="4.4506" />
+  </joint>
+  <link
+    name="knee_link">
+    <inertial>
+      <origin
+        xyz="-0.005001 0.059208 -0.214743"
+        rpy="0 0 0" />
+      <mass
+        value="17.216" />
+      <inertia
+        ixx="0.744286"
+        ixy="0.000311"
+        ixz="0.014956"
+        iyy="0.4533"
+        iyz="0.013421"
+        izz="0.354404" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/knee_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/knee_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="knee_joint"
+    type="fixed">
+    <origin
+      xyz="0 0.003 -0.36"
+      rpy="0 -1.919862 0" />
+    <parent
+      link="hip_link" />
+    <child
+      link="knee_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.3213"
+      upper="0.94248"
+      effort="745"
+      velocity="4.4506" />
+  </joint>
+  <link
+    name="right_wheel_link">
+    <inertial>
+      <origin
+        xyz="-5.7E-05 -0.048017 0.000113"
+        rpy="0 0 0" />
+      <mass
+        value="3.621045" />
+      <inertia
+        ixx="0.033692"
+        ixy="-2E-06"
+        ixz="-7E-06"
+        iyy="0.065121"
+        iyz="6E-06"
+        izz="0.03368" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796 0 0" />
+      <geometry>
+        <cylinder length="0.09" radius="0.2048" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0 -0.17085 -0.36"
+      rpy="0 0 0" />
+    <parent
+      link="knee_link" />
+    <child
+      link="right_wheel_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1000000"
+      upper="1000000"
+      effort="800"
+      velocity="17.017" />
+  </joint>
+  <link
+    name="left_wheel_link">
+    <inertial>
+      <origin
+        xyz="5.7E-05 0.048017 0.000113"
+        rpy="0 0 0" />
+      <mass
+        value="3.621045" />
+      <inertia
+        ixx="0.033692"
+        ixy="-2E-06"
+        ixz="7E-06"
+        iyy="0.065121"
+        iyz="-6E-06"
+        izz="0.03368" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.570796 0 0" />
+      <geometry>
+        <cylinder length="0.09" radius="0.2048" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0 0.29635 -0.36"
+      rpy="0 0 0" />
+    <parent
+      link="knee_link" />
+    <child
+      link="left_wheel_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-1000000"
+      upper="1000000"
+      effort="800"
+      velocity="17.017" />
+  </joint>
+  <link
+    name="right_shoulder_pitch_link">
+    <inertial>
+      <origin
+        xyz="0.002267 -0.056593 3E-05"
+        rpy="0 0 0" />
+      <mass
+        value="1.2053" />
+      <inertia
+        ixx="0.001266"
+        ixy="1.7E-05"
+        ixz="2E-06"
+        iyy="0.001051"
+        iyz="1E-06"
+        izz="0.001311" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_pitch_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_pitch_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_shoulder_pitch_joint"
+    type="fixed">
+    <origin
+      xyz="-0.027375 -0.157 0.32073"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_shoulder_pitch_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-4.4506"
+      upper="1.309"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="right_shoulder_roll_link">
+    <inertial>
+      <origin
+        xyz="-0.038872 -1.4E-05 -0.078703"
+        rpy="0 0 0" />
+      <mass
+        value="1.23176" />
+      <inertia
+        ixx="0.001795"
+        ixy="0"
+        ixz="-0.00016"
+        iyy="0.002111"
+        iyz="0"
+        izz="0.001287" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_roll_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_roll_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_shoulder_roll_joint"
+    type="fixed">
+    <origin
+      xyz="0.0405 -0.062 0"
+      rpy="0 0 0" />
+    <parent
+      link="right_shoulder_pitch_link" />
+    <child
+      link="right_shoulder_roll_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-3.5256"
+      upper="0.38397"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="right_shoulder_yaw_link">
+    <inertial>
+      <origin
+        xyz="0 -0.001616 -0.103836"
+        rpy="0 0 0" />
+      <mass
+        value="1.296323" />
+      <inertia
+        ixx="0.002882"
+        ixy="1E-06"
+        ixz="1.2E-05"
+        iyy="0.002827"
+        iyz="-4.8E-05"
+        izz="0.001164" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_yaw_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_shoulder_yaw_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_shoulder_yaw_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0405 0 -0.1265"
+      rpy="0 0 0" />
+    <parent
+      link="right_shoulder_roll_link" />
+    <child
+      link="right_shoulder_yaw_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.309"
+      upper="4.4506"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="right_elbow_link">
+    <inertial>
+      <origin
+        xyz="0 0.036136 -0.069084"
+        rpy="0 0 0" />
+      <mass
+        value="0.65262" />
+      <inertia
+       ixx="0.001353"
+        ixy="0"
+        ixz="0"
+        iyy="0.001053"
+        iyz="0.000139"
+        izz="0.000632" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_elbow_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_elbow_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_elbow_joint"
+    type="fixed">
+    <origin
+      xyz="0 -0.04 -0.1205"
+      rpy="0 0 0" />
+    <parent
+      link="right_shoulder_yaw_link" />
+    <child
+      link="right_elbow_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.426"
+      upper="1.9024"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="right_wrist_yaw_link">
+    <inertial>
+      <origin
+        xyz="0.001556 -0.001984 -0.14979"
+        rpy="0 0 0" />
+      <mass
+        value="0.80193" />
+      <inertia
+        ixx="0.005986"
+        ixy="-0.000146"
+        ixz="-7.2E-05"
+        iyy="0.00638"
+        iyz="-0.00016"
+        izz="0.000911" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_wrist_yaw_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/right_wrist_yaw_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wrist_yaw_joint"
+    type="fixed">
+    <origin
+      xyz="0 0.04 -0.123"
+      rpy="0 0 0" />
+    <parent
+      link="right_elbow_link" />
+    <child
+      link="right_wrist_yaw_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-4.4506"
+      upper="1.309"
+      effort="12"
+      velocity="4.1866" />
+  </joint>
+  <link
+    name="left_shoulder_pitch_link">
+    <inertial>
+      <origin
+        xyz="0.002267 0.056593 -3E-05"
+        rpy="0 0 0" />
+      <mass
+        value="1.2053" />
+      <inertia
+        ixx="0.001266"
+        ixy="-1.7E-05"
+        ixz="-2E-06"
+        iyy="0.001051"
+        iyz="1E-06"
+        izz="0.001311" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_pitch_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_pitch_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_shoulder_pitch_joint"
+    type="fixed">
+    <origin
+      xyz="-0.027375 0.157 0.32073"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_shoulder_pitch_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-4.4506"
+      upper="1.309"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="left_shoulder_roll_link">
+    <inertial>
+      <origin
+        xyz="-0.040372 -1.4E-05 -0.078703"
+        rpy="0 0 0" />
+      <mass
+        value="1.2318" />
+      <inertia
+        ixx="0.001795"
+        ixy="0"
+        ixz="-0.00016"
+        iyy="0.002111"
+        iyz="0"
+        izz="0.001287" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_roll_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_roll_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_shoulder_roll_joint"
+    type="fixed">
+    <origin
+      xyz="0.0405 0.062 0"
+      rpy="0 0 0" />
+    <parent
+      link="left_shoulder_pitch_link" />
+    <child
+      link="left_shoulder_roll_link" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="-0.38397"
+      upper="3.5256"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="left_shoulder_yaw_link">
+    <inertial>
+      <origin
+        xyz="-0.000207 0.001749 -0.10389"
+        rpy="0 0 0" />
+      <mass
+        value="1.2966" />
+      <inertia
+        ixx="0.002883"
+        ixy="0"
+        ixz="1.3E-05"
+        iyy="0.002829"
+        iyz="2.7E-05"
+        izz="0.001164" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_yaw_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_shoulder_yaw_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_shoulder_yaw_joint"
+    type="fixed">
+    <origin
+      xyz="-0.042 0 -0.1265"
+      rpy="0 0 0" />
+    <parent
+      link="left_shoulder_roll_link" />
+    <child
+      link="left_shoulder_yaw_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-4.4506"
+      upper="1.309"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="left_elbow_link">
+    <inertial>
+      <origin
+        xyz="0 -0.036136 -0.069084"
+        rpy="0 0 0" />
+      <mass
+        value="0.65262" />
+      <inertia
+        ixx="0.001353"
+        ixy="0"
+        ixz="0"
+        iyy="0.001053"
+        iyz="-0.000139"
+        izz="0.000632" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_elbow_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_elbow_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_elbow_joint"
+    type="fixed">
+    <origin
+      xyz="0 0.04 -0.1205"
+      rpy="0 0 0" />
+    <parent
+      link="left_shoulder_yaw_link" />
+    <child
+      link="left_elbow_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="-2.426"
+      upper="1.9024"
+      effort="34"
+      velocity="4.8146" />
+  </joint>
+  <link
+    name="left_wrist_yaw_link">
+    <inertial>
+      <origin
+        xyz="0.002398 0.001916 -0.15681"
+        rpy="0 0 0" />
+      <mass
+        value="0.76424" />
+      <inertia
+        ixx="0.006049"
+        ixy="0.000178"
+        ixz="-9E-05"
+        iyy="0.006433"
+        iyz="0.000209"
+        izz="0.000971" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_wrist_yaw_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.86667 0.9098 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file://$(find defender_3a)/models_simplified/left_wrist_yaw_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wrist_yaw_joint"
+    type="fixed">
+    <origin
+      xyz="0 -0.04 -0.123"
+      rpy="0 0 0" />
+    <parent
+      link="left_elbow_link" />
+    <child
+      link="left_wrist_yaw_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.309"
+      upper="4.4506"
+      effort="12"
+      velocity="4.1866" />
+  </joint>
+  <link name="laser_cylinder_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><cylinder length="0.10" radius="0.01" /></geometry>
+      <material name="black"><color rgba="0 0 0 0.8" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><cylinder length="0.10" radius="0.01" /></geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.01" />
+      <inertia ixx="0.000009" ixy="0" ixz="0" iyy="0.000009" iyz="0" izz="0.000001" />
+    </inertial>
+  </link>
+  <joint name="laser_cylinder_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="laser_cylinder_link" />
+    <origin xyz="0.20 0 0.70" rpy="0 0 0" />
+  </joint>
+  <link name="laser_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><cylinder length="0.04" radius="0.045" /></geometry>
+      <material name="black"><color rgba="0 0 0 0.8" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><cylinder length="0.04" radius="0.045" /></geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.03" />
+      <inertia ixx="0.00002" ixy="0" ixz="0" iyy="0.00002" iyz="0" izz="0.00003" />
+    </inertial>
+  </link>
+  <joint name="laser_joint" type="fixed">
+    <parent link="laser_cylinder_link" />
+    <child link="laser_link" />
+    <origin xyz="0 0 0.07" rpy="0 0 0" />
+  </joint>
+  <gazebo reference="left_wheel_link">
+    <mu1 value="50.0" />
+    <mu2 value="50.0" />
+    <slip1 value="0.0" />
+    <slip2 value="0.0" />
+    <kp value="1000000000.0" />
+    <kd value="1.0" />
+  </gazebo>
+  <gazebo reference="right_wheel_link">
+    <mu1 value="50.0" />
+    <mu2 value="50.0" />
+    <slip1 value="0.0" />
+    <slip2 value="0.0" />
+    <kp value="1000000000.0" />
+    <kd value="1.0" />
+  </gazebo>
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+      <update_rate>30</update_rate>
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <wheel_separation>0.4672</wheel_separation>
+      <wheel_diameter>0.4096</wheel_diameter>
+      <max_wheel_torque>800</max_wheel_torque>
+      <max_wheel_acceleration>20.0</max_wheel_acceleration>
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_footprint</robot_base_frame>
+    </plugin>
+  </gazebo>
+  <gazebo reference="laser_link">
+    <sensor name="laserscan" type="ray">
+      <plugin name="laserscan" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <namespace>/</namespace>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>laser_link</frame_name>
+      </plugin>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <pose>0 0 0 0 0 0</pose>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>720</samples>
+            <resolution>1.0</resolution>
+            <min_angle>-3.14159</min_angle>
+            <max_angle>3.14159</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.12</min>
+          <max>12.0</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+    </sensor>
+  </gazebo>
+  <gazebo reference="imu_link">
+    <sensor name="imu_sensor" type="imu">
+      <plugin name="imu_plugin" filename="libgazebo_ros_imu_sensor.so">
+        <ros>
+          <namespace>/</namespace>
+          <remapping>~/out:=imu</remapping>
+        </ros>
+        <initial_orientation_as_reference>false</initial_orientation_as_reference>
+      </plugin>
+      <update_rate>100</update_rate>
+      <always_on>true</always_on>
+      <imu>
+        <angular_velocity>
+          <x><noise type="gaussian"><mean>0.0</mean><stddev>0.0002</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0.0</mean><stddev>0.0002</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0.0</mean><stddev>0.0002</stddev></noise></z>
+        </angular_velocity>
+        <linear_acceleration>
+          <x><noise type="gaussian"><mean>0.0</mean><stddev>0.017</stddev></noise></x>
+          <y><noise type="gaussian"><mean>0.0</mean><stddev>0.017</stddev></noise></y>
+          <z><noise type="gaussian"><mean>0.0</mean><stddev>0.017</stddev></noise></z>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+  </gazebo>
+</robot>

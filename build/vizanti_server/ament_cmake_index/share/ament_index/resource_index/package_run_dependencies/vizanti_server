@@ -1,0 +1,1 @@
+rclpy;rclcpp;ros2pkg;std_srvs;tf2_msgs;rcl_interfaces;geometry_msgs;std_msgs;vizanti_msgs;nav2_simple_commander;tf2_ros;tf_transformations;python3-flask;python3-waitress;rosbridge_suite;rosidl_default_runtime;ros2launch

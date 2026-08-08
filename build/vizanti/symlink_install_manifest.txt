@@ -1,0 +1,15 @@
+/home/zr/code/src/install/vizanti/share/ament_index/resource_index/package_run_dependencies/vizanti
+/home/zr/code/src/install/vizanti/share/ament_index/resource_index/parent_prefix_path/vizanti
+/home/zr/code/src/install/vizanti/share/vizanti/environment/ament_prefix_path.sh
+/home/zr/code/src/install/vizanti/share/vizanti/environment/ament_prefix_path.dsv
+/home/zr/code/src/install/vizanti/share/vizanti/environment/path.sh
+/home/zr/code/src/install/vizanti/share/vizanti/environment/path.dsv
+/home/zr/code/src/install/vizanti/share/vizanti/local_setup.bash
+/home/zr/code/src/install/vizanti/share/vizanti/local_setup.sh
+/home/zr/code/src/install/vizanti/share/vizanti/local_setup.zsh
+/home/zr/code/src/install/vizanti/share/vizanti/local_setup.dsv
+/home/zr/code/src/install/vizanti/share/vizanti/package.dsv
+/home/zr/code/src/install/vizanti/share/ament_index/resource_index/packages/vizanti
+/home/zr/code/src/install/vizanti/share/vizanti/cmake/vizantiConfig.cmake
+/home/zr/code/src/install/vizanti/share/vizanti/cmake/vizantiConfig-version.cmake
+/home/zr/code/src/install/vizanti/share/vizanti/package.xml

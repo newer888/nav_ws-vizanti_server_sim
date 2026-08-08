@@ -1,0 +1,1 @@
+/home/zr/code/src/build/nav_2d_msgs/rosidl_generator_rs/nav_2d_msgs/rust/build.rs

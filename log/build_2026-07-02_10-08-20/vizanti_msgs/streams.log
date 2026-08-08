@@ -1,0 +1,434 @@
+[0.010s] Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_msgs
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.158s] -- Detecting C compiler ABI info
+[0.222s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.230s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.306s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.306s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.310s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.443s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.557s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.560s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.567s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.643s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.663s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.987s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.524s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.527s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.552s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.552s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.552s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.552s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.572s] -- Found PythonExtra: .so  
+[1.716s] -- Configuring done
+[1.762s] -- Generating done
+[1.772s] -- Build files have been written to: /home/zr/code/src/build/vizanti_msgs
+[1.785s] Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/zr/code/src/vizanti_server/src/vizanti/vizanti_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/zr/code/src/install/vizanti_msgs
+[1.786s] Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_msgs -- -j16 -l16
+[1.830s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.841s] [  3%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.841s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.849s] [  3%] Built target ament_cmake_python_symlink_vizanti_msgs
+[2.093s] running egg_info
+[2.093s] creating vizanti_msgs.egg-info
+[2.093s] writing vizanti_msgs.egg-info/PKG-INFO
+[2.093s] writing dependency_links to vizanti_msgs.egg-info/dependency_links.txt
+[2.094s] writing top-level names to vizanti_msgs.egg-info/top_level.txt
+[2.094s] writing manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[2.095s] reading manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[2.096s] writing manifest file 'vizanti_msgs.egg-info/SOURCES.txt'
+[2.127s] [  3%] Built target ament_cmake_python_build_vizanti_msgs_egg
+[2.135s] [  3%] Built target vizanti_msgs__rs
+[2.538s] [  3%] Built target vizanti_msgs__cpp
+[2.552s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.553s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.556s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.582s] [  9%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/set_node_parameter__functions.c.o[0m
+[2.582s] [  9%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/get_node_parameters__functions.c.o[0m
+[2.582s] [  9%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/save_map__functions.c.o[0m
+[2.582s] [ 11%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/record_rosbag__functions.c.o[0m
+[2.582s] [ 11%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/manage_node__functions.c.o[0m
+[2.582s] [ 13%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/load_map__functions.c.o[0m
+[2.582s] [ 13%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_executables__functions.c.o[0m
+[2.582s] [ 14%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_packages__functions.c.o[0m
+[2.584s] [ 15%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_c.dir/rosidl_generator_c/vizanti_msgs/srv/detail/list_lifecycles__functions.c.o[0m
+[2.655s] [ 16%] [32m[1mLinking C shared library libvizanti_msgs__rosidl_generator_c.so[0m
+[2.695s] [ 16%] Built target vizanti_msgs__rosidl_generator_c
+[2.706s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.706s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.706s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/record_rosbag__type_support.cpp.o[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_packages__type_support.cpp.o[0m
+[3.017s] [ 26%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_executables__type_support.cpp.o[0m
+[3.017s] [ 25%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/save_map__type_support.cpp.o[0m
+[3.017s] [ 28%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/load_map__type_support.cpp.o[0m
+[3.019s] [ 28%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/list_lifecycles__type_support.cpp.o[0m
+[3.019s] [ 29%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vizanti_msgs/srv/manage_node__type_support.cpp.o[0m
+[3.240s] [ 30%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/get_node_parameters__type_support.cpp.o[0m
+[3.261s] [ 32%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/save_map__type_support.cpp.o[0m
+[3.263s] [ 32%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/set_node_parameter__type_support.cpp.o[0m
+[3.460s] [ 33%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[3.479s] [ 34%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/manage_node__type_support.cpp.o[0m
+[3.479s] [ 35%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/record_rosbag__type_support.cpp.o[0m
+[3.484s] [ 36%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_packages__type_support.cpp.o[0m
+[3.501s] [ 37%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_executables__type_support.cpp.o[0m
+[3.504s] [ 38%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/get_node_parameters__type_support.cpp.o[0m
+[3.506s] [ 39%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vizanti_msgs/srv/detail/list_lifecycles__type_support.cpp.o[0m
+[3.513s] [ 40%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/set_node_parameter__type_support.cpp.o[0m
+[3.518s] [ 42%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_cpp.so[0m
+[3.519s] [ 42%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/save_map__type_support.cpp.o[0m
+[3.541s] [ 43%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/get_node_parameters__type_support.cpp.o[0m
+[3.571s] [ 44%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/set_node_parameter__type_support.cpp.o[0m
+[3.581s] [ 45%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[3.583s] [ 46%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/load_map__type_support.cpp.o[0m
+[3.621s] [ 46%] Built target vizanti_msgs__rosidl_typesupport_cpp
+[3.639s] [ 47%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/record_rosbag__type_support.cpp.o[0m
+[3.662s] [ 48%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[3.713s] [ 50%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/manage_node__type_support.cpp.o[0m
+[3.774s] [ 51%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_packages__type_support.cpp.o[0m
+[3.855s] [ 52%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_executables__type_support.cpp.o[0m
+[3.871s] [ 53%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vizanti_msgs/srv/list_lifecycles__type_support.cpp.o[0m
+[3.892s] [ 54%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/get_node_parameters__type_support.c.o[0m
+[3.915s] [ 55%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/save_map__type_support.c.o[0m
+[3.922s] [ 56%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/set_node_parameter__type_support.c.o[0m
+[3.929s] [ 57%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/load_map__type_support.c.o[0m
+[3.964s] [ 58%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/record_rosbag__type_support.cpp.o[0m
+[3.970s] [ 59%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_c.so[0m
+[3.978s] [ 60%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/get_node_parameters__type_support_c.cpp.o[0m
+[3.999s] [ 61%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/manage_node__type_support.c.o[0m
+[4.004s] [ 62%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/record_rosbag__type_support.c.o[0m
+[4.006s] [ 63%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_packages__type_support.c.o[0m
+[4.010s] [ 64%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/manage_node__type_support.cpp.o[0m
+[4.048s] [ 64%] Built target vizanti_msgs__rosidl_typesupport_c
+[4.067s] [ 65%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_packages__type_support.cpp.o[0m
+[4.073s] [ 66%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_executables__type_support.cpp.o[0m
+[4.089s] [ 67%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_executables__type_support.c.o[0m
+[4.094s] [ 68%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/set_node_parameter__type_support_c.cpp.o[0m
+[4.107s] [ 69%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vizanti_msgs/srv/detail/list_lifecycles__type_support.c.o[0m
+[4.133s] [ 70%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[4.135s] [ 71%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/record_rosbag__type_support_c.cpp.o[0m
+[4.136s] [ 72%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[4.138s] [ 73%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vizanti_msgs/srv/detail/dds_fastrtps/list_lifecycles__type_support.cpp.o[0m
+[4.148s] [ 75%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/manage_node__type_support_c.cpp.o[0m
+[4.177s] [ 76%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_packages__type_support_c.cpp.o[0m
+[4.178s] [ 77%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_executables__type_support_c.cpp.o[0m
+[4.185s] [ 78%] [32m[1mLinking C shared library libvizanti_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.230s] [ 79%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.269s] [ 80%] [32mBuilding CXX object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vizanti_msgs/srv/detail/list_lifecycles__type_support_c.cpp.o[0m
+[4.276s] [ 80%] Built target vizanti_msgs__rosidl_typesupport_introspection_c
+[4.436s] [ 80%] Built target vizanti_msgs__rosidl_typesupport_introspection_cpp
+[4.741s] [ 81%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.768s] [ 82%] [32m[1mLinking CXX shared library libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.829s] [ 82%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c
+[4.855s] [ 82%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_cpp
+[4.879s] [ 82%] Built target vizanti_msgs
+[4.905s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.049s] [ 83%] Built target vizanti_msgs__py
+[6.074s] [ 88%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_executables_s.c.o[0m
+[6.074s] [ 88%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_lifecycles_s.c.o[0m
+[6.074s] [ 88%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_list_packages_s.c.o[0m
+[6.074s] [ 88%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_get_node_parameters_s.c.o[0m
+[6.074s] [ 89%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_load_map_s.c.o[0m
+[6.074s] [ 89%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_set_node_parameter_s.c.o[0m
+[6.074s] [ 90%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_save_map_s.c.o[0m
+[6.075s] [ 91%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_manage_node_s.c.o[0m
+[6.075s] [ 92%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_generator_py.dir/rosidl_generator_py/vizanti_msgs/srv/_record_rosbag_s.c.o[0m
+[6.208s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so[0m
+[6.255s] [ 93%] Built target vizanti_msgs__rosidl_generator_py
+[6.276s] [ 95%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.276s] [ 95%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.277s] [ 96%] [32mBuilding C object CMakeFiles/vizanti_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.470s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.470s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.470s] [100%] [32m[1mLinking C shared library rosidl_generator_py/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.509s] [100%] Built target vizanti_msgs__rosidl_typesupport_introspection_c__pyext
+[6.509s] [100%] Built target vizanti_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.509s] [100%] Built target vizanti_msgs__rosidl_typesupport_c__pyext
+[6.523s] Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zr/code/src/build/vizanti_msgs -- -j16 -l16
+[6.534s] Invoking command in '/home/zr/code/src/build/vizanti_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_msgs
+[6.543s] -- Install configuration: ""
+[6.543s] -- Execute custom install script
+[6.544s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/ament_index/resource_index/rosidl_interfaces/vizanti_msgs
+[6.555s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.564s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__functions.h
+[6.573s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.h
+[6.582s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.h
+[6.591s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__functions.h
+[6.601s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.h
+[6.610s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.h
+[6.619s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__functions.h
+[6.628s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__struct.h
+[6.637s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__type_support.h
+[6.648s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__functions.h
+[6.658s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.h
+[6.668s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.h
+[6.676s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__functions.h
+[6.684s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.h
+[6.693s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.h
+[6.702s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__functions.h
+[6.711s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.h
+[6.720s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.h
+[6.730s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__functions.h
+[6.740s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.h
+[6.751s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.h
+[6.761s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__functions.h
+[6.770s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.h
+[6.780s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.h
+[6.789s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__functions.h
+[6.798s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.h
+[6.808s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.h
+[6.818s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.h
+[6.827s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.h
+[6.838s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_lifecycles.h
+[6.849s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.h
+[6.859s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.h
+[6.869s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.h
+[6.879s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.h
+[6.889s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.h
+[6.899s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.h
+[6.908s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.sh
+[6.918s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/library_path.dsv
+[6.928s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.937s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_c.h
+[6.948s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_c.h
+[6.958s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__rosidl_typesupport_fastrtps_c.h
+[6.968s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_c.h
+[6.977s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[6.987s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_c.h
+[6.996s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_c.h
+[7.005s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[7.014s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_c.h
+[7.024s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.034s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_c.h
+[7.046s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_c.h
+[7.055s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__rosidl_typesupport_introspection_c.h
+[7.065s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_c.h
+[7.073s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[7.083s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_c.h
+[7.094s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_c.h
+[7.103s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[7.112s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_c.h
+[7.122s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.131s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__builder.hpp
+[7.143s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__struct.hpp
+[7.152s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__traits.hpp
+[7.162s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__type_support.hpp
+[7.171s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__builder.hpp
+[7.180s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__struct.hpp
+[7.189s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__traits.hpp
+[7.198s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__type_support.hpp
+[7.208s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__builder.hpp
+[7.217s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__struct.hpp
+[7.226s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__traits.hpp
+[7.237s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__type_support.hpp
+[7.248s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__builder.hpp
+[7.257s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__struct.hpp
+[7.266s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__traits.hpp
+[7.275s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__type_support.hpp
+[7.285s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__builder.hpp
+[7.294s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__struct.hpp
+[7.303s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__traits.hpp
+[7.313s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__type_support.hpp
+[7.322s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__builder.hpp
+[7.330s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__struct.hpp
+[7.341s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__traits.hpp
+[7.351s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__type_support.hpp
+[7.361s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__builder.hpp
+[7.371s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__struct.hpp
+[7.380s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__traits.hpp
+[7.389s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__type_support.hpp
+[7.398s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__builder.hpp
+[7.407s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__struct.hpp
+[7.416s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__traits.hpp
+[7.425s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__type_support.hpp
+[7.434s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__builder.hpp
+[7.445s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__struct.hpp
+[7.455s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__traits.hpp
+[7.465s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__type_support.hpp
+[7.474s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/get_node_parameters.hpp
+[7.483s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_executables.hpp
+[7.492s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_lifecycles.hpp
+[7.501s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/list_packages.hpp
+[7.510s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/load_map.hpp
+[7.520s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/manage_node.hpp
+[7.528s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/record_rosbag.hpp
+[7.540s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/save_map.hpp
+[7.551s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/set_node_parameter.hpp
+[7.562s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.571s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[7.580s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_fastrtps_cpp.hpp
+[7.589s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__rosidl_typesupport_fastrtps_cpp.hpp
+[7.597s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_fastrtps_cpp.hpp
+[7.606s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[7.615s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_fastrtps_cpp.hpp
+[7.624s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_fastrtps_cpp.hpp
+[7.633s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[7.644s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_fastrtps_cpp.hpp
+[7.655s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/get_node_parameters__rosidl_typesupport_introspection_cpp.hpp
+[7.665s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_executables__rosidl_typesupport_introspection_cpp.hpp
+[7.675s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_lifecycles__rosidl_typesupport_introspection_cpp.hpp
+[7.684s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/list_packages__rosidl_typesupport_introspection_cpp.hpp
+[7.692s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[7.702s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/manage_node__rosidl_typesupport_introspection_cpp.hpp
+[7.711s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/record_rosbag__rosidl_typesupport_introspection_cpp.hpp
+[7.720s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[7.729s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/include/vizanti_msgs/vizanti_msgs/srv/detail/set_node_parameter__rosidl_typesupport_introspection_cpp.hpp
+[7.740s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.sh
+[7.751s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/pythonpath.dsv
+[7.761s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[7.771s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[7.780s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[7.788s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[7.798s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py
+[7.807s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_c.c
+[7.816s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.825s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/_vizanti_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.834s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/libvizanti_msgs__rosidl_generator_py.so
+[7.845s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py
+[7.855s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py
+[7.864s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters_s.c
+[7.872s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py
+[7.882s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables_s.c
+[7.891s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_lifecycles.py
+[7.900s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_lifecycles_s.c
+[7.908s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py
+[7.919s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages_s.c
+[7.928s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py
+[7.939s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map_s.c
+[7.949s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py
+[7.959s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node_s.c
+[7.968s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py
+[7.977s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag_s.c
+[7.985s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py
+[7.994s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map_s.c
+[8.003s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py
+[8.012s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter_s.c
+[8.021s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.029s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.039s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Up-to-date symlink: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Up-to-date symlink: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Up-to-date symlink: /home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/vizanti_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.051s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/ament_index/resource_index/rust_packages/vizanti_msgs
+[8.062s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/rust/Cargo.toml
+[8.071s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/rust/build.rs
+[8.079s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/rust/src/lib.rs
+[8.088s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/rust/src/srv.rs
+[8.097s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/rust/src/srv/rmw.rs
+[8.107s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.idl
+[8.116s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.idl
+[8.125s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.idl
+[8.134s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.idl
+[8.146s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.idl
+[8.155s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.idl
+[8.165s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.idl
+[8.175s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.idl
+[8.183s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListLifecycles.idl
+[8.192s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters.srv
+[8.200s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Request.msg
+[8.208s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/GetNodeParameters_Response.msg
+[8.216s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter.srv
+[8.225s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Request.msg
+[8.234s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SetNodeParameter_Response.msg
+[8.244s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap.srv
+[8.254s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Request.msg
+[8.264s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/SaveMap_Response.msg
+[8.272s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap.srv
+[8.281s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Request.msg
+[8.292s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/LoadMap_Response.msg
+[8.302s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag.srv
+[8.311s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Request.msg
+[8.319s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/RecordRosbag_Response.msg
+[8.328s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode.srv
+[8.339s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Request.msg
+[8.350s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ManageNode_Response.msg
+[8.359s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages.srv
+[8.369s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Request.msg
+[8.378s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListPackages_Response.msg
+[8.386s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables.srv
+[8.394s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Request.msg
+[8.403s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListExecutables_Response.msg
+[8.412s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListLifecycles.srv
+[8.422s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListLifecycles_Request.msg
+[8.431s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/srv/ListLifecycles_Response.msg
+[8.441s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/ament_index/resource_index/package_run_dependencies/vizanti_msgs
+[8.452s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/ament_index/resource_index/parent_prefix_path/vizanti_msgs
+[8.461s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.sh
+[8.471s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/ament_prefix_path.dsv
+[8.479s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/path.sh
+[8.488s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/environment/path.dsv
+[8.498s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/local_setup.bash
+[8.506s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/local_setup.sh
+[8.515s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/local_setup.zsh
+[8.524s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/local_setup.dsv
+[8.532s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.dsv
+[8.542s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/ament_index/resource_index/packages/vizanti_msgs
+[8.553s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake-extras.cmake
+[8.562s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.571s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.580s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.589s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.598s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.606s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.616s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig.cmake
+[8.625s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgsConfig-version.cmake
+[8.634s] -- Symlinking: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/package.xml
+[8.646s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so
+[8.646s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_c.so" to ""
+[8.646s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so
+[8.647s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.647s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so
+[8.647s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.647s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so
+[8.647s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_c.so" to ""
+[8.648s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.648s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.648s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so
+[8.649s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.649s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so
+[8.649s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_typesupport_cpp.so" to ""
+[8.684s] Listing '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs'...
+[8.684s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/__init__.py'...
+[8.684s] Listing '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv'...
+[8.684s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/__init__.py'...
+[8.684s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_get_node_parameters.py'...
+[8.684s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_executables.py'...
+[8.684s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_lifecycles.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_list_packages.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_load_map.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_manage_node.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_record_rosbag.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_save_map.py'...
+[8.685s] Compiling '/home/zr/code/src/install/vizanti_msgs/local/lib/python3.10/dist-packages/vizanti_msgs/srv/_set_node_parameter.py'...
+[8.688s] -- Installing: /home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so
+[8.689s] -- Set runtime path of "/home/zr/code/src/install/vizanti_msgs/lib/libvizanti_msgs__rosidl_generator_py.so" to ""
+[8.689s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport.cmake
+[8.689s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.689s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.689s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.689s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_cppExport.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.690s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/vizanti_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport.cmake
+[8.691s] -- Installing: /home/zr/code/src/install/vizanti_msgs/share/vizanti_msgs/cmake/export_vizanti_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.694s] Invoked command in '/home/zr/code/src/build/vizanti_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/zr/code/src/build/vizanti_msgs

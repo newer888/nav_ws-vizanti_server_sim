@@ -1,0 +1,23 @@
+[0.709s] Invoking command in '/home/zr/code/src/build/robot_relate_python': PYTHONPATH=/home/zr/code/src/build/robot_relate_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zr/code/src/build/robot_relate_python/build --no-deps symlink_data --force
+[0.958s] running develop
+[1.141s] running egg_info
+[1.142s] writing robot_relate_python.egg-info/PKG-INFO
+[1.142s] writing dependency_links to robot_relate_python.egg-info/dependency_links.txt
+[1.142s] writing entry points to robot_relate_python.egg-info/entry_points.txt
+[1.142s] writing requirements to robot_relate_python.egg-info/requires.txt
+[1.142s] writing top-level names to robot_relate_python.egg-info/top_level.txt
+[1.144s] reading manifest file 'robot_relate_python.egg-info/SOURCES.txt'
+[1.181s] writing manifest file 'robot_relate_python.egg-info/SOURCES.txt'
+[1.182s] running build_ext
+[1.182s] Creating /home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages/robot-relate-python.egg-link (link to .)
+[1.183s] Installing cancel_navigation script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python
+[1.183s] Installing get_realtime_pose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python
+[1.183s] Installing navigation_to_pose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python
+[1.183s] Installing set_initpose script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python
+[1.184s] Installing waypoint_follow script to /home/zr/code/src/install/robot_relate_python/lib/robot_relate_python
+[1.184s] 
+[1.184s] Installed /home/zr/code/src/build/robot_relate_python
+[1.184s] running symlink_data
+[1.184s] symbolically linking /home/zr/code/src/build/robot_relate_python/resource/robot_relate_python -> /home/zr/code/src/install/robot_relate_python/share/ament_index/resource_index/packages
+[1.184s] symbolically linking /home/zr/code/src/build/robot_relate_python/package.xml -> /home/zr/code/src/install/robot_relate_python/share/robot_relate_python
+[1.218s] Invoked command in '/home/zr/code/src/build/robot_relate_python' returned '0': PYTHONPATH=/home/zr/code/src/build/robot_relate_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zr/code/src/install/robot_relate_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/zr/code/src/build/robot_relate_python/build --no-deps symlink_data --force

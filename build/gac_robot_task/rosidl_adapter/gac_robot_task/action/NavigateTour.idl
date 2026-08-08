@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from gac_robot_task/action/NavigateTour.action
+// generated code does not contain a copyright notice
+
+
+module gac_robot_task {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition" "\n"
+      " 目标：指定要执行的导览任务 ID")
+    struct NavigateTour_Goal {
+      string task_id;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct NavigateTour_Result {
+      boolean success;
+
+      string error_message;
+
+      int32 completed_waypoints;
+    };
+    @verbatim (language="comment", text=
+      "feedback" "\n"
+      "反馈：当前执行进度")
+    struct NavigateTour_Feedback {
+      int32 current_waypoint_index;
+
+      int32 total_waypoints;
+
+      string current_action;
+
+      float progress_percentage;
+    };
+  };
+};

@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dedfacf6d370f6b937dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gac_nav2_waypoint_follower",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gac_nav2_waypoint_follower_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gac_nav2_waypoint_follower_uninstall-Release-a743e6976d50cbacb46b.json",
+					"name" : "gac_nav2_waypoint_follower_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "input_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-input_at_waypoint-Release-df679890babeaa2a01fb.json",
+					"name" : "input_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "photo_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-photo_at_waypoint-Release-715a52779a0010c5abff.json",
+					"name" : "photo_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-26850b8c9b3ecba32487.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wait_at_waypoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wait_at_waypoint-Release-8fda113daf6659b4408e.json",
+					"name" : "wait_at_waypoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_follower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_follower-Release-5f8adaa68607aad70ca1.json",
+					"name" : "waypoint_follower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "waypoint_follower_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-waypoint_follower_core-Release-c7e5860a89206476141f.json",
+					"name" : "waypoint_follower_core",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zr/code/src/build/gac_nav2_waypoint_follower",
+		"source" : "/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_waypoint_follower"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

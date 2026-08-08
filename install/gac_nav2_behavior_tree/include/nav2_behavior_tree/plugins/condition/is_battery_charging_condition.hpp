@@ -1,0 +1,1 @@
+/home/zr/code/src/nav_ws_gazebo/src/gac_navigation2/gac_nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
